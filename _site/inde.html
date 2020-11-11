@@ -76,6 +76,17 @@
   </div>
   <!-- /.container-fluid -->
 </nav>
+<script>
+  (function(){
+    var navLinks = document.querySelectorAll('#mainNav .nav-link');
+    var toggleButton = document.querySelector('#mainNav .navbar-toggler');
+    navLinks.forEach(function(el){
+      el.addEventListener('click',function(){
+        toggleButton.click();
+      }, false);
+    })
+  })();
+</script>
 
   <header id="about">
     <div class="header-content">
@@ -92,7 +103,7 @@
     </div>
 </header>
 
-  <section class="no-padding overflow-hidden" id="services">
+  <!--<section class="no-padding overflow-hidden" id="services">
   <div class="container-fluid">
 
     <div class="row p-5">
@@ -121,7 +132,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
   <section class="no-padding overflow-hidden" id="help">
   <div class="container-fluid">
