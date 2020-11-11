@@ -1,0 +1,112 @@
+.partners-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 10px auto;
+    .partners-box-caption {
+        color: white;
+        opacity: 0;
+        display: block;
+        background: rgba( $theme-navy, .9 );
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        @include transition-all;
+        .partners-box-caption-content {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            .project-category,
+            .project-name {
+                @include noto-sans-font;
+                padding: 0 15px;
+            }
+            .project-category {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .project-name {
+                font-size: 18px;
+            }
+        }
+    }
+    &:hover {
+        .partners-box-caption {
+            opacity: 1;
+        }
+    }
+    @media (min-width: 768px) {
+        .partners-box-caption {
+            .partners-box-caption-content {
+                .project-category {
+                    font-size: 16px;
+                }
+                .project-name {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+.help-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+    .help-box-caption {
+        color: white;
+        opacity: 100;
+        display: block;
+        background: rgba( $theme-navy, .9 );
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        @include transition-all;
+        .help-box-caption-content {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            .project-category,
+            .project-name {
+                @include noto-sans-font;
+                padding: 0 15px;
+            }
+            .project-category {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .project-name {
+                font-size: 18px;
+            }
+        }
+    }
+    &:hover {
+        .help-box-caption {
+            opacity: 0;
+        }
+    }
+    @media (min-width: 768px) {
+        .help-box-caption {
+            .help-box-caption-content {
+                .project-category {
+                    font-size: 16px;
+                }
+                .project-name {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

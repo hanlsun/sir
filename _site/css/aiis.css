@@ -1,0 +1,236 @@
+:root {
+  --mint: #1ab3a4;
+  --navy: #2f4050;
+}
+
+/* mint button */
+.btn-mint {
+  color: #fff;
+  background-color: #1AB394;
+  border-color: #1AB394;
+}
+
+.btn-mint:hover {
+  color: #fff;
+  background-color: #01B994;
+  border-color: #1AB394;
+}
+
+.btn-mint:focus, .btn-mint.focus {
+  color: #fff;
+  background-color: #01B994;
+  border-color: #1AB394;
+  box-shadow: 0 0 0 0.2rem transparent;
+}
+
+/* navy button */
+.btn-navy {
+  color: #fff;
+  background-color: #2F4050;
+  border-color: #293846;
+}
+
+.btn-navy:hover {
+  color: #fff;
+  background-color: #293846;
+  border-color: #2F4050;
+}
+
+.btn-navy:focus, .btn-navy.focus {
+  color: #fff;
+  background-color: #293846;
+  border-color: #2F4050;
+  box-shadow: 0 0 0 0.2rem transparent;
+}
+
+/* 큰 버튼 */
+.btn-big {
+  font-size: 1.3rem;
+  padding: 15px 30px;
+}
+
+/* mint 배경색 */
+.bg-mint {
+  background-color: #1ab3a4 !important;
+}
+
+/*a.bg-mint:hover, a.bg-mint:focus,
+button.bg-mint:hover,
+button.bg-mint:focus {
+  background-color: #18a689 !important;
+}
+
+/* light gray 배경색 */
+.bg-lg {
+  background-color: #F2F2F2 !important;
+}
+
+a.bg-lg:hover, a.bg-lg:focus,
+button.bg-lg:hover,
+button.bg-lg:focus {
+  background-color: #F2F2F2 !important;
+}
+
+/* skyblue 배경색 */
+.bg-sky {
+  background-color: #96D2DA !important;
+}
+
+a.bg-sky:hover, a.bg-sky:focus,
+button.bg-sky:hover,
+button.bg-sky:focus {
+  background-color: #96D2DA !important;
+}
+
+/* navy 배경색 */
+.bg-navy {
+  background-color: #2f4050 !important;
+}
+
+a.bg-navy:hover, a.bg-navy:focus,
+button.bg-navy:hover,
+button.bg-navy:focus {
+  background-color: #293846 !important;
+}
+
+/* navbar 배경색 */
+.bg-navbar {
+  background-color: transparent !important;
+}
+
+a.bg-navbar:hover, a.bg-navbar:focus,
+button.bg-navbar:hover,
+button.bg-navbar:focus {
+  background-color: #fff !important;
+}
+
+/* mint 글자색 */
+.text-mint {
+  color: #1ab3a4 !important;
+}
+
+a.text-mint:hover, a.text-mint:focus {
+  color: #18a689 !important;
+}
+
+/* navy 글자색 */
+.text-navy {
+  color: #2f4050 !important;
+}
+
+a.text-navy:hover, a.text-navy:focus {
+  color: #293846 !important;
+}
+
+.navbar {
+  top: 0;
+  border-width: 0 0 1px;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+  min-height: 50px;
+}
+
+/* help 이미지 규격 */
+.help-content {
+  width: 650px;
+  height: 350px;
+}
+
+/* partners items */
+.circle {
+  display: block;
+  bottom: 0;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.instruction {
+  line-height: 2em;
+  font-size: 15pt;
+}
+
+/* floating menu */
+.floatMenu {
+  position: fixed;
+  right: 30px;
+	width: 85px;
+	height: 85px;
+}
+
+.sir {
+  right: 20px;
+  bottom: 240px;
+  background-image: url('../img/floating/crowd_sir_120.png');
+}
+
+.jobkorea {
+  right: 20px;
+	bottom: 140px;
+  background-image: url('../img/floating/crowd_jobkorea_120.png');
+}
+
+.google-forms {
+  right: 20px;
+  bottom: 40px;
+  background-image: url('../img/floating/crowd_google_120.png');
+}
+
+/* help image */
+.help-img {
+  width: 100%;
+}
+
+/* modal 경계선 */
+.line {
+  width: 100%;
+  margin: 20px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+/* modal image */
+.modal-img {
+  width: 100%;
+}
+
+/* modal video */
+.modal-vid {
+  width: 100%;
+}
+
+/* modal close */
+.dismiss {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.dismiss:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.dismiss:not(:disabled):not(.disabled):hover, .dismiss:not(:disabled):not(.disabled):focus {
+  opacity: .75;
+}
+
+button.dismiss {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.modal-header .dismiss {
+  padding: 1rem 1rem;
+  margin: -1rem -0.5rem -1rem auto;
+}
