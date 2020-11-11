@@ -132,7 +132,7 @@ body { -webkit-tap-highlight-color: #222; }
 
 .partners-box .partners-box-caption .partners-box-caption-content .project-name { font-size: 18px; }
 
-.partners-box:hover .partners-box-caption { opacity: 1; }
+.partners-box:hover .partners-box-caption { opacity: 30; }
 
 @media (min-width: 768px) { .partners-box .partners-box-caption .partners-box-caption-content .project-category { font-size: 16px; } .partners-box .partners-box-caption .partners-box-caption-content .project-name { font-size: 22px; } }
 
