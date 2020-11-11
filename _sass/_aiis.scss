@@ -5,7 +5,7 @@
     margin: 10px auto;
     .partners-box-caption {
         color: white;
-        opacity: 100;
+        opacity: 0;
         display: block;
         background: rgba( $theme-navy, .9 );
         position: absolute;
@@ -38,7 +38,7 @@
     }
     &:hover {
         .partners-box-caption {
-            opacity: 30;
+            opacity: 1;
         }
     }
     @media (min-width: 768px) {
