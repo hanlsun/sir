@@ -76,6 +76,17 @@
   </div>
   <!-- /.container-fluid -->
 </nav>
+<script>
+  (function(){
+    var navLinks = document.querySelectorAll('#mainNav .nav-link');
+    var toggleButton = document.querySelector('#mainNav .navbar-toggler');
+    navLinks.forEach(function(el){
+      el.addEventListener('click',function(){
+        toggleButton.click();
+      }, false);
+    })
+  })();
+</script>
 
   <header id="about">
     <div class="header-content">
