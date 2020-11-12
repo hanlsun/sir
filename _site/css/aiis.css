@@ -64,7 +64,7 @@ button.bg-mint:focus {
 .bg-lg {
   background-color: #F2F2F2 !important;
 }
-/*
+
 a.bg-lg:hover, a.bg-lg:focus,
 button.bg-lg:hover,
 button.bg-lg:focus {
@@ -75,7 +75,7 @@ button.bg-lg:focus {
 .bg-sky {
   background-color: #96D2DA !important;
 }
-/*
+
 a.bg-sky:hover, a.bg-sky:focus,
 button.bg-sky:hover,
 button.bg-sky:focus {
@@ -86,7 +86,7 @@ button.bg-sky:focus {
 .bg-navy {
   background-color: #2f4050 !important;
 }
-/*
+
 a.bg-navy:hover, a.bg-navy:focus,
 button.bg-navy:hover,
 button.bg-navy:focus {
@@ -97,7 +97,7 @@ button.bg-navy:focus {
 .bg-navbar {
   background-color: transparent !important;
 }
-/*
+
 a.bg-navbar:hover, a.bg-navbar:focus,
 button.bg-navbar:hover,
 button.bg-navbar:focus {
@@ -108,13 +108,12 @@ button.bg-navbar:focus {
 .text-mint {
   color: #1ab3a4 !important;
 }
-/*
+
 a.text-mint:hover, a.text-mint:focus {
   color: #18a689 !important;
 }
-/*
+
 /* navy 글자색 */
-/*
 .text-navy {
   color: #2f4050 !important;
 }
