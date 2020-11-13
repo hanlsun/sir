@@ -148,7 +148,7 @@ body { -webkit-tap-highlight-color: #222; }
 
 .help-box .help-box-caption .help-box-caption-content .project-name { font-size: 18px; }
 
-.help-box:hover .help-box-caption { opacity: 1; }
+.help-box:hover .help-box-caption { opacity: 100; }
 
 @media (min-width: 768px) { .help-box .help-box-caption .help-box-caption-content .project-category { font-size: 16px; } .help-box .help-box-caption .help-box-caption-content .project-name { font-size: 22px; } }
 
