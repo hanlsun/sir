@@ -62,7 +62,7 @@
     margin: 0 auto;
     .help-box-caption {
         color: white;
-        opacity: 0;
+        opacity: 100;
         display: block;
         background: rgba( $theme-navy, .9 );
         position: absolute;
@@ -94,7 +94,7 @@
     }
     &:hover {
         .help-box-caption {
-            opacity: 100;
+            opacity: 1;
         }
     }
     @media (min-width: 768px) {
