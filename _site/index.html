@@ -80,14 +80,8 @@
   <!-- /.container-fluid -->
 </nav>
 <script>
-//팝업 주소, 팝업창 이름, 팝업창 설정
-window.open("Q&A.html", "PopupNew", "width=500,height=600");
-
-function windowPopup() {
-    var popUrl = "Q&A.html";
-    var popOption = "top=10, left=10, width=500, height=600, status=no, menubar=no, toolbar=no, resizable=no";
-    window.open(popUrl, popOption);
-}
+  <!-- onclick 이벤트에 직접 입력 -->
+  <a href="#" onClick="window.open('http://www.naver.com','네이버','width=800, height=700, toolbar=no, menubar=no, scrollbars=no, resizable=yes');return false;">네이버 새창 열기</a>
 </script>
 
 <script>
