@@ -10,31 +10,26 @@
 		li > ul{ display:none;}
 		li > ul >li{ color:black;}
     body{
-        background-image:url(./img/green.jpg);
+        background-image:url(../img/green.jpg);
         background-repeat:no-repeat;
+
         }
+
     </style>
-    <style>
-    #abc ul li a{
-      diaplay:block;
-      positon:relative;
-      padding:0 4px;
-      text-decoration:none;
-      line-height:28px;
-      color:#000;
-    }
-    #abc ul li a:hover{
-      color:#8043fa;
-    }
-    </style>
+    <style type="text/css">
+  .text1  { COLOR:#555555; }
+  .text2  { COLOR:#0000FF; }
+  </style>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 <body>
-  <h1> ★ 질문을 클릭하면 답을 확인할 수 있습니다. ★</h1>
+  <font class="text1" onMouseOver="this.className='text2';" onMouseOut="this.className=''">글자색상 바꾸기</font>
+
+
 <div id="accordian">
-	<ul id="abc">
+	<ul>
 		<li>
 			<h1>1. 건당 100원이면 시간당 얼마정도인지 궁금합니다.<span class="ico_ar"></span></h1>
 			<ul>
@@ -59,7 +54,7 @@
 				<li>- 네 맞습니다. 검수작업이 PASS가 되야 돈이 지급이 됩니다. </li>
 			</ul>
 		</li>
-	</ul></A>
+	</ul>
 </div>
 <!--<script>
 
