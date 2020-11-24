@@ -186,7 +186,6 @@ a.text-navy:hover, a.text-navy:focus {
 /* help image */
 .help-img {
   width: 100%;
-  display:inline-block;//새로 만들었음★
 }
 
 /* modal 경계선 */
