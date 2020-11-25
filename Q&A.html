@@ -133,6 +133,17 @@ $(function(){
 	})
 })
 </script>
+<script type="text/javascript">
+			jQuery(document).ready(function(){
+				var filter = "win16|win32|win64|mac";
+				if(navigator.platform){
+					if(filter.indexOf(navigator.platform.toLowerCase())>0){
+						jQuery("#mVer").hide();
+					}else{
+						jQuery("#mVer").show();
+					}
+				}
+			});
 
 </div>
 </body>
