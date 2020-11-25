@@ -167,20 +167,14 @@ a.text-navy:hover, a.text-navy:focus {
 
 .sir {
   right: 20px;
-  bottom: 240px;
+	bottom: 140px;
   background-image: url('../img/floating/crowd_sir_120.png');
 }
 
-.jobkorea {
-  right: 20px;
-	bottom: 140px;
-  background-image: url('../img/floating/crowd_jobkorea_120.png');
-}
-
-.google-forms {
+.kakao {
   right: 20px;
   bottom: 40px;
-  background-image: url('../img/floating/crowd_google_120.png');
+  background-image: url('../img/floating/crowd_kakao_120.png');
 }
 
 /* help image */
