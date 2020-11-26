@@ -17,7 +17,7 @@ h1 { text-align: center;  width: 100px; margin: 0 auto; }
 }
 .title {
   padding:10px;
-  margin: 0;
+  margin: 30px 0px 0px 0px;
   border-top: 1px solid #ddd;
   background: #7ACE2B;
   cursor: pointer;
