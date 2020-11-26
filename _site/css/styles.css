@@ -16,14 +16,14 @@ body {
   padding: 10px;
   margin: 0;
   border-top: 1px solid #ddd;
-  background: green;
+  background: brightgreen;
   cursor: pointer;
   display: block;
 }
 .desc {
   max-height: 0px;
   overflow: hidden;
-  background: brightgreen;
+
   transition: 0.5s;
 }
 .desc > div {
