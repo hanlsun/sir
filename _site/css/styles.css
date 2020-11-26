@@ -16,7 +16,7 @@ h1 { text-align: center;  width: 100px; margin: 0 auto; }
   display: none;
 }
 .title {
-  padding:100px 10px 10px 10px;
+  padding:10px;
   margin: 0;
   border-top: 1px solid #ddd;
   background: #7ACE2B;
