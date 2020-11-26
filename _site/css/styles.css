@@ -27,7 +27,7 @@ body {
   transition: 0.5s;
 }
 .desc > div {
-  margin: 50px;
+  margin: 10px;
 }
 .list-checkbox:checked + .title + .desc {
   max-height: 2000px;
