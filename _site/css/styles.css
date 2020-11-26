@@ -23,6 +23,7 @@ body {
 .desc {
   max-height: 0px;
   overflow: hidden;
+  background: brightgreen;
   transition: 0.5s;
 }
 .desc > div {
