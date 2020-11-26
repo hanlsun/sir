@@ -7,6 +7,7 @@ body {
 }
 .list > li {
   padding: 0;
+  background: brightgreen;
 }
 .list-checkbox {
   display: none;
