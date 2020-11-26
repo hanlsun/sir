@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+h1 { text-align: center;  width: 100px; margin: 0 auto; }
+
+
+.list {
+  list-style: none;
+  padding:0px 300px;
+}
+.list > li {
+  padding: 0;
+  background: brightgreen;
+}
+.list-checkbox {
+  display: none;
+}
+.title {
+  padding:10px;
+  margin: 10px 0px 0px 0px;
+  border-top: 1px solid #ddd;
+  background: #7ACE2B;
+  cursor: pointer;
+  display: block;
+}
+.desc {
+  max-height: 0px;
+  overflow: hidden;
+  background: #8EF032;
+  transition: 0.5s;
+}
+.desc > div {
+  margin: 10px;
+}
+.list-checkbox:checked + .title + .desc {
+  max-height: 1000px;
+}
