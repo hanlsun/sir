@@ -15,7 +15,7 @@
            .inner {
                display: table-cell;
                Horizontal-align:center;
-               text-align: center;
+              background: blue;
            }
            .centered {
                position: relative;
