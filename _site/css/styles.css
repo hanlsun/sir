@@ -12,12 +12,16 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
+.container{
+  text-align: center;
+}
 
 .list {
   list-style: none;
   padding:0px 0px;
   text-align:center;
   width:80%;
+  display:table;
 }
 .list > li {
   padding: 0;
