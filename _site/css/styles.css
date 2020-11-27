@@ -6,13 +6,12 @@ h1 { text-align: center;  width: 100px; margin: 0 auto; }
 
 img{
 border:3px solid black;
-max-width:100%;
+max-width:70%;
 height:auto !important;
 display:block;
 margin-left:auto;
 margin-right:auto;
 }
-
 
 .list {
   list-style: none;
