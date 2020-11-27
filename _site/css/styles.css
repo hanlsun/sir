@@ -1,3 +1,31 @@
+<style>
+
+           .container {
+               width: 70%;
+               height: 70%;
+               margin: 10px auto;
+               background: green;
+           }
+           .outer {
+               display: table;
+               width: 100%;
+               height: 100%;
+           }
+           .inner {
+               display: table-cell;
+               Horizontal-align: middle;
+               text-align: center;
+           }
+           .centered {
+               position: relative;
+               display: inline-block;
+               width: 50%;
+               padding: 1em;
+               background: orange;
+               color: white;
+           }
+
+       </style>
 body {
   font-family: sans-serif;
 
