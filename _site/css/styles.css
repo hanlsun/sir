@@ -16,12 +16,12 @@ margin-right:auto;
 .list {
   list-style: none;
   padding:0px 10px;
+  text-align:center;
+  width:80%;
 }
 .list > li {
   padding: 0;
   background: brightgreen;
-  width:80%;
-  text-align:center;
 }
 .list-checkbox {
   display: none;
