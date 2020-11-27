@@ -7,7 +7,7 @@
                margin: 10px auto;
                background:green;
            }
-          /* .outer {
+           .outer {
                display: table;
                width: 80%;
                height: 80%;
@@ -15,16 +15,16 @@
            }
            .inner {
                display: table-cell;
-               Horizontal-align:center;
+               Horizontal-align:middle;
               background: blue;
-           }*/
+           }
            .centered {
                position: relative;
                display: inline-block;
                width: 80%;
                padding: 1em;
                background: orange;
-              Horizontal-align:center;
+               Horizontal-align:middle;
                color: white;
            }
 
