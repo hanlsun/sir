@@ -19,14 +19,14 @@ h1 { text-align: center;  width: 100px; margin: 0 auto; }
   padding:10px;
   margin: 10px 0px 0px 0px;
   border-top: 1px solid #ddd;
-  background: #7ACE2B;
+  background: #1CDDFF;
   cursor: pointer;
   display: block;
 }
 .desc {
   max-height: 0px;
   overflow: hidden;
-  background: #8EF032;
+  background: #96FEFF;
   transition: 0.5s;
 }
 .desc > div {
