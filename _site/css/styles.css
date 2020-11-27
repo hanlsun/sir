@@ -12,15 +12,11 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
-.container{
-
-  margin:0% 0% 0% 10%;
-}
 
 .list {
   list-style: none;
   padding:0px 0px;
-
+  margin:0 auto;
   width:90%;
   display:table;
 }
