@@ -11,7 +11,7 @@
                display: table;
                width: 80%;
                height: 80%;
-               background: red;
+               background: white;
            }
            .inner {
                display: table-cell;
