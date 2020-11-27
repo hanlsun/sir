@@ -1,9 +1,9 @@
 body {
   font-family: sans-serif;
-  
+
 }
 h1 { text-align: center;  width: 100px; margin: 0 auto; }
-div {font-size:3em; }
+div {font-size:1rem; }
 img{
 border:3px solid black;
 max-width:87%;
@@ -15,12 +15,13 @@ margin-right:auto;
 
 .list {
   list-style: none;
-  padding:0px 10px;
+  padding:0px 0px;
+  text-align:center;
+  width:80%;
 }
 .list > li {
   padding: 0;
   background: brightgreen;
-
 }
 .list-checkbox {
   display: none;
@@ -33,12 +34,14 @@ margin-right:auto;
   cursor: pointer;
   display: block;
   font-size:1rem;
+
 }
 .desc {
   max-height: 0px;
   overflow: hidden;
   background: #96FEFF;
   transition: 0.5s;
+
 
 }
 .desc > div {
