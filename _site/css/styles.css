@@ -1,9 +1,9 @@
 body {
   font-family: sans-serif;
-  
+
 }
 h1 { text-align: center;  width: 100px; margin: 0 auto; }
-div {font-size:3em; }
+div {font-size:1rem; }
 img{
 border:3px solid black;
 max-width:87%;
