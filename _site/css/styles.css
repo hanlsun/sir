@@ -3,7 +3,7 @@ body {
   font-size: 1rem;
 }
 h1 { text-align: center;  width: 100px; margin: 0 auto; }
-p { font-size:3rem; }
+div {font-size:3em; }
 img{
 border:3px solid black;
 max-width:87%;
@@ -20,7 +20,7 @@ margin-right:auto;
 .list > li {
   padding: 0;
   background: brightgreen;
-  font-size: 1rem;
+
 }
 .list-checkbox {
   display: none;
@@ -32,13 +32,14 @@ margin-right:auto;
   background: #1CDDFF;
   cursor: pointer;
   display: block;
+  font-size:1rem;
 }
 .desc {
   max-height: 0px;
   overflow: hidden;
   background: #96FEFF;
   transition: 0.5s;
-  font-size:1rem;
+
 }
 .desc > div {
   margin: 10px;
