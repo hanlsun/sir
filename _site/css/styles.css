@@ -24,7 +24,7 @@
                width: 100%;
                padding: 1em;
                background: orange;
-
+               text-align:center;
                color: white;
            }
 
@@ -49,14 +49,14 @@ margin-right:auto;
   padding:0px 0px;
   text-align:left;
   width:80%;
-  text-align:center;
+  display:inline-block;
 }
 .list > li {
   padding: 0;
   background: brightgreen;
 }
 .list-checkbox {
-display:inline-block;
+
 }
 .title {
   padding:10px;
