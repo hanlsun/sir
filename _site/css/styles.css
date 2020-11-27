@@ -21,6 +21,8 @@ margin-right:auto;
   padding:0px 0px;
   width:90%;
   margin: 10px auto;
+  display : table-cell;
+  text-align:left;
 }
 .list > li {
   padding: 0;
