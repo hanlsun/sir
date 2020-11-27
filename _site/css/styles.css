@@ -20,6 +20,7 @@ margin-right:auto;
 .list > li {
   padding: 0;
   background: brightgreen;
+  witdh:80%;
 
 }
 .list-checkbox {
@@ -33,12 +34,14 @@ margin-right:auto;
   cursor: pointer;
   display: block;
   font-size:1rem;
+
 }
 .desc {
   max-height: 0px;
   overflow: hidden;
   background: #96FEFF;
   transition: 0.5s;
+
 
 }
 .desc > div {
