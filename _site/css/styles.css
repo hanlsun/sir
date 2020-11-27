@@ -1,12 +1,13 @@
 <style>
 
            .container {
+              display:block;
                width: 100%;
                height: 100%;
                margin: 10px auto;
                background:green;
            }
-           .outer {
+          /* .outer {
                display: table;
                width: 80%;
                height: 80%;
@@ -16,7 +17,7 @@
                display: table-cell;
                Horizontal-align:center;
               background: blue;
-           }
+           }*/
            .centered {
                position: relative;
                display: inline-block;
