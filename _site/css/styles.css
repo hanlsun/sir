@@ -14,13 +14,13 @@ margin-right:auto;
 }
 .container{
   width:90%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 .list {
   list-style: none;
   padding:0px 0px;
   width:90%;
-  display:table;
+  margin: 10px auto;
 }
 .list > li {
   padding: 0;
