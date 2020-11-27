@@ -1,8 +1,8 @@
 <style>
 
            .container {
-               width: 80%;
-               height: 80%;
+               width: 100%;
+               height: 100%;
                margin: 10px auto;
                background:green;
            }
@@ -14,7 +14,7 @@
            }
            .inner {
                display: table-cell;
-               Horizontal-align: middle;
+               Horizontal-align:center;
                text-align: center;
            }
            .centered {
