@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 h1 { text-align: center;  width: 100px; margin: 0 auto; }
 /*
@@ -21,7 +21,7 @@ margin-right:auto;
 .list > li {
   padding: 0;
   background: brightgreen;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .list-checkbox {
   display: none;
@@ -39,7 +39,7 @@ margin-right:auto;
   overflow: hidden;
   background: #96FEFF;
   transition: 0.5s;
-  font-size:16px;
+  font-size:1rem;
 }
 .desc > div {
   margin: 10px;
