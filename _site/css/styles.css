@@ -1,34 +1,4 @@
-<style>
 
-           .container {
-
-               width: 100%;
-               height: 100%;
-               margin: 10px auto;
-               background:green;
-           }
-           .outer {
-               display: table;
-               width: 80%;
-               height: 80%;
-               background: white;
-           }
-           .inner {
-               display: table-cell;
-               Horizontal-align:middle;
-
-           }
-           .centered {
-               position: relative;
-               display: inline-block;
-               width: 100%;
-               padding: 1em;
-
-
-
-           }
-
-       </style>
 body {
   font-family: sans-serif;
 
@@ -60,7 +30,7 @@ margin-right:auto;
 }
 .title {
   padding:10px;
-  margin: 10px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
   border-top: 1px solid #ddd;
   background: #1CDDFF;
   cursor: pointer;
