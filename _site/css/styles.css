@@ -16,14 +16,14 @@
            .inner {
                display: table-cell;
                Horizontal-align:middle;
-              background: blue;
+
            }
            .centered {
                position: relative;
                display: inline-block;
                width: 100%;
                padding: 1em;
-               
+
                text-align:center;
 
            }
