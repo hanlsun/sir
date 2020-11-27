@@ -12,6 +12,7 @@ h1 { text-align: center;  width: 100px; margin: 0 auto; }
 .list > li {
   padding: 0;
   background: brightgreen;
+  font-size: 16px;
 }
 .list-checkbox {
   display: none;
