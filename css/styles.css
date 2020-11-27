@@ -15,7 +15,7 @@ margin-right:auto;
 
 .list {
   list-style: none;
-  padding:0% 10%;
+  padding:0px 10px;
 }
 .list > li {
   padding: 0;
@@ -26,7 +26,7 @@ margin-right:auto;
   display: none;
 }
 .title {
-  padding:10%;
+  padding:10px;
   margin: 10px 0px 0px 0px;
   border-top: 1px solid #ddd;
   background: #1CDDFF;
@@ -41,7 +41,7 @@ margin-right:auto;
   font-size:1rem;
 }
 .desc > div {
-  margin: 10%;
+  margin: 10px;
 }
 .list-checkbox:checked + .title + .desc {
   max-height: 1000px;
