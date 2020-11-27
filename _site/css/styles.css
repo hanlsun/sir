@@ -21,7 +21,7 @@ margin-right:auto;
   padding: 0;
   background: brightgreen;
   width:80%;
-
+  text-align:center;
 }
 .list-checkbox {
   display: none;
