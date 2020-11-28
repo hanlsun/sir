@@ -33,7 +33,7 @@ margin-right:auto;
   display: none;
 }
 .title {
-  padding:10px;
+  padding:20px;
   margin: 10px 0px 0px 0px;
   border-top: 1px solid #ddd;
   background: #1CDDFF;
@@ -47,6 +47,7 @@ margin-right:auto;
   overflow: hidden;
   background: #96FEFF;
   transition: 0.5s;
+    padding:20px;
 
 
 }
