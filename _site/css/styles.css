@@ -41,7 +41,7 @@ margin-right:auto;
   background: #1CDDFF;
   cursor: pointer;
   display: block;
-  font-size:1rem;
+
 
 }
 .desc {
@@ -63,14 +63,14 @@ margin-right:auto;
 
   .container{
     width:90%;
-    font-size:2rem;
+
   }
 }
 @media(min-width:992px){
 
   .container{
     width:70%;
-    font-size:2rem;
+
   }
 }
 </style>
