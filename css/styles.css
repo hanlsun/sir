@@ -2,28 +2,29 @@
 *{padding:0; margin:0;}
 body {
   font-family: sans-serif;
-
+background-color: pink
 }
 h1 { text-align: center;  width: 100px; margin: 0 auto; }
 div {font-size:1rem; }
 img{
 border:3px solid black;
-max-width:87%;
+max-width:85%;
 height:auto !important;
 display:block;
 margin-left:auto;
 margin-right:auto;
 }
 .container{
-  width:80%;
+  width:90%;
   margin:0 auto;
+  border:1px solid gray;
 }
 
 .list {
   list-style: none;
   padding:0px 0px;
-
-  width:90%;
+  margin:0 auto;
+  width:100%;
 
 }
 .list > li {
