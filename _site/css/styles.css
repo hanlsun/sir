@@ -62,7 +62,7 @@ margin-right:auto;
   body{
     background-color:purple
   }
-  .desc{
+  .container{
     width:100%;
     font-size:2rem;
   }
@@ -71,7 +71,7 @@ margin-right:auto;
   body{
     background-color:lightblue
   }
-  .desc{
+  .container{
     width:70%;
     font-size:2rem;
   }
