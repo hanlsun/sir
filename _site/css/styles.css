@@ -62,7 +62,7 @@ margin-right:auto;
 @media(max-width:767px){
 
   .container{
-    width:100%;
+    width:90%;
     font-size:2rem;
   }
 }
