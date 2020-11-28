@@ -8,14 +8,14 @@ h1 { text-align: center;  width: 100px; margin: 0 auto; }
 div {font-size:1rem; }
 img{
 border:3px solid black;
-max-width:70%;
+max-width:60%;
 height:auto !important;
 display:block;
 margin-left:auto;
 margin-right:auto;
 }
 .container{
-  width:90%;
+  width:100%;
   margin:0 auto;
 }
 
