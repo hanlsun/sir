@@ -29,7 +29,7 @@ margin-right:auto;
   background: brightgreen;
 }
 .list-checkbox {
-  display: inline-block;
+  display: none;
 }
 .title {
   padding:10px;
@@ -37,7 +37,7 @@ margin-right:auto;
   border-top: 1px solid #ddd;
   background: #1CDDFF;
   cursor: pointer;
-  display: block;
+  display: inline-block;
   font-size:1rem;
 
 }
@@ -46,7 +46,7 @@ margin-right:auto;
   overflow: hidden;
   background: #96FEFF;
   transition: 0.5s;
-
+ display: inline-block;
 
 }
 .desc > div {
