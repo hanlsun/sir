@@ -20,7 +20,7 @@ margin-right:auto;
 .list {
   list-style: none;
   padding:0px 0px;
-  text-align:center;
+
   width:90%;
 
 }
@@ -37,7 +37,7 @@ margin-right:auto;
   border-top: 1px solid #ddd;
   background: #1CDDFF;
   cursor: pointer;
-  display: inline-block;
+  display: block;
   font-size:1rem;
 
 }
@@ -46,7 +46,7 @@ margin-right:auto;
   overflow: hidden;
   background: #96FEFF;
   transition: 0.5s;
- display: inline-block;
+
 
 }
 .desc > div {
