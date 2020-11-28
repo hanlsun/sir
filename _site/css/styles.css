@@ -41,7 +41,6 @@ margin-right:auto;
   cursor: pointer;
   display: block;
 
-
 }
 .desc {
   max-height: 0px;
@@ -57,17 +56,13 @@ margin-right:auto;
   max-height: 1000px;
 }
 @media(max-width:767px){
-
   .container{
     width:100%;
-
   }
 }
 @media(min-width:992px){
-
   .container{
     width:80%;
-
   }
 }
 </style>
