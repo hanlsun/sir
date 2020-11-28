@@ -59,10 +59,11 @@ margin-right:auto;
 }
 @media(max-width:767px){
   body{
-    background-color:purple}
-    .desc{width:100%;
-    font-size:2em;
+    background-color:purple
   }
+  .desc{
+    width:100%;
+    font-size:2em;
   }
 }
 </style>
