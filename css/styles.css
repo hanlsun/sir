@@ -8,7 +8,7 @@ h1 { text-align: center;  width: 100px; margin: 0 auto; }
 div {font-size:1rem; }
 img{
 border:3px solid black;
-max-width:60%;
+max-width:70%;
 height:auto !important;
 display:block;
 margin-left:auto;
@@ -23,7 +23,7 @@ margin-right:auto;
   list-style: none;
   padding:0px 0px;
   margin:0 auto;
-  width:60%;
+  width:70%;
 }
 .list > li {
   padding: 0;
