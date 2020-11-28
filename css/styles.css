@@ -4,8 +4,7 @@ body {
   font-family: sans-serif;
 
 }
-
-div {font-size:1rem; }
+h1{text-align: center;}
 
 .container{
   width:100%;
@@ -14,7 +13,7 @@ div {font-size:1rem; }
 }
 img{
 border:3px solid black;
-max-width:80%;
+max-width:76%;
 height:auto !important;
 display:block;
 margin-left:auto;
@@ -41,7 +40,6 @@ margin-right:auto;
   background: #1CDDFF;
   cursor: pointer;
   display: block;
-  font-size:1rem;
 
 }
 .desc {
@@ -49,8 +47,6 @@ margin-right:auto;
   overflow: hidden;
   background: #96FEFF;
   transition: 0.5s;
-
-
 
 }
 .desc > div {
@@ -60,17 +56,13 @@ margin-right:auto;
   max-height: 1000px;
 }
 @media(max-width:767px){
-
   .container{
     width:100%;
-    font-size:2rem;
   }
 }
 @media(min-width:992px){
-
   .container{
-    width:70%;
-    font-size:2rem;
+    width:80%;
   }
 }
 </style>
