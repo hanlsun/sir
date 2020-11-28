@@ -57,4 +57,12 @@ margin-right:auto;
 .list-checkbox:checked + .title + .desc {
   max-height: 1000px;
 }
+@media(max-width:767px){
+  body{
+    background-color:purple}
+    .desc{width:100%;
+    font-size:2em;
+  }
+  }
+}
 </style>
