@@ -13,7 +13,7 @@ margin-left:auto;
 margin-right:auto;
 }
 .container{
-  text-align: center;
+  width:80%;
   margin:0 auto;
 }
 
@@ -22,7 +22,7 @@ margin-right:auto;
   padding:0px 0px;
   text-align:center;
   width:90%;
-  display:table;
+
 }
 .list > li {
   padding: 0;
