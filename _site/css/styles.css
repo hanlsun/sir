@@ -58,6 +58,7 @@ margin-right:auto;
 @media(max-width:767px){
   .container{
     width:90%;
+    font-size:2em;
   }
 }
 @media(min-width:992px){
