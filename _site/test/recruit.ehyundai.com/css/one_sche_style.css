@@ -1,0 +1,42 @@
+#odWrap{width:100%;min-width:768px;position:relative;}
+#odHeader{width:100%;height:110px; line-height:100px; background:#1c8291;}
+#odHeader h1 {margin-left:30px; padding-right:38px; font-size:30px; font-weight:bold; color:#fff; display:inline-block; background:url('../images/icon/bar3x30.gif') no-repeat 137px 39px; position:relative; top:2px;}
+#odHeader .subTit{color:#fff; font-size:20px; display:inline-block;}
+#odHeader .exitBtn{margin-right:32px; margin-top:43px; float:right}
+#odBody{width:100%;background:url('../images/icon/onedayBg.jpg') no-repeat center 0 #fff9df;}
+#odBody .wrap{width:768px; height:1980px; position:relative; margin:0 auto;}
+
+.odAlltime{position:absolute;}
+.odAlltime .img{position:relative;}
+.odAlltime .txt{position:relative; word-break:break-all;line-height:22px;color:#555}
+
+.odAm09{width:652px;background:url('../images/icon/spebub1_1.png') no-repeat top;top:58px; left:77px}
+.odAm09 .img > img{position:absolute; top:132px; left:83px; z-index:1;}
+.odAm09 .img h2 img{position:absolute; top:114px; left:302px;text-indent:-9999;background:url('https://recruit.ehyundai.com/jsp/error.jsp') no-repeat;}
+.odAm09 .txt{background:url('../images/icon/spebub1_2.png') repeat-y; margin-top:153px; padding:0 42px 0 302px; }
+.odAm07{background:url('../images/icon/spebub1_1t.png') no-repeat top;}
+.odAm10t{background:url('../images/icon/spebub1_1t2.png') no-repeat top;}
+
+.odPm12{width:707px;background:url('../images/icon/spebub2_1.png') no-repeat top;top:465px; left:31px}
+.odPm12 .img > img{position:absolute; top:184px; left:37px; z-index:1;}
+.odPm12 .img h2 img{position:absolute; top:184px; left:257px;text-indent:-9999;background:url('https://recruit.ehyundai.com/jsp/error.jsp') no-repeat;}
+.odPm12 .txt{background:url('../images/icon/spebub2_2.png') repeat-y; margin-top:226px; padding:0 43px 0 257px; }
+.odAm0830{background:url('../images/icon/spebub2_1t.png') no-repeat top;}
+.odAm10{background:url('../images/icon/spebub2_1t2.png') no-repeat top;}
+.odPm01t{background:url('../images/icon/spebub2_1t3.png') no-repeat top;}
+
+.odPm03{width:615px;background:url('../images/icon/spebub3_1.png') no-repeat top;top:1017px; left:123px}
+.odPm03 .img > img{position:absolute; top:136px; left:64px; z-index:1;}
+.odPm03 .img h2 img{position:absolute; top:107px; left:288px;text-indent:-9999;background:url('https://recruit.ehyundai.com/jsp/error.jsp') no-repeat;}
+.odPm03 .txt{background:url('../images/icon/spebub3_2.png') repeat-y; margin-top:152px; padding:0 35px 0 288px; }
+.odPm01{background:url('../images/icon/spebub3_1t.png') no-repeat top;}
+.odPm12t{background:url('../images/icon/spebub3_1t2.png') no-repeat top;}
+.odPm04t{background:url('../images/icon/spebub3_1t3.png') no-repeat top;}
+
+.odPm06{width:752px;background:url('../images/icon/spebub4_1.png') no-repeat top;top:1459px; left:16px}
+.odPm06 .img > img{position:absolute; top:130px; left:33px; z-index:1;}
+.odPm06 .img h2 img{position:absolute; top:127px; left:253px;text-indent:-9999;background:url('https://recruit.ehyundai.com/jsp/error.jsp') no-repeat;}
+.odPm06 .txt{background:url('../images/icon/spebub4_2.png') repeat-y; margin-top:169px; padding:0 151px 0 253px; }
+.odPm03t{background:url('../images/icon/spebub4_1t.png') no-repeat top;}
+.odPm04{background:url('../images/icon/spebub4_1t2.png') no-repeat top;}
+.odPm07{background:url('../images/icon/spebub4_1t3.png') no-repeat top;}
