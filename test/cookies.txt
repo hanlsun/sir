@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-recruit.ehyundai.com	TRUE	/	FALSE	1999999999	JSESSIONID	aTVeu6PbdyX86oN0LcQ0sNMJrrBlndt1if6VmzJmYVJQ1EemVZltX7B3bmz5Rqaq.dsu34was_servlet_HDGRPS
-
