@@ -33,6 +33,10 @@ margin-right:auto;
 .list-checkbox {
   display: none;
 }
+.pagination{
+  margin:0 auto;
+  text-align:center;
+}
 .title {
   padding:10px;
   margin: 10px 0px 0px 0px;
