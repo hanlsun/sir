@@ -1542,7 +1542,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.container{width:708px;}
 	.container.wide{width:708px;}
 	.container.wide2{width:708px; margin-top:0}
-	.subCon{position:relative; min-height:560px; padding:100px 0 90px;}//
+	.subCon{position:relative; min-height:560px; padding:50px 0 90px;}//
 	.subCon h3{color:#444; font-size:35px; font-weight:normal; line-height:40px;; font-weight:bold; margin-bottom:30px; letter-spacing:-1px}
 	.subCon .path{position:absolute; top:175px; right:0; font-size:13px; color:#757575}
 	.subCon .path span{padding:0 3px;}
