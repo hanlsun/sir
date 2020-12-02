@@ -942,26 +942,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList{position:relative; overflow:hidden; padding-top:597px;}
 .dbList .dbBt{display:block; position:absolute; text-indent:-9999px; overflow:hidden}
 
-/* 2017-08-21 수정 및 추가 */
-/*asd*/
-/*
-.dbList .dbBt.one{top:0; left:0; width:155px; height:330px; background:url('../images/btn/db_regi_bt1_fir.png') no-repeat 0 0;}
-.dbList .dbBt.two{top:0; left:153px; width:120px; height:330px; background:url('../images/btn/db_regi_bt2_fir.png') no-repeat 0 0;}
-.dbList .dbBt.thr{top:0; left:272px; width:125px; height:339px; background:url('../images/btn/db_regi_bt3_fir.png') no-repeat 0 0;}
-.dbList .dbBt.fou{top:0; left:409px; width:112px; height:350px; background:url('../images/btn/db_regi_bt4_fir.png') no-repeat 0 0;}
-.dbList .dbBt.fiv{top:0; left:540px; width:113px; height:359px; background:url('../images/btn/db_regi_bt5_fir.png') no-repeat 0 0;}
-.dbList .dbBt.six{top:0; left:660px; width:102px; height:330px; background:url('../images/btn/db_regi_bt6_fir.png') no-repeat 0 0;}
-.dbList .dbBt.sev{top:0; left:770px; width:109px; height:348px; background:url('../images/btn/db_regi_bt7_fir.png') no-repeat 0 0;}
 
-.dbList .dbBt.eig{top:175px; left:73px; width:152px; height:336px; background:url('../images/btn/db_regi_bt8_fir.png') no-repeat 0 0;}
-.dbList .dbBt.nin{top:180px; left:197px; width:141px; height:330px; background:url('../images/btn/db_regi_bt9_fir.png') no-repeat 0 0;}
-.dbList .dbBt.ten{top:159px; left:347px; width:150px; height:352px; background:url('../images/btn/db_regi_bt10_fir.png') no-repeat 0 0; z-index:5;}
-.dbList .dbBt.ele{top:180px; left:480px; width:115px; height:330px; background:url('../images/btn/db_regi_bt11_fir.png') no-repeat 0 0;}
-.dbList .dbBt.twe{top:156px; left:585px; width:137px; height:355px; background:url('../images/btn/db_regi_bt12_fir.png') no-repeat 0 0;}
-.dbList .dbBt.thirT{top:180px; left:720px; width:155px; height:330px; background:url('../images/btn/db_regi_bt13_fir.png') no-repeat 0 0;}
-
-.dbList .dbBt.fourT{top:146px; left:867px; width:94px; height:365px; background:url('../images/btn/db_regi_bt14_fir.png') no-repeat 0 0;}
-.dbList .dbBt.fift{top:0; left:409px; width:120px; height:345px; background:url('../images/btn/db_regi_bt15_fir.png') no-repeat 0 0;}/*2018.07.16 김종근 추가 - IT&E 인재DB*/
 .dbList .dbBt.sixt{top:0; left:775px; width:120px; height:337px; background:url('../images/btn/db_regi_bt16_fir.png') no-repeat 0 0;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 /* //2017-08-21 수정 및 추가 */
 
