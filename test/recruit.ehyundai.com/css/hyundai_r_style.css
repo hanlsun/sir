@@ -269,76 +269,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .maincon2 .bottom .mNoti .morebt{position:absolute; top:21px; left:97px;}
 .maincon2 .bottom .mUtil{width:449px; overflow:hidden; padding:20px 0 0 40px; float:left}
 .maincon2 .bottom .mUtil span{font-size:9px; vertical-align:top; color:#989898; margin:0 26px;}
-/*
-.intro3Tal{line-height:24px;}
-.intro3Tal ul{overflow:hidden}
-.intro3Tal li{width:50%; float:left; text-align:center; padding-top:310px; margin-bottom:25px;}
-.intro3Tal li .tit{padding-top:17px; font-size:20px; font-weight:bold; color:#1c8292; background:url('../images/icon/line33x2.gif') no-repeat center 0;}
-.intro3Tal li .txt1{font-size:15px; font-weight:bold; color:#444; margin-top:10px;}
-.intro3Tal li .txt2{font-size:13px; line-height:20px; margin-top:15px;}
-.intro3Tal li.one{background:url('../images/icon/intro3_tal_img1.png') no-repeat center 0;}
-.intro3Tal li.two{background:url('../images/icon/intro3_tal_img2.png') no-repeat center 0;}
-.intro3Tal li.thr{background:url('../images/icon/intro3_tal_img3.png') no-repeat center 0;}
-.intro3Tal li.fou{background:url('../images/icon/intro3_tal_img4.png') no-repeat center 0;}
 
-/*
-.tab1{position:relative; width:100%; height:50px; background:url('../images/icon/tab1_bg.gif') repeat-x 0 bottom; overflow:hidden}
-.tab1 a{position:relative; display:block; float:left; height:48px; margin-right:2px; border-bottom:2px solid #42909b; overflow:hidden}
-.tab1 a span{display:block; height:16px; padding:13px 30px 18px; font-size:16px; border-top:1px solid #c8c8c8; border-left:1px solid #c8c8c8; border-right:1px solid #c8c8c8; border-radius:5px 5px 0 0; background:#f6f6f6;}
-.tab1 a.on{border-bottom:0px solid #fff; border-top:2px solid #42909b; border-left:2px solid #42909b; border-right:2px solid #42909b; border-radius:5px 5px 0 0;}
-.tab1 a.on span{padding:13px 29px 17px; border-bottom:2px solid #fff; border-top:0px solid #42909b; border-left:0px solid #42909b; border-right:0px solid #42909b; background:#fff; color:#42909b; font-weight:bold}
-
-
-.tab1.add a span{display:block; height:21px; padding:8px 30px 18px; font-size:16px; border-top:1px solid #c8c8c8; border-left:1px solid #c8c8c8; border-right:1px solid #c8c8c8; border-radius:5px 5px 0 0; background:#f6f6f6;}
-.tab1.add a span.type1{display:block; height:auto; padding:0; font-size:13px; border-top:0px solid #c8c8c8; border-left:0px solid #c8c8c8; border-right:0px solid #c8c8c8; border-radius:0; background:#f6f6f6;}
-.tab1.add a.on span{padding:8px 29px 17px; border-bottom:2px solid #fff; border-top:0px solid #42909b; border-left:0px solid #42909b; border-right:0px solid #42909b; background:#fff; color:#42909b; font-weight:bold}
-.tab1.add a.on span.type1{padding:0; border-bottom:0px solid #fff; background:#fff; color:#42909b; font-weight:bold}
-
-
-.tab2{overflow:hidden}
-.tab2 a{display:block; float:left; padding:0 10px; line-height:18px; background:url('../images/icon/bar1x13.gif') no-repeat right 4px;}
-.tab2 a.on{font-weight:bold; color:#42909b}
-.tab2 a.on span{padding-right:17px; background:url('../images/icon/tab2_icon.gif') no-repeat right 9px;}
-.tab3{overflow:hidden}
-.tab3 a{display:block; width:187px; height:20px; float:left; padding:16px 0 24px; margin-right:6px; background:url('../images/icon/tab3.gif') no-repeat center 0; font-size:17px; color:#1c8292; text-align:center;}
-.tab3 a.on{background:url('../images/icon/tab3_on.gif') no-repeat center 0; color:#fff; font-weight:bold}
-.tab4Div{position:relative;}
-.tab4Div > p{height:7px;}
-.tab4{width:910px; padding:27px 25px 5px; background:url('../images/icon/tab4_bg.gif') repeat-y 0 0; overflow:hidden}
-.tab4 a{display:block; width:135px; float:left; margin-bottom:20px; padding-left:16px; background:url('../images/icon/tab4.gif') no-repeat 0 5px; color:#666;}
-.tab4 a.on{background:url('../images/icon/tab4_on.gif') no-repeat 0 5px; color:#42909b; font-weight:bold; text-decoration:underline}
-.tab4 a:hover{background:url('../images/icon/tab4_on.gif') no-repeat 0 5px; color:#42909b; font-weight:bold; text-decoration:underline}
-.roleTab{width:910px; padding:27px 25px 5px; background:url('../images/icon/tab4_bg.gif') repeat-y 0 0; overflow:hidden;}
-.roleTab > a{display:block; width:135px; float:left; margin-bottom:20px; padding-left:16px; background:url('../images/icon/tab4.gif') no-repeat 0 5px; color:#666;}
-.roleTab > a.on{background:url('../images/icon/tab4_on.gif') no-repeat 0 5px; color:#42909b; font-weight:bold; text-decoration:underline}
-.roleTab > a:hover{background:url('../images/icon/tab4_on.gif') no-repeat 0 5px; color:#42909b; font-weight:bold; text-decoration:underline}
-.tab5{background:#2396ab; overflow:hidden}
-.tab5 a{display:block; float:left; padding:14px 25px 18px; color:#fff}
-.tab5 a.on{font-weight:bold; text-decoration:underline; background:url('../images/icon/tab5_on.gif') no-repeat center bottom;}
-.tab5 a:hover{font-weight:bold; text-decoration:underline; background:url('../images/icon/tab5_on.gif') no-repeat center bottom;}
-.tab6Div .tab5{width:754px; float:left}
-.tab6Div .tab6{position:relative; width:206px; height:50px; float:left; background:url('../images/icon/tab6bg.gif') no-repeat 0 0;}
-.tab6Div .tab6 .titBt{display:block; padding:13px 0 17px 30px; font-size:16px; font-weight:bold; color:#fff}
-.tab6Div .tab6 .tabSub{display:none; position:absolute; top:53px; left:0; width:124px; padding:15px 30px 7px; background:#ecf1f2; z-index:500}
-.tab6Div .tab6 .tabSub a{display:block; font-size:13px; margin-bottom:12px}
-.tab6Div .tab6 .tabSub a:hover{text-decoration:underline}
-
-.popTab{position:relative; top:1px; width:100%; overflow:hidden; z-index:100}
-.popTab a{position:relative; display:block; float:left; width:170px; height:23px; padding:10px 0 10px; text-align:center; border:1px solid #d7d7d7; background:#ecf1f2; overflow:hidden; font-size:16px; color:#555; z-index:100}
-.popTab a.on{border-bottom:1px solid #fbfbfb; background:#fbfbfb; overflow:hidden; font-weight:bold; color:#1c8292}
-.welTab{text-align:center}
-.welTab a{display:inline-block; margin:0 3px;}
-.welfareDiv{position:relative; width:960px; height:73px; padding:362px 0 0; margin-bottom:30px; overflow:hidden; text-align:center}
-.welfareDiv .welRoll{position:absolute; top:0; left:0; width:960px; height:435px; overflow:hidden}
-.welfareDiv .welRoll .txtDiv{position:absolute; top:50px; right:0; width:384px; height:165px; padding:40px 30px; background:url('../images/icon/welfare_txtbg.png') no-repeat 0 0; overflow:hidden; text-align:left}
-.welfareDiv .welRoll .txtDiv .tit{width:153px; float:left; font-size:34px; color:#222; line-height:40px;}
-.welfareDiv .welRoll .txtDiv .txt{width:219px; float:left; line-height:23px;}
-.welfareDiv .welRbt{position:relative; display:inline-block; margin:0 1px; z-index:100;}
-.welfareDiv .btPack{position:absolute; bottom:0; left:0; width:960px; height:73px; padding:17px 0 0; overflow:hidden; text-align:center; background:url('../images/icon/welfare_btbg.png') no-repeat 0 0;}
-.welfareDiv .btPack .controll{position:absolute; top:36px; right:20px;}
-.welfareDiv .btPack .controll a{display:inline-block; padding:0 10px; width:11px;}
-*/
-/* sub */
 #cBody{position:relative; width:1200px; margin:auto; overflow:hidden; z-index:10;}
 #lnb{width:195px; float:left; border-right:1px solid #ddd;}
 #lnb h2{margin-top:45px; color:#387780; font-size:30px; font-weight:normal; line-height:30px;}
