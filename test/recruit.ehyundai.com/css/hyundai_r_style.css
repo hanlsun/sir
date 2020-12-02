@@ -590,7 +590,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.sixt{top:0; left:775px; width:120px; height:337px; background:url('../images/btn/db_regi_bt16_fir.png') no-repeat 0 0;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 /* //2017-08-21 수정 및 추가 */
 
-
+/*
 .dbList .dbBt.one.on{background:url('../images/btn/db_regi_bt1_on.png') no-repeat 0 0;}
 .dbList .dbBt.two.on{background:url('../images/btn/db_regi_bt2_on.png') no-repeat 0 0;}
 .dbList .dbBt.thr.on{background:url('../images/btn/db_regi_bt3_on.png') no-repeat 0 0;}
@@ -605,7 +605,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.twe.on{background:url('../images/btn/db_regi_bt12_on.png') no-repeat 0 0;}
 .dbList .dbBt.thirT.on{background:url('../images/btn/db_regi_bt13_on.png') no-repeat 0 0;}/* 2017-08-21 추가 */
 
-
+/*
 .dbList .dbBt.fourT.on{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0;}
 .dbList .dbBt.fift.on{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0;}
 .dbList .dbBt.sixt.on{background:url('../images/btn/db_regi_bt16_on.png') no-repeat 0 0;}
@@ -624,7 +624,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.thirT.on2{background:url('../images/btn/db_regi_bt13_on.png') no-repeat 0 0 !important;}
 .dbList .dbBt.fourT.on2{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0 !important;;}
 .dbList .dbBt.fift.on2{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0 !important;}
-.dbList .dbBt.sixt.on2{background:url('../images/btn/db_regi_bt16_on.png') no-repeat 0 0 !important;}
+.dbList .dbBt.sixt.on2{background:url('../images/btn/db_regi_bt16_on.png') no-repeat 0 0 !important;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 .dbList .dbBt.one.off{background:url('../images/btn/db_regi_bt1.png') no-repeat 0 0;}
 .dbList .dbBt.two.off{background:url('../images/btn/db_regi_bt2.png') no-repeat 0 0;}
 .dbList .dbBt.thr.off{background:url('../images/btn/db_regi_bt3.png') no-repeat 0 0;}
@@ -637,10 +637,10 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.ten.off{background:url('../images/btn/db_regi_bt10.png') no-repeat 0 0;}
 .dbList .dbBt.ele.off{background:url('../images/btn/db_regi_bt11.png') no-repeat 0 0;}
 .dbList .dbBt.twe.off{background:url('../images/btn/db_regi_bt12.png') no-repeat 0 0;}
-.dbList .dbBt.thirT.off{background:url('../images/btn/db_regi_bt13.png') no-repeat 0 0;}
-.dbList .dbBt.fourT.off{background:url('../images/btn/db_regi_bt14.png') no-repeat 0 0;}
-.dbList .dbBt.fift.off{background:url('../images/btn/db_regi_bt15.png') no-repeat 0 0;}
-.dbList .dbBt.sixt.off{background:url('../images/btn/db_regi_bt16.png') no-repeat 0 0;}
+.dbList .dbBt.thirT.off{background:url('../images/btn/db_regi_bt13.png') no-repeat 0 0;}/* 2017-08-21 추가 */
+.dbList .dbBt.fourT.off{background:url('../images/btn/db_regi_bt14.png') no-repeat 0 0;}/* 2017-08-21 추가 */
+.dbList .dbBt.fift.off{background:url('../images/btn/db_regi_bt15.png') no-repeat 0 0;}/*2018.07.16 김종근 추가 - IT&E 인재DB*/
+.dbList .dbBt.sixt.off{background:url('../images/btn/db_regi_bt16.png') no-repeat 0 0;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 .dbList .dbView{display:none; position:relative; height:287px; border:3px solid #1c8292; border-radius:40px; padding:19px 13px 0; overflow:hidden}
 .dbList .dbView .img{width:430px; float:left}
 .dbList .dbView .txt{width:430px; float:right; margin-right:35px; line-height:24px;}
