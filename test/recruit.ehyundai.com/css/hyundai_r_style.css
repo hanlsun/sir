@@ -330,14 +330,14 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .selfIntro .addR{position:absolute; top:-27px; right:0;}
 .selfIntro .addR strong{color:#1c8292;}
 .selfIntro .listDiv .unit .checkbox{background:#f1f1f1}
-
+/*
 .introGate{width:100%; height:250px; background:url('../images/icon/intro_gatevisual.jpg') no-repeat center 0; text-indent:-9999px;}
 .introGateList{overflow:hidden}
 /* .introGateList li{position:relative; width:276px; height:336px; float:left; overflow:hidden; margin:0 30px 30px 0;}
 .introGateList li .overDiv{position:absolute; bottom:0; left:0; width:276px; height:79px; padding-top:18px; background:url('/images/icon/gate_titbg.png') no-repeat center 0; text-align:center; font-size:; font-weight:bold; color:#fff}
 .introGateList li .overDiv2{display:block; position:absolute; bottom:-239px; left:0;} */
 
-/* 2015-11-02 수정 */
+/*
 .introGateList > a{position:relative; width:276px; height:336px; float:left; overflow:hidden; margin:0 30px 30px 0;}
 .introGateList > a .overDiv{position:absolute; bottom:0; left:0; width:276px; height:79px; padding-top:18px; background:url('../images/icon/gate_titbg.png') no-repeat center 0; text-align:center; font-size:; font-weight:bold; color:#fff}
 .introGateList > a .overDiv2{display:block; position:absolute; bottom:-239px; left:0;}
@@ -352,7 +352,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .roleTab .roleDiv .left{width:205px; float:left}
 .roleTab .roleDiv .left .tit{padding:10px 0 23px; background:url('../images/icon/role_tit_bg.gif') no-repeat 0 0; font-size:30px; color:#444; line-height:40px}
 .roleTab .roleDiv .left .tit2{padding:10px 0 23px; background:url('../images/icon/role_tit2_bg.gif') no-repeat 0 0; font-size:30px; color:#444; line-height:40px} /* 2017-08-04 추가 */
-.roleTab .roleDiv .left .mt30{height:111px; margin:30px 9px 0}
+/*.roleTab .roleDiv .left .mt30{height:111px; margin:30px 9px 0}
 .roleTab .roleDiv .left .bt{margin:5px 0}
 .roleTab .roleDiv .right{width:730px; float:left; padding:13px 0 400px; line-height:24px;}
 .roleTab .roleDiv .right .indent{text-indent:-17px; margin-left:17px;}
@@ -370,16 +370,16 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .intro1R1.ten{background:url('../images/icon/introimg10.jpg') no-repeat center 0 #101326;}
 .intro1R1.ele{background:url('../images/icon/introimg11.jpg') no-repeat center 0 #101326;}
 .intro1R1.twe{background:url('../images/icon/introimg12.jpg') no-repeat center 0 #101326;}
-/* 2017-08-04 추가 */
+
 .intro1R1.thi{background:url('../images/icon/introimg13.jpg') no-repeat center 0 #101326;}
 .intro1R1.fou2{background:url('../images/icon/introimg14.jpg') no-repeat center 0 #101326;}
-/* 2018.07.25 현대IT&E 직무소개 클래스 추가*/
+
 .intro1R1.fift{background:url('../images/icon/introimg15.jpg') no-repeat center 0 #101326;}
-/* 2019.07.23 김종근 추가 - 현대L&C 직무소개 클래스 추가*/
+
 .intro1R1.sixt{background:url('../images/icon/introimg16.jpg') no-repeat center 0 #101326;}
-/* //2017-08-04 추가 */
+
 .i3R1it{width:735px; height:165px; background:url('../images/txt/intro3_role1it.gif') no-repeat center 0; text-indent:-9999px; overflow:hidden;}
-/* 2018.07.25 현대IT&E 직무소개 조직도 클래스 추가*/
+
 .i15R1it{width:735px; height:165px; background:url('../images/txt/intro15_role1it.gif') no-repeat center 0; text-indent:-9999px; overflow:hidden;}
 
 .introRoll{position:relative; width:960px; height:640px}
@@ -464,8 +464,8 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .sysRank8_2{height:157px;background:url('../images/icon/intro8_2_sys_rank.jpg') no-repeat;}
 .sysRank9{height:158px;background:url('../images/icon/intro9_sys_rank.jpg') no-repeat;}
 .sysRank10{height:158px;background:url('../images/icon/intro10_sys_rank.jpg') no-repeat;}
-.sysRank14_1{height:157px;background:url('../images/icon/intro14_1_sys_rank.jpg') no-repeat;}/* 2017-08-04 추가 */
-.sysRank14_2{height:157px;background:url('../images/icon/intro14_2_sys_rank.jpg') no-repeat;}/* 2017-08-04 추가 */
+.sysRank14_1{height:157px;background:url('../images/icon/intro14_1_sys_rank.jpg') no-repeat;}
+.sysRank14_2{height:157px;background:url('../images/icon/intro14_2_sys_rank.jpg') no-repeat;}
 .sysRank16{height:157px;background:url('../images/icon/intro16_sys_rank.jpg') no-repeat;}/* 2019.07.23 김종근 추가 - 현대L&C 직급체계 추가 */
 .sysRank dl{position:absolute;top:-9999px;left:-9999px;}
 
