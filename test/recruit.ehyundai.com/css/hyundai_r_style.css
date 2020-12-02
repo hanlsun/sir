@@ -304,7 +304,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .subCon .path strong{color:#333;}
 .subCon .path img{vertical-align:middle}
 
-.applProc{width:1200px; height:70px; overflow:hidden}
+/*.applProc{width:1200px; height:70px; overflow:hidden}
 .applProc.one{background:url('../images/icon/apply_pro_bg1.gif') no-repeat 0 0;}
 .applProc.two{background:url('../images/icon/apply_pro_bg2.gif') no-repeat 0 0;}
 .applProc.thr{background:url('../images/icon/apply_pro_bg3.gif') no-repeat 0 0;}
