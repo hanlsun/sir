@@ -65,25 +65,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .fc1c8292{color:#1c8292}
 .fc8461e{color:#c8461e}
 
-/*
-
-.whtbtH30{display:inline-block; height:28px; padding:0 14px; border:1px solid #bdbdbd; background:url('../images/btn/whtbt30bg.gif') repeat-x 0 0; font-weight:bold; color:#333; line-height:28px;}
-.whtbtH30.tp2{border:1px solid #42919c; color:#42919c;}
-.whtbtH35{display:inline-block; height:33px; padding:0 20px; border:1px solid #bdbdbd; background:url('../images/btn/whtbt35bg.gif') repeat-x 0 0; font-weight:bold; color:#333; line-height:33px;}
-.whtbtH35.tp2{border:1px solid #42919c; color:#42919c;}
-.whtbtH40{display:inline-block; height:38px; padding:0 19px; border:1px solid #bdbdbd; background:#fdfdfd; font-weight:bold; color:#333; line-height:37px; font-size:14px;}
-.whtbtH45{display:inline-block; height:43px; padding:0 30px; border:1px solid #42919c; background:url('../images/btn/whtbt45bg.gif') repeat-x 0 0; font-weight:bold; color:#1c8292; line-height:42px; font-size:16px;}
-.whtbtH45.tp2{border:1px solid #bdbdbd; color:#333;}
-.grnbtH30{display:inline-block; height:28px; padding:0 14px; border:1px solid #198ea0; background:url('../images/btn/grnbt30bg.gif') repeat-x 0 0; font-weight:bold; color:#fff; line-height:28px;}
-.grnbtH35{display:inline-block; height:33px; padding:0 20px; border:1px solid #198ea0; background:url('../images/btn/grnbt35bg.gif') repeat-x 0 0; font-weight:bold; color:#fff; line-height:33px;}
-.grnbtH45{display:inline-block; height:43px; padding:0 30px; border:1px solid #198ea0; background:url('../images/btn/grnbt45bg.gif') repeat-x 0 0; font-weight:bold; color:#fff; line-height:42px; font-size:16px;}
-.grnbtH95{display:inline-block; height:93px; padding:0 30px; border:1px solid #198ea0; background:url('../images/btn/grnbt95bg.gif') repeat-x 0 0; color:#fff; line-height:93px; font-size:20px;}
-.grybtH30{display:inline-block; height:28px; padding:0 14px; border:1px solid #666; background:url('../images/btn/grybt30bg.gif') repeat-x 0 0; font-weight:bold; color:#fff; line-height:28px;}
-.grybtH30.type2{border:1px solid #abcdd4; background:#abcdd4; color:#1a7988;}
-.brwbtH30{display:inline-block; height:28px; padding:0 14px; border:1px solid #9c9188; background:#9c9188; font-weight:bold; color:#fff; line-height:25px;}
-.blkbtH45{display:inline-block; height:43px; padding:0 30px; border:1px solid #000; background:url('../images/btn/blkbt45bg.gif') repeat-x 0 0; font-weight:bold; color:#fff; line-height:42px; font-size:16px;}
-.blkbtH30{display:inline-block; height:28px; padding:0 14px; border:1px solid #000; background:url('../images/btn/blkbt30bg.gif') repeat-x 0 0; font-weight:bold; color:#fff; line-height:28px;}
-*/
+/
 .whtbtH30.tp3{padding:0 19px;background:#fdfdfd;}
 
 #wrapper{position:relative; width:100%; min-width:1280px;}
@@ -225,6 +207,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #cBody.main .mainCon .unit.rec:hover .txt{color:#fff}
 #cBody.main .mainCon .unit:hover .txt a{color:#fff;}
 #cBody.main .mainCon .unit:hover .txt strong{color:#fff;}
+/*
 #cBody.main .mainCon .unit.one:hover .txt{background:url('../images/icon/main_con_icon1_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.two:hover .txt{background:url('../images/icon/main_con_icon2_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.thr:hover .txt{background:url('../images/icon/main_con_icon3_on2.png') no-repeat 0 0;}
@@ -239,7 +222,8 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #cBody.main .mainCon .unit.twe:hover .txt{background:url('../images/icon/main_con_icon12_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.thi:hover .txt{background:url('../images/icon/main_con_icon13_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.fou2:hover .txt{background:url('../images/icon/main_con_icon14_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fift:hover .txt{background:url('../images/icon/main_con_icon15_on2.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
+#cBody.main .mainCon .unit.fift:hover .txt{background:url('../images/icon/main_con_icon15_on2.png') no-repeat 0 0;}
+*/ /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
 #cBody.main .mainCon .unit.sixt:hover .txt{background:url('../images/icon/main_con_icon16_on2.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
 #cBody.main .mainCon .unit.one.rec:hover .txt{background:url('../images/icon/main_con_icon1_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.two.rec:hover .txt{background:url('../images/icon/main_con_icon2_on2.png') no-repeat 0 0;}
@@ -256,18 +240,18 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #cBody.main .mainCon .unit.thi.rec:hover .txt{background:url('../images/icon/main_con_icon13_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.fou2.rec:hover .txt{background:url('../images/icon/main_con_icon14_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.fift.rec:hover .txt{background:url('../images/icon/main_con_icon15_on2.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
-#cBody.main .mainCon .unit.sixt.rec:hover .txt{background:url('../images/icon/main_con_icon16_on2.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
+#cBody.main .mainCon .unit.sixt.rec:hover .txt{background:url('../images/icon/main_con_icon16_on2.png') no-repeat 0 0;}
+*/
+*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
 /* //2017-08-14 수정 */
 /* 2017-09-26 추가 */
+*/
 #cBody.main .mainConBtn{position:absolute; top:600px; right:23px; width:30px; height:9px; background:url('../images/icon/play_stop_bar.gif') no-repeat center center; overflow:hidden}
 #cBody.main .mainConBtn .playBtn{float:left; display:block; height:9px}
 #cBody.main .mainConBtn .stopBtn{float:right; display:block; height:9px}
 /* //2017-09-26 추가 */
 #cBody.main .mainCon span{display:block}
-.mTotalRec{display:inline-block; width:115px; height:15px; overflow:hidden; background:url('../images/btn/main_con_bt.png') no-repeat 0 0; text-indent:9999px;}
-.mNewRec{display:inline-block; width:36px; height:15px; overflow:hidden; background:url('../images/btn/main_con_bt_n.png') no-repeat 0 0; text-indent:9999px;}
-.mCareerRec{display:inline-block; width:36px; height:15px; overflow:hidden; background:url('../images/btn/main_con_bt_c.png') no-repeat 0 0; text-indent:9999px;}
-.maincon2{position:relative; width:100%; height:59px; background:url('../images/icon/main_con2_bg.png') repeat-x 0 0; z-index:150;}
+2{position:relative; width:100%; height:59px; background:url('../images/icon/main_con2_bg.png') repeat-x 0 0; z-index:150;}
 .maincon2 .bottom{width:1200px; height:59px; margin:auto; overflow:hidden}
 .maincon2 .bottom .mNoti{position:relative; width:710px; overflow:hidden; border-right:1px solid #a39f9e; float:left;}
 .maincon2 .bottom .mNoti .tit{display:block; width:110px; float:left; padding:15px 0; background:url('../images/btn/main_noti_bt.png') no-repeat 0 15px; text-indent:-9999px}
