@@ -208,23 +208,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #cBody.main .mainCon .unit:hover .txt a{color:#fff;}
 #cBody.main .mainCon .unit:hover .txt strong{color:#fff;}
 /*
-#cBody.main .mainCon .unit.one:hover .txt{background:url('../images/icon/main_con_icon1_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.two:hover .txt{background:url('../images/icon/main_con_icon2_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thr:hover .txt{background:url('../images/icon/main_con_icon3_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou:hover .txt{background:url('../images/icon/main_con_icon4_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fiv:hover .txt{background:url('../images/icon/main_con_icon5_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.six:hover .txt{background:url('../images/icon/main_con_icon6_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.sev:hover .txt{background:url('../images/icon/main_con_icon7_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.eig:hover .txt{background:url('../images/icon/main_con_icon8_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.nin:hover .txt{background:url('../images/icon/main_con_icon9_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ten:hover .txt{background:url('../images/icon/main_con_icon10_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ele:hover .txt{background:url('../images/icon/main_con_icon11_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.twe:hover .txt{background:url('../images/icon/main_con_icon12_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thi:hover .txt{background:url('../images/icon/main_con_icon13_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou2:hover .txt{background:url('../images/icon/main_con_icon14_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fift:hover .txt{background:url('../images/icon/main_con_icon15_on2.png') no-repeat 0 0;}
-*/ /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
-#cBody.main .mainCon .unit.sixt:hover .txt{background:url('../images/icon/main_con_icon16_on2.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
+
 #cBody.main .mainCon .unit.one.rec:hover .txt{background:url('../images/icon/main_con_icon1_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.two.rec:hover .txt{background:url('../images/icon/main_con_icon2_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.thr.rec:hover .txt{background:url('../images/icon/main_con_icon3_on2.png') no-repeat 0 0;}
@@ -239,19 +223,20 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #cBody.main .mainCon .unit.twe.rec:hover .txt{background:url('../images/icon/main_con_icon12_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.thi.rec:hover .txt{background:url('../images/icon/main_con_icon13_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.fou2.rec:hover .txt{background:url('../images/icon/main_con_icon14_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fift.rec:hover .txt{background:url('../images/icon/main_con_icon15_on2.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
+#cBody.main .mainCon .unit.fift.rec:hover .txt{background:url('../images/icon/main_con_icon15_on2.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit.sixt.rec:hover .txt{background:url('../images/icon/main_con_icon16_on2.png') no-repeat 0 0;}
 */
+
 *2019.08.01 김종근 추가 - 현대L&C 메인화면 */
 /* //2017-08-14 수정 */
 /* 2017-09-26 추가 */
-*/
+
 #cBody.main .mainConBtn{position:absolute; top:600px; right:23px; width:30px; height:9px; background:url('../images/icon/play_stop_bar.gif') no-repeat center center; overflow:hidden}
 #cBody.main .mainConBtn .playBtn{float:left; display:block; height:9px}
 #cBody.main .mainConBtn .stopBtn{float:right; display:block; height:9px}
 /* //2017-09-26 추가 */
 #cBody.main .mainCon span{display:block}
-2{position:relative; width:100%; height:59px; background:url('../images/icon/main_con2_bg.png') repeat-x 0 0; z-index:150;}
+
 .maincon2 .bottom{width:1200px; height:59px; margin:auto; overflow:hidden}
 .maincon2 .bottom .mNoti{position:relative; width:710px; overflow:hidden; border-right:1px solid #a39f9e; float:left;}
 .maincon2 .bottom .mNoti .tit{display:block; width:110px; float:left; padding:15px 0; background:url('../images/btn/main_noti_bt.png') no-repeat 0 15px; text-indent:-9999px}
@@ -268,14 +253,14 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .intro3Tal{line-height:24px;}
 .intro3Tal ul{overflow:hidden}
 .intro3Tal li{width:50%; float:left; text-align:center; padding-top:310px; margin-bottom:25px;}
-.intro3Tal li .tit{padding-top:17px; font-size:20px; font-weight:bold; color:#1c8292; background:url('../images/icon/line33x2.gif') no-repeat center 0;}
+/*.intro3Tal li .tit{padding-top:17px; font-size:20px; font-weight:bold; color:#1c8292; background:url('../images/icon/line33x2.gif') no-repeat center 0;}
 .intro3Tal li .txt1{font-size:15px; font-weight:bold; color:#444; margin-top:10px;}
 .intro3Tal li .txt2{font-size:13px; line-height:20px; margin-top:15px;}
 .intro3Tal li.one{background:url('../images/icon/intro3_tal_img1.png') no-repeat center 0;}
 .intro3Tal li.two{background:url('../images/icon/intro3_tal_img2.png') no-repeat center 0;}
 .intro3Tal li.thr{background:url('../images/icon/intro3_tal_img3.png') no-repeat center 0;}
 .intro3Tal li.fou{background:url('../images/icon/intro3_tal_img4.png') no-repeat center 0;}
-
+*/
 
 /* tab */
 .tab1{position:relative; width:100%; height:50px; background:url('../images/icon/tab1_bg.gif') repeat-x 0 bottom; overflow:hidden}
@@ -290,7 +275,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .tab1.add a.on span{padding:8px 29px 17px; border-bottom:2px solid #fff; border-top:0px solid #42909b; border-left:0px solid #42909b; border-right:0px solid #42909b; background:#fff; color:#42909b; font-weight:bold}
 .tab1.add a.on span.type1{padding:0; border-bottom:0px solid #fff; background:#fff; color:#42909b; font-weight:bold}
 /* 2015-10-15추가 */
-
+/*
 .tab2{overflow:hidden}
 .tab2 a{display:block; float:left; padding:0 10px; line-height:18px; background:url('../images/icon/bar1x13.gif') no-repeat right 4px;}
 .tab2 a.on{font-weight:bold; color:#42909b}
@@ -335,6 +320,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .welfareDiv .btPack .controll a{display:inline-block; padding:0 10px; width:11px;}
 
 /* sub */
+/*
 #cBody{position:relative; width:1200px; margin:auto; overflow:hidden; z-index:10;}
 #lnb{width:195px; float:left; border-right:1px solid #ddd;}
 #lnb h2{margin-top:45px; color:#387780; font-size:30px; font-weight:normal; line-height:30px;}
@@ -347,7 +333,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #lnb .twoD a{padding:5px 0 0 10px; background:url('../images/icon/dot3x3.gif') no-repeat 0 16px; font-size:13px; color:#555; line-height:25px;}
 #lnb .twoD a.on{background:url('../images/icon/lnbbg2.gif') no-repeat 0 16px; color:#555;}
 #lnb .twoD a:hover{background:url('../images/icon/lnbbg2.gif') no-repeat 0 16px; color:#555;}
-
+*/
 .subVisual{position:relative; width:100%; height:200px;}
 .subVisual.tp1{background:url('../images/icon/rcrtlist_subv_img.jpg') no-repeat right 0;}/* 2017-08-11 수정 */
 .subVisual.tp2{background:url('../images/icon/rcrt1prc1_subv_img.jpg') no-repeat right 0;}
