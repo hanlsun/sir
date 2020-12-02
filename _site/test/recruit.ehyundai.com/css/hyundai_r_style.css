@@ -108,7 +108,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #header .headDiv h1{float:left; margin-right:22px; padding-top:10px}
 #header .headDiv h1 a{display:block;}
 #header .headDiv h1 img{width:146px;}
-#util{position:absolute; top:20px; right:0; font-size:12px; line-height:15px;} /* 2015-10-14 수정 */ 
+#util{position:absolute; top:20px; right:0; font-size:12px; line-height:15px;} /* 2015-10-14 수정 */
 #util a:hover{text-decoration:underline}
 #util .srchBt img{display:inline-block; margin-top:2px;}
 #util span{color:#909090; padding:0 0 0 12px;}
@@ -328,7 +328,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .tab6Div .tab5{width:754px; float:left}
 .tab6Div .tab6{position:relative; width:206px; height:50px; float:left; background:url('../images/icon/tab6bg.gif') no-repeat 0 0;}
 .tab6Div .tab6 .titBt{display:block; padding:13px 0 17px 30px; font-size:16px; font-weight:bold; color:#fff}
-.tab6Div .tab6 .tabSub{display:none; position:absolute; top:53px; left:0; width:124px; padding:15px 30px 7px; background:#ecf1f2; z-index:500} 
+.tab6Div .tab6 .tabSub{display:none; position:absolute; top:53px; left:0; width:124px; padding:15px 30px 7px; background:#ecf1f2; z-index:500}
 .tab6Div .tab6 .tabSub a{display:block; font-size:13px; margin-bottom:12px}
 .tab6Div .tab6 .tabSub a:hover{text-decoration:underline}
 
@@ -1062,7 +1062,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #footer .footUtil a:hover{text-decoration:underline}
 #footer .footUtil span{font-weight:normal; padding:0 6px; color:#7a7a7a}
 #footer .copyright{margin-top:13px; padding-top:11px; background:url('../images/icon/footer_txtbg.gif') no-repeat 0 0; font-size:11px; letter-spacing:0; color:#777}
-#footer .right{position:absolute; top:30px; right:0; width:240px;} /* 2015-11-16 수정 */ 
+#footer .right{position:absolute; top:30px; right:0; width:240px;} /* 2015-11-16 수정 */
 #footer .right .wacm{position:absolute; left:-105px;} /* 2015-11-16 추가 */
 #footer .right select{width:180px; height:35px; line-height:31px; float:left; background:#ededed; color:#555; font-size:12px; border:0; padding:0 0 0 10px;}
 #footer .right a{display:block; width:50px; height:35px; float:left; background:#919191; color:#fff; font-size:12px; font-weight:bold; text-align:center; line-height:33px;}
@@ -1320,7 +1320,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 /* 테블릿 가로 해상도 */
-@media all and (max-width:1279px) {	
+@media all and (max-width:1279px) {
 	input,option{padding:3px 5px;}
 	input.type1{padding:1px 3px;}
 	.dayInput input{width:82px;}
@@ -1425,7 +1425,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 }
 
 /* 테블릿 해상도 */
-@media all and (max-width:1023px) {	
+@media all and (max-width:1023px) {
 	.whtbtH30{padding:0 10px; font-size:13px;}
 	.whtbtH35{padding:0 20px;}
 	.whtbtH45{padding:0 30px; font-size:16px;}
@@ -1542,7 +1542,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.container{width:708px;}
 	.container.wide{width:708px;}
 	.container.wide2{width:708px; margin-top:0}
-	.subCon{position:relative; min-height:560px; padding:150px 0 90px;}
+	.subCon{position:relative; min-height:560px; padding:0px 90px;}//
 	.subCon h3{color:#444; font-size:35px; font-weight:normal; line-height:40px;; font-weight:bold; margin-bottom:30px; letter-spacing:-1px}
 	.subCon .path{position:absolute; top:175px; right:0; font-size:13px; color:#757575}
 	.subCon .path span{padding:0 3px;}
@@ -1669,7 +1669,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.boardType7 .listUnit .date .bar{padding:0 10px}
 	.listPrv li.prv{width:297px; padding:29px 10px 32px 45px; background:url('../images/icon/preview_icon1.gif') no-repeat 10px center; overflow:hidden; border-right:1px solid #d7d7d7}
 	.listPrv li.nxt{width:298px; padding:29px 45px 32px 10px; background:url('../images/icon/preview_icon2.gif') no-repeat 327px center; overflow:hidden;}
-	
+
 	/* 2017-09-14 전체 수정 및 추가 */
 	/*asdasd*/
 	.dbList{padding-top:1116px;}
@@ -1678,26 +1678,26 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.dbList .dbBt.thr{top:0; left:252px; width:125px; height:339px; background:url('../images/btn/db_regi_bt3_fir.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.fou{top:0; left:398px; width:115px; height:352px; background:url('../images/btn/db_regi_bt4_fir.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.fiv{top:0; left:534px; width:113px; height:330px; background:url('../images/btn/db_regi_bt5_fir.png') no-repeat 0 0; background-size:100%;}
-	
+
 	.dbList .dbBt.six{top:inherit; bottom:606px; left:76px; width:102px; height:330px; background:url('../images/btn/db_regi_bt6_two.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.sev{top:inherit; bottom:606px; left:193px; width:109px; height:351px; background:url('../images/btn/db_regi_bt7_two.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.eig{top:inherit; bottom:606px; left:315px; width:152px; height:336px; background:url('../images/btn/db_regi_bt8_fir.png') no-repeat 0 0; background-size:100%; z-index:5}
 	.dbList .dbBt.nin{top:inherit; bottom:606px; left:433px; width:141px; height:330px; background:url('../images/btn/db_regi_bt9_fir.png') no-repeat 0 0; background-size:100%; z-index:6}
 	.dbList .dbBt.ten{top:inherit; bottom:606px; left:559px; width:149px; height:352px; background:url('../images/btn/db_regi_bt10_fir.png') no-repeat 0 0; background-size:100%;}
-	
+
 	.dbList .dbBt.ele{top:inherit; bottom:240px; left:6px; width:115px; height:330px; background:url('../images/btn/db_regi_bt11_two.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.twe{top:inherit; bottom:240px; left:120px; width:122px; height:358px; background:url('../images/btn/db_regi_bt12_two.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.thirT{top:inherit; bottom:240px; left:240px; width:155px; height:330px; background:url('../images/btn/db_regi_bt13_fir.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.fourT{top:inherit; bottom:240px; left:392px; width:94px; height:365px; background:url('../images/btn/db_regi_bt14_fir.png') no-repeat 0 0; background-size:100%;}
-	
+
 	.dbList .dbBt.fift{top:0; left:398px; width:120px; height:345px; background:url('../images/btn/db_regi_bt15_fir.png') no-repeat 0 0; background-size:100%;}/*2018.07.16 김종근 추가 - 현대IT&E 인재DB*/
 	.dbList .dbBt.sixt{top:inherit; bottom:606px; left:193px; width:102px; height:357px; background:url('../images/btn/db_regi_bt16_two.png') no-repeat 0 0; background-size:100%;}/*2019.08.16 김종근 추가 - 현대L&C 인재DB*/
-	
+
 	.dbList .dbBt.one.on{background:url('../images/btn/db_regi_bt1_two_on.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.two.on{background:url('../images/btn/db_regi_bt2_on.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.thr.on{background:url('../images/btn/db_regi_bt3_on.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.fou.on{background:url('../images/btn/db_regi_bt4_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fiv.on{background:url('../images/btn/db_regi_bt5_on.png') no-repeat 0 0; background-size:100%;} 
+	.dbList .dbBt.fiv.on{background:url('../images/btn/db_regi_bt5_on.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.six.on{background:url('../images/btn/db_regi_bt6_two_on.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.sev.on{background:url('../images/btn/db_regi_bt7_two_on.png') no-repeat 0 0; background-size:100%;}
 	.dbList .dbBt.eig.on{background:url('../images/btn/db_regi_bt8_on.png') no-repeat 0 0; background-size:100%;}
