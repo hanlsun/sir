@@ -480,26 +480,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .boardType1 a.listUnit.recruit .tit{height:74px; padding:0; background:#f6f6f6; font-size:15px; font-weight:bold; color:#333; line-height:24px; border-bottom:1px solid #dfdfdf; overflow:hidden;}
 .boardType1 a.listUnit.recruit .tit .part{width:152px; padding:23px 10px 27px 56px; float:left; font-size:20px; color:#333; overflow:hidden}
 
-/*.boardType1 a.listUnit.recruit .tit .part.one{background:url('../images/icon/recruitlist_icon1.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.two{background:url('../images/icon/recruitlist_icon2.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.thr{background:url('../images/icon/recruitlist_icon3.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.fou{background:url('../images/icon/recruitlist_icon4.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.fiv{background:url('../images/icon/recruitlist_icon5.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.six{background:url('../images/icon/recruitlist_icon6.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.sev{background:url('../images/icon/recruitlist_icon7.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.eig{background:url('../images/icon/recruitlist_icon8.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.nin{background:url('../images/icon/recruitlist_icon9.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.ten{background:url('../images/icon/recruitlist_icon10.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.ele{background:url('../images/icon/recruitlist_icon11.gif') no-repeat 21px center;}
-.boardType1 a.listUnit.recruit .tit .part.twe{background:url('../images/icon/recruitlist_icon12.gif') no-repeat 21px center;}
-
-.boardType1 a.listUnit.recruit .tit .part.thi{background:url('../images/icon/recruitlist_icon13.gif') no-repeat 21px center; line-height:28px; padding:10px 10px 10px 56px}
-.boardType1 a.listUnit.recruit .tit .part.fou2{background:url('../images/icon/recruitlist_icon14.gif') no-repeat 21px center;}
-
-.boardType1 a.listUnit.recruit .tit .part.fift{background:url('../images/icon/recruitlist_icon15.gif') no-repeat 21px center;}
-
-.boardType1 a.listUnit.recruit .tit .part.sixt{background:url('../images/icon/recruitlist_icon16.gif') no-repeat 21px center;}
-*/
 .boardType1 a.listUnit.recruit .tit .date{width:79px; height:; padding:12px 0 23px; float:left; text-align:center; border-left:1px solid #dfdfdf}
 .boardType1 a.listUnit.recruit .tit .date span{height:10px;}
 .boardType1 a.listUnit.recruit .tit .date strong{display:block; font-size:18px; color:#666;}
