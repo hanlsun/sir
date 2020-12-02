@@ -590,7 +590,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.sixt{top:0; left:775px; width:120px; height:337px; background:url('../images/btn/db_regi_bt16_fir.png') no-repeat 0 0;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 /* //2017-08-21 수정 및 추가 */
 
-/*
+
 .dbList .dbBt.one.on{background:url('../images/btn/db_regi_bt1_on.png') no-repeat 0 0;}
 .dbList .dbBt.two.on{background:url('../images/btn/db_regi_bt2_on.png') no-repeat 0 0;}
 .dbList .dbBt.thr.on{background:url('../images/btn/db_regi_bt3_on.png') no-repeat 0 0;}
@@ -605,7 +605,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.twe.on{background:url('../images/btn/db_regi_bt12_on.png') no-repeat 0 0;}
 .dbList .dbBt.thirT.on{background:url('../images/btn/db_regi_bt13_on.png') no-repeat 0 0;}/* 2017-08-21 추가 */
 
-/*
+
 .dbList .dbBt.fourT.on{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0;}
 .dbList .dbBt.fift.on{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0;}
 .dbList .dbBt.sixt.on{background:url('../images/btn/db_regi_bt16_on.png') no-repeat 0 0;}
