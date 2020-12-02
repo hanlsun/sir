@@ -269,7 +269,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .maincon2 .bottom .mNoti .morebt{position:absolute; top:21px; left:97px;}
 .maincon2 .bottom .mUtil{width:449px; overflow:hidden; padding:20px 0 0 40px; float:left}
 .maincon2 .bottom .mUtil span{font-size:9px; vertical-align:top; color:#989898; margin:0 26px;}
-
+/*
 .intro3Tal{line-height:24px;}
 .intro3Tal ul{overflow:hidden}
 .intro3Tal li{width:50%; float:left; text-align:center; padding-top:310px; margin-bottom:25px;}
@@ -281,19 +281,19 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .intro3Tal li.thr{background:url('../images/icon/intro3_tal_img3.png') no-repeat center 0;}
 .intro3Tal li.fou{background:url('../images/icon/intro3_tal_img4.png') no-repeat center 0;}
 
-/* tab */
+/*
 .tab1{position:relative; width:100%; height:50px; background:url('../images/icon/tab1_bg.gif') repeat-x 0 bottom; overflow:hidden}
 .tab1 a{position:relative; display:block; float:left; height:48px; margin-right:2px; border-bottom:2px solid #42909b; overflow:hidden}
 .tab1 a span{display:block; height:16px; padding:13px 30px 18px; font-size:16px; border-top:1px solid #c8c8c8; border-left:1px solid #c8c8c8; border-right:1px solid #c8c8c8; border-radius:5px 5px 0 0; background:#f6f6f6;}
 .tab1 a.on{border-bottom:0px solid #fff; border-top:2px solid #42909b; border-left:2px solid #42909b; border-right:2px solid #42909b; border-radius:5px 5px 0 0;}
 .tab1 a.on span{padding:13px 29px 17px; border-bottom:2px solid #fff; border-top:0px solid #42909b; border-left:0px solid #42909b; border-right:0px solid #42909b; background:#fff; color:#42909b; font-weight:bold}
 
-/* 2015-10-15추가 */
+
 .tab1.add a span{display:block; height:21px; padding:8px 30px 18px; font-size:16px; border-top:1px solid #c8c8c8; border-left:1px solid #c8c8c8; border-right:1px solid #c8c8c8; border-radius:5px 5px 0 0; background:#f6f6f6;}
 .tab1.add a span.type1{display:block; height:auto; padding:0; font-size:13px; border-top:0px solid #c8c8c8; border-left:0px solid #c8c8c8; border-right:0px solid #c8c8c8; border-radius:0; background:#f6f6f6;}
 .tab1.add a.on span{padding:8px 29px 17px; border-bottom:2px solid #fff; border-top:0px solid #42909b; border-left:0px solid #42909b; border-right:0px solid #42909b; background:#fff; color:#42909b; font-weight:bold}
 .tab1.add a.on span.type1{padding:0; border-bottom:0px solid #fff; background:#fff; color:#42909b; font-weight:bold}
-/* 2015-10-15추가 */
+
 
 .tab2{overflow:hidden}
 .tab2 a{display:block; float:left; padding:0 10px; line-height:18px; background:url('../images/icon/bar1x13.gif') no-repeat right 4px;}
@@ -337,7 +337,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .welfareDiv .btPack{position:absolute; bottom:0; left:0; width:960px; height:73px; padding:17px 0 0; overflow:hidden; text-align:center; background:url('../images/icon/welfare_btbg.png') no-repeat 0 0;}
 .welfareDiv .btPack .controll{position:absolute; top:36px; right:20px;}
 .welfareDiv .btPack .controll a{display:inline-block; padding:0 10px; width:11px;}
-
+*/
 /* sub */
 #cBody{position:relative; width:1200px; margin:auto; overflow:hidden; z-index:10;}
 #lnb{width:195px; float:left; border-right:1px solid #ddd;}
