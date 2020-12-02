@@ -480,6 +480,27 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .boardType1 a.listUnit.recruit .tit{height:74px; padding:0; background:#f6f6f6; font-size:15px; font-weight:bold; color:#333; line-height:24px; border-bottom:1px solid #dfdfdf; overflow:hidden;}
 .boardType1 a.listUnit.recruit .tit .part{width:152px; padding:23px 10px 27px 56px; float:left; font-size:20px; color:#333; overflow:hidden}
 
+.boardType1 a.listUnit.recruit .tit .part.one{background:url('../images/icon/recruitlist_icon1.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.two{background:url('../images/icon/recruitlist_icon2.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.thr{background:url('../images/icon/recruitlist_icon3.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.fou{background:url('../images/icon/recruitlist_icon4.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.fiv{background:url('../images/icon/recruitlist_icon5.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.six{background:url('../images/icon/recruitlist_icon6.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.sev{background:url('../images/icon/recruitlist_icon7.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.eig{background:url('../images/icon/recruitlist_icon8.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.nin{background:url('../images/icon/recruitlist_icon9.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.ten{background:url('../images/icon/recruitlist_icon10.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.ele{background:url('../images/icon/recruitlist_icon11.gif') no-repeat 21px center;}
+.boardType1 a.listUnit.recruit .tit .part.twe{background:url('../images/icon/recruitlist_icon12.gif') no-repeat 21px center;}
+/* 2017-08-11 수정 */
+.boardType1 a.listUnit.recruit .tit .part.thi{background:url('../images/icon/recruitlist_icon13.gif') no-repeat 21px center; line-height:28px; padding:10px 10px 10px 56px}
+.boardType1 a.listUnit.recruit .tit .part.fou2{background:url('../images/icon/recruitlist_icon14.gif') no-repeat 21px center;}
+/* //2017-08-11 수정 */
+/*2018.07.27 김종근 수정 - 현대IT&E 채용공고 아이콘 추가*/
+.boardType1 a.listUnit.recruit .tit .part.fift{background:url('../images/icon/recruitlist_icon15.gif') no-repeat 21px center;}
+/*2019.08.01 김종근 수정 - 현대L&C 채용공고 아이콘 추가*/
+.boardType1 a.listUnit.recruit .tit .part.sixt{background:url('../images/icon/recruitlist_icon16.gif') no-repeat 21px center;}
+
 .boardType1 a.listUnit.recruit .tit .date{width:79px; height:; padding:12px 0 23px; float:left; text-align:center; border-left:1px solid #dfdfdf}
 .boardType1 a.listUnit.recruit .tit .date span{height:10px;}
 .boardType1 a.listUnit.recruit .tit .date strong{display:block; font-size:18px; color:#666;}
@@ -590,7 +611,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.sixt{top:0; left:775px; width:120px; height:337px; background:url('../images/btn/db_regi_bt16_fir.png') no-repeat 0 0;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 /* //2017-08-21 수정 및 추가 */
 
-/*
+
 .dbList .dbBt.one.on{background:url('../images/btn/db_regi_bt1_on.png') no-repeat 0 0;}
 .dbList .dbBt.two.on{background:url('../images/btn/db_regi_bt2_on.png') no-repeat 0 0;}
 .dbList .dbBt.thr.on{background:url('../images/btn/db_regi_bt3_on.png') no-repeat 0 0;}
@@ -604,11 +625,9 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.ele.on{background:url('../images/btn/db_regi_bt11_on.png') no-repeat 0 0;}
 .dbList .dbBt.twe.on{background:url('../images/btn/db_regi_bt12_on.png') no-repeat 0 0;}
 .dbList .dbBt.thirT.on{background:url('../images/btn/db_regi_bt13_on.png') no-repeat 0 0;}/* 2017-08-21 추가 */
-
-/*
-.dbList .dbBt.fourT.on{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0;}
-.dbList .dbBt.fift.on{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0;}
-.dbList .dbBt.sixt.on{background:url('../images/btn/db_regi_bt16_on.png') no-repeat 0 0;}
+.dbList .dbBt.fourT.on{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0;}/* 2017-08-21 추가 */
+.dbList .dbBt.fift.on{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0;}/*2018.07.16 김종근 추가 - IT&E 인재DB*/
+.dbList .dbBt.sixt.on{background:url('../images/btn/db_regi_bt16_on.png') no-repeat 0 0;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 .dbList .dbBt.one.on2{background:url('../images/btn/db_regi_bt1_on.png') no-repeat 0 0 !important;}
 .dbList .dbBt.two.on2{background:url('../images/btn/db_regi_bt2_on.png') no-repeat 0 0 !important;}
 .dbList .dbBt.thr.on2{background:url('../images/btn/db_regi_bt3_on.png') no-repeat 0 0 !important;}
@@ -621,9 +640,9 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.ten.on2{background:url('../images/btn/db_regi_bt10_on.png') no-repeat 0 0 !important;}
 .dbList .dbBt.ele.on2{background:url('../images/btn/db_regi_bt11_on.png') no-repeat 0 0 !important;}
 .dbList .dbBt.twe.on2{background:url('../images/btn/db_regi_bt12_on.png') no-repeat 0 0 !important;}
-.dbList .dbBt.thirT.on2{background:url('../images/btn/db_regi_bt13_on.png') no-repeat 0 0 !important;}
-.dbList .dbBt.fourT.on2{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0 !important;;}
-.dbList .dbBt.fift.on2{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0 !important;}
+.dbList .dbBt.thirT.on2{background:url('../images/btn/db_regi_bt13_on.png') no-repeat 0 0 !important;}/* 2017-08-21 추가 */
+.dbList .dbBt.fourT.on2{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0 !important;;}/* 2017-08-21 추가 */
+.dbList .dbBt.fift.on2{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0 !important;}/*2018.07.16 김종근 추가 - IT&E 인재DB*/
 .dbList .dbBt.sixt.on2{background:url('../images/btn/db_regi_bt16_on.png') no-repeat 0 0 !important;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 .dbList .dbBt.one.off{background:url('../images/btn/db_regi_bt1.png') no-repeat 0 0;}
 .dbList .dbBt.two.off{background:url('../images/btn/db_regi_bt2.png') no-repeat 0 0;}
