@@ -322,7 +322,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .introGateList > a .overDiv{position:absolute; bottom:0; left:0; width:276px; height:79px; padding-top:18px; background:url('../images/icon/gate_titbg.png') no-repeat center 0; text-align:center; font-size:; font-weight:bold; color:#fff}
 .introGateList > a .overDiv2{display:block; position:absolute; bottom:-239px; left:0;}
 
-/*.tab4Div{height:950px;}
+.tab4Div{height:950px;}
 .roleTab{width:910px; background:url('../images/icon/tab4_bg.gif') repeat-y 0 0; padding:27px 25px 5px; overflow:hidden;}
 .roleTab > a{display:clock; width:135px; float:left; margin-bottom:20px; padding-left:16px; background:url('../images/icon/tab4.gif') no-repeat 0 5px; color:#666;}
 .roleTab > a.on{background:url('../images/icon/tab4_on.gif') no-repeat 0 5px; color:#42909b; font-weight:bold; text-decoration:underline;}
@@ -338,7 +338,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .roleTab .roleDiv .right{width:730px; float:left; padding:13px 0 400px; line-height:24px;}
 .roleTab .roleDiv .right .indent{text-indent:-17px; margin-left:17px;}
 
-/*
+
 .intro1R1{position:absolute; left:0; bottom:297px; width:100%; height:260px; background:url('../images/icon/introimg1.jpg') no-repeat center 0 #47649b;}
 .intro1R1.two{background:url('../images/icon/introimg2.jpg') no-repeat center 0 #99b7d3;}
 .intro1R1.thr{background:url('../images/icon/introimg3.jpg') no-repeat center 0 #bdbaa4;}
@@ -428,7 +428,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 .visionBox1{width:100%; height:860px; background:url('../images/txt/vision_txt2.jpg') no-repeat center 0}
 .visionBox2{width:100%; height:740px; background:url('../images/txt/vision_txt3.gif') no-repeat center 0}
-/*
+
 .systemDiv > .tit{font-size:35px;line-height:47px;color:#444}
 .systemDiv > .txt{line-height:20px;color:#666}
 .personDiv{padding-left:60px;display:inline-block}
@@ -590,7 +590,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .boardType1 a.listUnit .txt{padding:0 19px; line-height:24px;}
 .boardType1 a.listUnit .txt .type1{padding:13px 0 16px; border-bottom:1px solid #e5e5e5}
 .boardType1 a.listUnit .txt .type2{padding:5px 0 0; font-size:12px; letter-spacing:0}
-/*
+
 .boardType1 a.listUnit.recruit{display:block; position:relative; width:298px; height:226px; float:left; margin:0 30px 30px 0; border:1px solid #d7d7d7}
 .boardType1 a.listUnit.recruit .onbg{position:absolute; top:-1px; left:-1px; width:294px; height:222px; border:3px solid #29a3b6}
 .boardType1 a.listUnit.recruit .tit{height:74px; padding:0; background:#f6f6f6; font-size:15px; font-weight:bold; color:#333; line-height:24px; border-bottom:1px solid #dfdfdf; overflow:hidden;}
@@ -741,7 +741,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .dbList .dbBt.fift{top:0; left:409px; width:120px; height:345px; background:url('../images/btn/db_regi_bt15_fir.png') no-repeat 0 0;}
 .dbList .dbBt.sixt{top:0; left:775px; width:120px; height:337px; background:url('../images/btn/db_regi_bt16_fir.png') no-repeat 0 0;}/*2019.08.16 김종근 추가 - L&C 인재DB*/
 
-/*
+
 
 .dbList .dbBt.one.on{background:url('../images/btn/db_regi_bt1_on.png') no-repeat 0 0;}
 .dbList .dbBt.two.on{background:url('../images/btn/db_regi_bt2_on.png') no-repeat 0 0;}
