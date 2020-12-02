@@ -944,6 +944,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 /* 2017-08-21 수정 및 추가 */
 /*asd*/
+/*
 .dbList .dbBt.one{top:0; left:0; width:155px; height:330px; background:url('../images/btn/db_regi_bt1_fir.png') no-repeat 0 0;}
 .dbList .dbBt.two{top:0; left:153px; width:120px; height:330px; background:url('../images/btn/db_regi_bt2_fir.png') no-repeat 0 0;}
 .dbList .dbBt.thr{top:0; left:272px; width:125px; height:339px; background:url('../images/btn/db_regi_bt3_fir.png') no-repeat 0 0;}
