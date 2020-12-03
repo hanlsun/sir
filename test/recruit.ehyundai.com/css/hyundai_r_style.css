@@ -1296,7 +1296,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.roleDiv .left .bt{margin:4px 3px}
 	.roleDiv .right{width:545px;}
 
-	
+
 	.group .diagram img{width:450px;}
 	.group .diagram .bts.one{top:25px; left:420px;}
 	.group .diagram .bts.two{top:140px; left:595px;}
@@ -1326,77 +1326,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.listPrv li.prv{width:297px; padding:29px 10px 32px 45px; background:url('../images/icon/preview_icon1.gif') no-repeat 10px center; overflow:hidden; border-right:1px solid #d7d7d7}
 	.listPrv li.nxt{width:298px; padding:29px 45px 32px 10px; background:url('../images/icon/preview_icon2.gif') no-repeat 327px center; overflow:hidden;}
 
-	/* 2017-09-14 전체 수정 및 추가 */
-	/*asdasd*/
-	.dbList{padding-top:1116px;}
-	.dbList .dbBt.one{top:0; left:0; width:155px; height:330px; background:url('../images/btn/db_regi_bt1_two.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.two{top:0; left:142px; width:120px; height:330px; background:url('../images/btn/db_regi_bt2_fir.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.thr{top:0; left:252px; width:125px; height:339px; background:url('../images/btn/db_regi_bt3_fir.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fou{top:0; left:398px; width:115px; height:352px; background:url('../images/btn/db_regi_bt4_fir.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fiv{top:0; left:534px; width:113px; height:330px; background:url('../images/btn/db_regi_bt5_fir.png') no-repeat 0 0; background-size:100%;}
-
-	.dbList .dbBt.six{top:inherit; bottom:606px; left:76px; width:102px; height:330px; background:url('../images/btn/db_regi_bt6_two.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.sev{top:inherit; bottom:606px; left:193px; width:109px; height:351px; background:url('../images/btn/db_regi_bt7_two.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.eig{top:inherit; bottom:606px; left:315px; width:152px; height:336px; background:url('../images/btn/db_regi_bt8_fir.png') no-repeat 0 0; background-size:100%; z-index:5}
-	.dbList .dbBt.nin{top:inherit; bottom:606px; left:433px; width:141px; height:330px; background:url('../images/btn/db_regi_bt9_fir.png') no-repeat 0 0; background-size:100%; z-index:6}
-	.dbList .dbBt.ten{top:inherit; bottom:606px; left:559px; width:149px; height:352px; background:url('../images/btn/db_regi_bt10_fir.png') no-repeat 0 0; background-size:100%;}
-
-	.dbList .dbBt.ele{top:inherit; bottom:240px; left:6px; width:115px; height:330px; background:url('../images/btn/db_regi_bt11_two.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.twe{top:inherit; bottom:240px; left:120px; width:122px; height:358px; background:url('../images/btn/db_regi_bt12_two.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.thirT{top:inherit; bottom:240px; left:240px; width:155px; height:330px; background:url('../images/btn/db_regi_bt13_fir.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fourT{top:inherit; bottom:240px; left:392px; width:94px; height:365px; background:url('../images/btn/db_regi_bt14_fir.png') no-repeat 0 0; background-size:100%;}
-
-	.dbList .dbBt.fift{top:0; left:398px; width:120px; height:345px; background:url('../images/btn/db_regi_bt15_fir.png') no-repeat 0 0; background-size:100%;}/*2018.07.16 김종근 추가 - 현대IT&E 인재DB*/
-	.dbList .dbBt.sixt{top:inherit; bottom:606px; left:193px; width:102px; height:357px; background:url('../images/btn/db_regi_bt16_two.png') no-repeat 0 0; background-size:100%;}/*2019.08.16 김종근 추가 - 현대L&C 인재DB*/
-
-	.dbList .dbBt.one.on{background:url('../images/btn/db_regi_bt1_two_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.two.on{background:url('../images/btn/db_regi_bt2_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.thr.on{background:url('../images/btn/db_regi_bt3_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fou.on{background:url('../images/btn/db_regi_bt4_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fiv.on{background:url('../images/btn/db_regi_bt5_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.six.on{background:url('../images/btn/db_regi_bt6_two_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.sev.on{background:url('../images/btn/db_regi_bt7_two_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.eig.on{background:url('../images/btn/db_regi_bt8_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.nin.on{background:url('../images/btn/db_regi_bt9_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.ten.on{background:url('../images/btn/db_regi_bt10_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.ele.on{background:url('../images/btn/db_regi_bt11_two_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.twe.on{background:url('../images/btn/db_regi_bt12_two_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.thirT.on{background:url('../images/btn/db_regi_bt13_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fourT.on{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fift.on{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0; background-size:100%;}/*2018.07.16 김종근 추가 - 현대IT&E 인재DB*/
-	.dbList .dbBt.sixt.on{background:url('../images/btn/db_regi_bt16_two_on.png') no-repeat 0 0; background-size:100%;}/*2019.08.16 김종근 추가 - 현대L&C 인재DB*/
-	.dbList .dbBt.one.on2{background:url('../images/btn/db_regi_bt1_two_on.png') no-repeat 0 0 !important; background-size:100% !important;} /* 2017-09-15 수정 */
-	.dbList .dbBt.two.on2{background:url('../images/btn/db_regi_bt2_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.thr.on2{background:url('../images/btn/db_regi_bt3_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.fou.on2{background:url('../images/btn/db_regi_bt4_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.fiv.on2{background:url('../images/btn/db_regi_bt5_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.six.on2{background:url('../images/btn/db_regi_bt6_two_on.png') no-repeat 0 0 !important; background-size:100% !important;} /* 2017-09-15 수정 */
-	.dbList .dbBt.sev.on2{background:url('../images/btn/db_regi_bt7_two_on.png') no-repeat 0 0 !important; background-size:100% !important;} /* 2017-09-15 수정 */
-	.dbList .dbBt.eig.on2{background:url('../images/btn/db_regi_bt8_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.nin.on2{background:url('../images/btn/db_regi_bt9_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.ten.on2{background:url('../images/btn/db_regi_bt10_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.ele.on2{background:url('../images/btn/db_regi_bt11_two_on.png') no-repeat 0 0 !important; background-size:100% !important;} /* 2017-09-15 수정 */
-	.dbList .dbBt.twe.on2{background:url('../images/btn/db_regi_bt12_two_on.png') no-repeat 0 0 !important; background-size:100% !important;} /* 2017-09-15 수정 */
-	.dbList .dbBt.thirT.on2{background:url('../images/btn/db_regi_bt13_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.fourT.on2{background:url('../images/btn/db_regi_bt14_on.png') no-repeat 0 0 !important; background-size:100% !important;}
-	.dbList .dbBt.fift.on2{background:url('../images/btn/db_regi_bt15_on.png') no-repeat 0 0 !important; background-size:100% !important;}/*2018.07.16 김종근 추가 - 현대IT&E 인재DB*/
-	.dbList .dbBt.sixt.on2{background:url('../images/btn/db_regi_bt16_two_on.png') no-repeat 0 0 !important; background-size:100% !important;}/*2019.08.16 김종근 추가 - 현대L&C 인재DB*/
-	.dbList .dbBt.one.off{background:url('../images/btn/db_regi_bt1_off.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.two.off{background:url('../images/btn/db_regi_bt2.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.thr.off{background:url('../images/btn/db_regi_bt3.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fou.off{background:url('../images/btn/db_regi_bt4.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fiv.off{background:url('../images/btn/db_regi_bt5.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.six.off{background:url('../images/btn/db_regi_bt6_off.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.sev.off{background:url('../images/btn/db_regi_bt7_off.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.eig.off{background:url('../images/btn/db_regi_bt8.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.nin.off{background:url('../images/btn/db_regi_bt9.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.ten.off{background:url('../images/btn/db_regi_bt10.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.ele.off{background:url('../images/btn/db_regi_bt11_off.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.twe.off{background:url('../images/btn/db_regi_bt12_off.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.thirT.off{background:url('../images/btn/db_regi_bt13.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fourT.off{background:url('../images/btn/db_regi_bt14.png') no-repeat 0 0; background-size:100%;}
-	.dbList .dbBt.fift.off{background:url('../images/btn/db_regi_bt15.png') no-repeat 0 0; background-size:100%;}/*2018.07.16 김종근 추가 - 현대IT&E 인재DB*/
-	.dbList .dbBt.sixt.off{background:url('../images/btn/db_regi_bt16_off.png') no-repeat 0 0; background-size:100%;}/*2019.08.16 김종근 추가 - 현대L&c 인재DB*/
+	2019.08.16 김종근 추가 - 현대L&c 인재DB*/
 	.dbList .dbView{height:204px; border-radius:30px; padding:19px 13px 0; overflow:hidden}
 	.dbList .dbView .img{width:310px; float:left}
 	.dbList .dbView .img img{width:310px;}
