@@ -1356,60 +1356,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 	.withdrawDiv li input[type="text"]{margin-top:10px}
 
-	.applProc{width:708px;}
-	.applProc.one{background:url('../images/icon/apply_pro_bg1_t.gif') no-repeat 0 0;}
-	.applProc.two{background:url('../images/icon/apply_pro_bg2_t.gif') no-repeat 0 0;}
-	.applProc.thr{background:url('../images/icon/apply_pro_bg3_t.gif') no-repeat 0 0;}
-	.applProc.fou{background:url('../images/icon/apply_pro_bg4_t.gif') no-repeat 0 0;}
-	.applProc.fiv{background:url('../images/icon/apply_pro_bg5_t.gif') no-repeat 0 0;}
-	.applProc a{width:141px; font-size:15px;}
-	.applProc a .icon{padding: 0 0 5px 28px;}
-	.applProc a.fir .icon{background:url('../images/icon/apply_pro_icon1.png') no-repeat 0 5px; background-size:23px 23px}
-	.applProc a.sec .icon{background:url('../images/icon/apply_pro_icon2.png') no-repeat 0 5px; background-size:23px 23px}
-	.applProc a.thi .icon{background:url('../images/icon/apply_pro_icon3.png') no-repeat 0 5px; background-size:23px 23px}
-	.applProc a.for .icon{margin-left:20px; background:url('../images/icon/apply_pro_icon4.png') no-repeat 0 5px; background-size:23px 23px}
-	.applProc a.fif .icon{background:url('../images/icon/apply_pro_icon5.png') no-repeat 0 5px; background-size:23px 23px}
-	.applProc a.end .icon{background:url('../images/icon/apply_pro_icon6.png') no-repeat 0 3px; background-size:23px 23px}
-	.applProc a.fir{width:141px;}
-	.applProc a.fif{width:144px;}
-
-	.applProc.type2.one{background:url('../images/icon/apply_proc_bg1_t.gif') no-repeat 0 0;}
-	.applProc.type2.two{background:url('../images/icon/apply_proc_bg2_t.gif') no-repeat 0 0;}
-	.applProc.type2.thr{background:url('../images/icon/apply_proc_bg3_t.gif') no-repeat 0 0;}
-	.applProc.type2.fou{background:url('../images/icon/apply_proc_bg4_t.gif') no-repeat 0 0;}
-	.applProc.type2 a.sec .icon{background:url('../images/icon/apply_pro_icon7.png') no-repeat 0 3px; background-size:28px 28px}
-	.applProc.type2 a.thi .icon{background:url('../images/icon/apply_pro_icon8.png') no-repeat 0 3px; background-size:28px 28px}
-	.applProc.type2 a{width:177px;}
-	.applProc.type2 a.fir{width:177px;}
-	.applProc.type2 a.end{width:177px;}
-	.applProc.type2 p{width:177px;}
-	.applProc.type2 p.fir{width:177px;}
-	.applProc.type2 p.end{width:177px;}
-
-	.applProc.type3.one{background:url('../images/icon/apply_pror_bg1_t.gif') no-repeat 0 0;}
-	.applProc.type3.two{background:url('../images/icon/apply_pror_bg2_t.gif') no-repeat 0 0;}
-	.applProc.type3.thr{background:url('../images/icon/apply_pror_bg3_t.gif') no-repeat 0 0;}
-	.applProc.type3 a.sec .icon{background:url('../images/icon/apply_pro_icon9.png') no-repeat 0 3px; background-size:28px 28px}
-	.applProc.type3 a{width:236px;}
-
-	.introRoll{position:relative; width:708px; height:500px}
-	.introRoll .rollDiv{position:relative; width:708px; height:380px; overflow:hidden}
-	.introRoll .rollDiv p{position:absolute; top:0; left:0; width:708px; height:380px}
-	.introRoll .rollDiv p img{width:708px;}
-	.introRoll .rollDiv .bts{position:absolute; top:40px; right:40px;}
-	.introRoll .btDiv{position:absolute; bottom:0; left:0; width:708px; height:150px; background:url('../images/icon/introroll_txtbg.png') no-repeat center 0; text-align:center; color:#fff}
-	.introRoll .btDiv strong{font-size:22px; font-weight:bold}
-	.introInfoDiv{overflow:hidden; margin-bottom:30px}
-	.introInfoDiv ul{width:708px; float:none; overflow:hidden}
-	.introInfoDiv li{float:left; width:354px; overflow:hidden; margin-bottom:17px}
-	.introInfoDiv li .tit{width:66px; height:13px; float:left; padding:4px 7.5px 12px 7.5px; font-weight:bold; color:#333; background:url('../images/icon/introinfo_txtbg.png') no-repeat center 0}
-	.introInfoDiv li .txt{width:253px; padding:0 10px 0 10px; float:left; line-height:25px;}
-	.introInfoDiv .right{width:708px; float:none; margin-top:37px; line-height:24px;}
-	.i3R1it{width:553px; height:125px; background:url('../images/txt/intro3_role1it.gif') no-repeat center 0; background-size:100%; text-indent:-9999px; overflow:hidden;}
-	/*2018.07.25 현대IT&E 직무소개 조직도 클래스 추가 */
-	.i15R1it{width:553px; height:125px; background:url('../images/txt/intro15_role1it.gif') no-repeat center 0; background-size:100%; text-indent:-9999px; overflow:hidden;}
-
-	/* .resultView dd .viewDiv1{padding:338px 0 46px; background:url('/images/icon/result_view_img1.jpg') no-repeat center 0; background-size:708px 310px;} */
+	
 
 	/* 채용프로세스 */
 	.rec1Proc1{width:708px; height:162px; background:url('../images/txt/rec1_proc1_t.gif') no-repeat center 0}
