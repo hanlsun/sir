@@ -1296,75 +1296,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.roleDiv .left .bt{margin:4px 3px}
 	.roleDiv .right{width:545px;}
 
-	.sysRank{width:708px;height:193px;position:relative;overflow:hidden;background:url('../images/icon/intro_sys_rank.jpg') no-repeat;margin-bottom:30px; background-size:100%;}
-	.sysRank1{background:url('https://recruit.ehyundai.com/jsp/error.jsp') no-repeat; background-size:100%;}
-	.sysRank2{background:url('../images/icon/intro2_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank3{background:url('../images/icon/intro3_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank4{background:url('../images/icon/intro4_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank5{background:url('../images/icon/intro5_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank6{background:url('../images/icon/intro6_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank7{background:url('../images/icon/intro7_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank8_1{background:url('../images/icon/intro8_1_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank8_2{background:url('../images/icon/intro8_2_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank9{background:url('../images/icon/intro9_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank10{background:url('../images/icon/intro10_sys_rank.jpg') no-repeat; background-size:100%;}
-	.sysRank16{background:url('../images/icon/intro16_sys_rank.jpg') no-repeat; background-size:100%;}/* 2019.07.23 김종근 추가 - 현대L&C 직급체계 추가 */
-
-	.joinproTxt1{width:708px; background:url('../images/txt/joinpro_txt1_t.gif') no-repeat center 0;}
-	.joinproTxt2{width:708px; background:url('../images/txt/joinpro_txt2_t.gif') no-repeat center 0;}
-	.joinproTxt3{width:708px; background:url('../images/txt/joinpro_txt3_t.gif') no-repeat center 0;}
-
-	.welfareDiv{width:708px; height:55px; padding:375px 0 0;}
-	.welfareDiv .welRoll{width:708px; height:435px; overflow:hidden}
-	.welfareDiv .welRoll .txtDiv{position:absolute; top:50px; right:0; width:384px; height:165px; padding:40px 30px; background:url('../images/icon/welfare_txtbg.png') no-repeat 0 0; overflow:hidden}
-	.welfareDiv .welRoll .txtDiv .tit{width:153px; float:left; font-size:34px; color:#222; line-height:40px;}
-	.welfareDiv .welRoll .txtDiv .txt{width:219px; float:left; line-height:23px;}
-	.welfareDiv .welRbt img{width:40px;}
-	.welfareDiv .btPack{width:708px; height:50px;}
-	.welfareDiv .btPack .controll{top:22px; right:15px;}
-
-	.historyDiv{padding-top:5px; background:url('../images/icon/history_bg.png') no-repeat 0px 0; background-size:708px;}
-	.historyDiv.two{background:url('../images/icon/history_bg2.png') no-repeat 0 0; background-size:708px;}
-	.historyDiv.thr{background:url('../images/icon/history_bg3.png') no-repeat 0 0; background-size:708px;}
-	.historyDiv ul{width:708px; overflow:hidden}
-	.historyDiv ul.type1{width:623px; padding-left:85px;}
-	.historyDiv ul.type2{width:623px; padding-left:85px; padding-right:0}
-	.historyDiv ul li{width:130px; height:213px; margin-right:7px;}
-	.historyDiv ul li .img{text-align:center;}
-	.historyDiv ul li img{width:110px;}
-	.historyDiv ul.type2 li{height:229px;}
-	.historyDiv ul.type2 li{float:left;}
-	.historyDiv ul li .txt{top:117px; left:62px; width:132px; padding:22px 0 0 8px;}
-	.historyDiv ul li .date{font-size:14px;}
-	.historyDiv ul li .his{font-size:12px; line-height:16px; margin-top:0}
-
-	.talentDiv .titType2{float:none}
-	.talentDiv dl{width:708px; float:none; margin-top:35px;}
-	.talentDiv dd{padding:6px 10px 25px;}
-
-	.cultureDiv .titType2{width:708px;}
-	.cultureDiv .txt{width:708px;}
-
-	.ethicsDiv div > dl{background:url('../images/txt/ethics_img2.gif') left no-repeat; width:708px; height:453px; text-indent:-9999px; float:right; padding-bottom:30px;}
-	.ethicsDiv div:first-child > dl{background:url('../images/txt/ethics_img1.gif') left no-repeat; width:708px; height:170px; text-indent:-9999px; padding-bottom:0;}
-	.ethicsDiv .titType2{width:205px; float:left; line-height:35px;}
-	.ethicsDiv .txt{line-height:23px; float:left; width:708px; padding-top:17px;}
-	.societyDiv{margin-top:30px !important;}
-	.societyDiv .societyD1{width:708px; height:220px; background:url('../images/icon/society_bg1.png') no-repeat; background-size:100%;}
-	.societyDiv .societyD1 .titType2{float:left; width:130px; margin-left:30px; margin-top:20px; line-height:30px; font-size:22px; letter-spacing:-3px; padding-top:10px;}
-	.societyDiv .societyD1 .txt{float:left; width:345px; padding-top:14px; line-height:22px; font-size:13px;}
-	.societyDiv .societyD2{height:465px;}
-	.societyDiv .societyD2 .left{float:left; width:340px; height:423px; background:url('../images/icon/society_bg2.png') no-repeat; background-size:100%;}
-	.societyDiv .societyD2 .left .txt{width:285px;}
-	.societyDiv .societyD2 .right{float:right; width:340px; height:423px; background:url('../images/icon/society_bg3.png') no-repeat; background-size:100%;}
-	.societyDiv .societyD2 .right .txt{width:285px;}
-	.societyDiv .societyD2 .titType2{margin-left:30px; margin-top:20px; font-size:22px; padding-top:10px;}
-	.societyDiv .societyD2 .txt{margin-top:15px; margin-left:30px; line-height:20px; font-size:13px;}
-	.societyDiv .societyD3{width:700px; height:221px; border:4px solid #e7e3d7; margin-bottom:30px;}
-	.societyDiv .societyD3 .titType2{width:177px; float:left; line-height:34px; margin-top:25px; margin-left:20px; font-size:26px;}
-	.societyDiv .societyD3 .txt{float:left; width:343px; background:url('../images/icon/society_icon.png') 0 31px no-repeat; padding-left:141px; padding-bottom:20px; background-size:120px; padding-top:25px !important; line-height:22px;}
-	.societyDiv .societyD3 .txt strong{color:#c8461e}
-
+	
 	.group .diagram img{width:450px;}
 	.group .diagram .bts.one{top:25px; left:420px;}
 	.group .diagram .bts.two{top:140px; left:595px;}
