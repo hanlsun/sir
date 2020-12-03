@@ -1140,34 +1140,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.profileDiv .picDiv{position:relative; width:170px; float:left}
 	.container.wide .profileDiv .boardType4{width:700px;}
 
-	.applProc{width:960px;}
-	.applProc.one{background:url('../images/icon/apply_pro_bg1_t2.gif') no-repeat 0 0;}
-	.applProc.two{background:url('../images/icon/apply_pro_bg2_t2.gif') no-repeat 0 0;}
-	.applProc.thr{background:url('../images/icon/apply_pro_bg3_t2.gif') no-repeat 0 0;}
-	.applProc.fou{background:url('../images/icon/apply_pro_bg4_t2.gif') no-repeat 0 0;}
-	.applProc.fiv{background:url('../images/icon/apply_pro_bg5_t2.gif') no-repeat 0 0;}
-	.applProc a{width:193px;}
-	.applProc a.fir{width:190px;}
-	.applProc a.fif{width:190px;}
-
-	.applProc.type2.one{background:url('../images/icon/apply_proc_bg1_t2.gif') no-repeat 0 0;}
-	.applProc.type2.two{background:url('../images/icon/apply_proc_bg2_t2.gif') no-repeat 0 0;}
-	.applProc.type2.thr{background:url('../images/icon/apply_proc_bg3_t2.gif') no-repeat 0 0;}
-	.applProc.type2.fou{background:url('../images/icon/apply_proc_bg4_t2.gif') no-repeat 0 0;}
-	.applProc.type2 a{width:240px;}
-	.applProc.type2 a.fir{width:240px;}
-	.applProc.type2 a.end{width:240px;}
-	.applProc.type2 p{width:240px;}
-	.applProc.type2 p.fir{width:240px;}
-	.applProc.type2 p.end{width:240px;}
-
-	.applProc.type3.one{background:url('../images/icon/apply_pror_bg1_t2.gif') no-repeat 0 0;}
-	.applProc.type3.two{background:url('../images/icon/apply_pror_bg2_t2.gif') no-repeat 0 0;}
-	.applProc.type3.thr{background:url('../images/icon/apply_pror_bg3_t2.gif') no-repeat 0 0;}
-	.applProc.type3 a.sec .icon{background:url('../images/icon/apply_pro_icon9.png') no-repeat 0 0;}
-	.applProc.type3 a{width:320px;}
-
-	.depth3Wrap{display:block;}
+	.
 
 	/* footer */
 	#footer .footerDiv{width:960px;}
