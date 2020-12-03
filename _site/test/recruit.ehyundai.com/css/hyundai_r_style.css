@@ -1356,58 +1356,8 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 	.withdrawDiv li input[type="text"]{margin-top:10px}
 
-	
 
-	/* 채용프로세스 */
-	.rec1Proc1{width:708px; height:162px; background:url('../images/txt/rec1_proc1_t.gif') no-repeat center 0}
-	.rec1Proc2{width:708px; height:162px; background:url('../images/txt/rec1_proc2_t.gif') no-repeat center 0}
-	.rec1Proc3{width:708px; height:162px; background:url('../images/txt/rec1_proc3_t.gif') no-repeat center 0}
-	.rec2Proc1{width:708px; height:162px; background:url('../images/txt/rec2_proc1_t.gif') no-repeat center 0}
-	.rec2Proc2{width:708px; height:162px; background:url('../images/txt/rec2_proc2_t.gif') no-repeat center 0}
-	.rec2Proc3{width:708px; height:162px; background:url('../images/txt/rec2_proc3_t.gif') no-repeat center 0}
-	.rec3Proc1{width:708px; height:162px; background:url('../images/txt/rec3_proc1_t.gif') no-repeat center 0}
-	.rec3Proc2{width:708px; height:162px; background:url('../images/txt/rec3_proc2_t.gif') no-repeat center 0}
-	.rec3Proc3{width:708px; height:162px; background:url('../images/txt/rec3_proc3_t.gif') no-repeat center 0}
-	.rec3Proc4{width:708px; height:162px; background:url('../images/txt/rec3_proc4_t.gif') no-repeat center 0}
-	.rec3Proc5{width:708px; height:162px; background:url('../images/txt/rec3_proc5_t.gif') no-repeat center 0}
-	.rec4Proc1{width:708px; height:162px; background:url('../images/txt/rec4_proc1_t.gif') no-repeat center 0}
-	.rec4Proc2{width:708px; height:162px; background:url('../images/txt/rec4_proc2_t.gif') no-repeat center 0}
-	.rec4Proc3{width:708px; height:162px; background:url('../images/txt/rec4_proc3_t.gif') no-repeat center 0}
-	.rec4Proc4{width:708px; height:162px; background:url('../images/txt/rec4_proc4_t.gif') no-repeat center 0}
-	.rec5Proc1{width:708px; height:162px; background:url('../images/txt/rec5_proc1_t.gif') no-repeat center 0}
-	.rec5Proc2{width:708px; height:162px; background:url('../images/txt/rec5_proc2_t.gif') no-repeat center 0}
-	.rec5Proc3{width:708px; height:162px; background:url('../images/txt/rec5_proc3_t.gif') no-repeat center 0}
-	.rec6Proc1{width:708px; height:162px; background:url('../images/txt/rec6_proc1_t.gif') no-repeat center 0}
-	.rec6Proc2{width:708px; height:162px; background:url('../images/txt/rec6_proc2_t.gif') no-repeat center 0}
-	.rec6Proc3{width:708px; height:162px; background:url('../images/txt/rec6_proc3_t.gif') no-repeat center 0}
-	.rec6Proc4{width:708px; height:162px; background:url('../images/txt/rec6_proc4_t.gif') no-repeat center 0}
-	.rec7Proc1{width:708px; height:162px; background:url('../images/txt/rec7_proc1_t.gif') no-repeat center 0}
-	.rec7Proc2{width:708px; height:162px; background:url('../images/txt/rec7_proc2_t.gif') no-repeat center 0}
-	.rec7Proc3{width:708px; height:162px; background:url('https://recruit.ehyundai.com/jsp/error.jsp') no-repeat center 0}
-	.rec8Proc1{width:708px; height:162px; background:url('../images/txt/rec8_proc1_t.gif') no-repeat center 0}
-	.rec8Proc2{width:708px; height:162px; background:url('../images/txt/rec8_proc2_t.gif') no-repeat center 0}
-	.rec8Proc3{width:708px; height:162px; background:url('../images/txt/rec8_proc3_t.gif') no-repeat center 0}
-	.rec9Proc1{width:708px; height:162px; background:url('../images/txt/rec9_proc1_t.gif') no-repeat center 0}
-	.rec9Proc2{width:708px; height:162px; background:url('../images/txt/rec9_proc2_t.gif') no-repeat center 0}
-	.rec9Proc3{width:708px; height:162px; background:url('../images/txt/rec9_proc3_t.gif') no-repeat center 0}
-	.rec10Proc1{width:708px; height:162px; background:url('../images/txt/rec10_proc1_t.gif') no-repeat center 0}
-	.rec10Proc2{width:708px; height:162px; background:url('../images/txt/rec10_proc2_t.gif') no-repeat center 0}
-	.rec10Proc3{width:708px; height:162px; background:url('../images/txt/rec10_proc3_t.gif') no-repeat center 0}
-	.rec10Proc4{width:708px; height:162px; background:url('../images/txt/rec10_proc4_t.gif') no-repeat center 0}
-	.rec11Proc1{width:708px; height:162px; background:url('../images/txt/rec11_proc1_t.gif') no-repeat center 0}
-	.rec11Proc2{width:708px; height:162px; background:url('../images/txt/rec11_proc2_t.gif') no-repeat center 0}
-	.rec11Proc3{width:708px; height:162px; background:url('../images/txt/rec11_proc3_t.gif') no-repeat center 0}
-	.rec12Proc1{width:708px; height:162px; background:url('../images/txt/rec12_proc1_t.gif') no-repeat center 0}
-	.rec12Proc2{width:708px; height:162px; background:url('../images/txt/rec12_proc2_t.gif') no-repeat center 0}
-	/* 2017-09-14 추가 */
-	.rec13Proc1{width:708px; height:162px; background:url('../images/txt/rec13_proc1_t.gif') no-repeat center 0}
-	.rec13Proc2{width:708px; height:162px; background:url('../images/txt/rec13_proc2_t.gif') no-repeat center 0}
-	.rec13Proc3{width:708px; height:162px; background:url('../images/txt/rec13_proc3_t.gif') no-repeat center 0}
-	.rec14Proc1{width:708px; height:162px; background:url('../images/txt/rec14_proc1_t.gif') no-repeat center 0}
-	.rec14Proc2{width:708px; height:162px; background:url('../images/txt/rec14_proc2_t.gif') no-repeat center 0}
-	/* //2017-09-14 추가 */
-	.rec15Proc1{width:708px; height:162px; background:url('../images/txt/rec15_proc1_t.gif') no-repeat center 0}
-	.rec15Proc2{width:708px; height:162px; background:url('../images/txt/rec15_proc2_t.gif') no-repeat center 0}
+
 
 	.qnaNmem li{width:236px; padding:10px 0;}
 	.qnaNmem li div{position:relative; padding:5px 10px 0 19px;}
