@@ -55,8 +55,3 @@
     max-width: 100%;
   }
 }
-.footer{
-  @media (max-width: @screen-xs-max) {
-    <img src="../../images/icon/faq_open.gif"  />
-    상세페이지를 확대할수있습니다.
-}
