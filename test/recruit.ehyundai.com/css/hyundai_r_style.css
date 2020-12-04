@@ -930,25 +930,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.group .diagram .bts.fou{top:370px; left:65px;}
 	.group .diagram .bts.fiv{top:160px; left:35px;}
 
-	.visionBox1{background:url('../images/txt/vision_txt2_t.jpg') no-repeat center 0}
-	.visionBox2{background:url('../images/txt/vision_txt3_t.gif') no-repeat center 0}
-
-	.boardType1 a.listUnit{width:340px; margin:0 0 30px 0;}
-	.boardType1 a.listUnit .onbg{width:336px;}
-	.boardType1 a.listUnit.noti .tit{background:url('../images/icon/notice_icon.png') no-repeat 290px center #f6f6f6;}
-	.boardType1 a.listUnit.recruit{width:340px; margin:0 0 30px 0;}
-	.boardType1 a.listUnit.recruit .tit .part{width:185px;}
-	.boardType1 a.listUnit.recruit .onbg{width:336px;}
-	.boardType1 a.listUnit.recruit.noti .tit{background:url('../images/icon/notice_icon.png') no-repeat 290px center #f6f6f6;}
-	.boardType2 td label{margin-right:2px;}
-	.boardType3 td a{margin-bottom:5px; font-size:12px; letter-spacing:-2px; padding:0 7px;}
-	.boardType5 .end img{width:500px}
-	.boardType6 .unitList{width:348px;}
-	.boardType6 .unitList .time{width:118px; font-size:13px;}
-	.boardType6 .unitList .member{width:189px;}
-	.boardType6 .unitList .onbg{width:344px;}
-	.boardType7 .listUnit .txt{width:400px;}
-	.boardType7 .listUnit .date .bar{padding:0 10px}
+	
 	.listPrv li.prv{width:297px; padding:29px 10px 32px 45px; background:url('../images/icon/preview_icon1.gif') no-repeat 10px center; overflow:hidden; border-right:1px solid #d7d7d7}
 	.listPrv li.nxt{width:298px; padding:29px 45px 32px 10px; background:url('../images/icon/preview_icon2.gif') no-repeat 327px center; overflow:hidden;}
 
