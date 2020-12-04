@@ -1050,14 +1050,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .addressBoard td.end{border-right:0px solid #e5e5e5;}
 .addressBoard td a:hover{text-decoration:underline; color:#1c8292; font-weight:bold}
 
-.check{display:block; padding:0 0 1px 23px; background:url('../images/icon/check_icon3.png') no-repeat 0 1px; font-size:13px; color:#555; font-weight:bold; text-decoration:underline}
-.check:hover{text-decoration:underline}
-.check2{display:inline-block; padding:0 23px 1px 0; background:url('../images/icon/check_icon3.png') no-repeat right 1px; font-size:14px; color:#666; font-weight:normal}
-.check3{display:inline-block; padding:0 0 1px 23px; background:url('../images/icon/check_icon3.png') no-repeat 0 1px; font-size:13px; color:#555; font-weight:bold; text-align:right}
-.layPopDiv{position:relative; height:1px}
-.checkTxt{position:absolute; top:310px; left:-15px; width:174px; height:47px; padding:21px 16px 20px; background:url('../images/icon/pic_checktxt_bg.png') no-repeat 0 0; z-index:100; font-size:12px; line-height:17px; color:#9e694a}
-.checkTxt.type2{top:0px; left:-15px; width:174px; height:47px; background:url('../images/icon/pic_checktxt_bg2.png') no-repeat 0 0; z-index:100}
-.checkTxt.type3{top:-4px; left:auto; right:0; width:154px; height:47px; background:url('../images/icon/pic_checktxt_bg3.png') no-repeat 0 0; z-index:100}
 
 .lyPop{position:absolute; top:230px; left:230px; width:940px; z-index:2000}
 .lyPop .lyHead{position:relative; padding:39px 40px 44px; background:#363636; font-size:23px; font-weight:bold; color:#fff}
