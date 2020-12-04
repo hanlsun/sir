@@ -481,19 +481,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .introInfoDiv li .txt{width:359px; padding:0 25px 0 15px; float:left; line-height:25px;}
 .introInfoDiv .right{width:480px; float:left; line-height:24px;}
 
-.historyDiv{background:url('../images/icon/history_bg.png') no-repeat 0 0}
-.historyDiv.two{background:url('../images/icon/history_bg2.png') no-repeat 0 0}
-.historyDiv.thr{background:url('../images/icon/history_bg3.png') no-repeat 0 0}
-.historyDiv ul{width:960px; overflow:hidden}
-.historyDiv ul.type1{width:803px; padding-left:157px;}
-.historyDiv ul.type2{width:730px; padding-right:230px;}
-.historyDiv ul li{position:relative; width:157px; height:290px; float:left; margin-right:5px;}
-.historyDiv ul.type2 li{height:310px;}
-.historyDiv ul.type2 li{float:right;}
-.historyDiv ul li .txt{position:absolute; top:167px; left:75px; width:163px; padding:25px 0 0 8px; background:url('../images/icon/history_icon.png') no-repeat 0 0}
-.historyDiv ul li .date{font-size:16px; font-weight:bold; color:#333}
-.historyDiv ul li .date.new{color:#1c8292}
-.historyDiv ul li .his{font-size:13px; line-height:20px; margin-top:5px;}
 
 .talentDiv{overflow:hidden}
 .talentDiv .titType2{width:205px; float:left}
