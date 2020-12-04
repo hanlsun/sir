@@ -747,31 +747,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	#sitemapBody .sitemapDiv dl.six{height:170px;}
 	#sitemapBody .sitemapDiv dl.sev{height:110px; margin-top:30px;}
 
-	.introGate{padding-top:115px; margin-bottom:-160px; background:url('../images/icon/intro_gatevisual.jpg') no-repeat center 115px; text-indent:-9999px;}
-
-	#header.main{position:absolute; top:0; left:0; border-bottom:0px solid #ddd; background:none}
-	#header.main .headDiv{width:960px; margin:auto;}
-
-	.mainVisual{height:876px;}
-	.mainVisual .rollDiv.one{background:url('../images/icon/main_v1.jpg') no-repeat center 0;}
-	.mainVisual .rollDiv.two{background:url('../images/icon/main_v2.jpg') no-repeat center 0;}
-	.mainVisual .rollDiv.thr{background:url('../images/icon/main_v3.jpg') no-repeat center 0;}
-	.mainVisual .rollDiv.fou{background:url('../images/icon/main_v4.jpg') no-repeat center 0;}
-	.mainVisual .rollDiv .unit{width:960px; padding:175px 0 0;}
-
-	#cBody.main{padding-top:133px; height:684px;}
-	.maincon2 .bottom{width:960px}
-	.maincon2 .bottom .mNoti{width:590px;}
-	.maincon2 .bottom .mNoti .mNotiDiv{width:410px;}
-	.maincon2 .bottom .mUtil{width:338px; padding:20px 0 0 30px;}
-	.maincon2 .bottom .mUtil span{margin:0 8px;}
-
-	#cBody{width:960px;}
-	#lnb{display:none}
-	#lnb .nav{margin-top:27px;}
-	#lnb .nav a{display:block; padding:5px 0 5px 7px; background:url('../images/icon/lnbbg.gif') no-repeat 0 16px; font-size:15px; color:#555; line-height:25px;}
-	#lnb .nav a.on{background:url('../images/icon/lnbbg_on.gif') repeat-x 0 16px; font-weight:bold; color:#42909b}
-	#lnb .nav a span{display:inline-block; padding:0 15px 0 13px; background:#fff}
+	.
 
 	.container{width:960px; float:none;}
 	.container.wide{width:960px;}
