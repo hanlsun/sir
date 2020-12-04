@@ -264,25 +264,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #lnb{width:195px; float:left; border-right:1px solid #ddd;}
 #lnb h2{margin-top:45px; color:#387780; font-size:30px; font-weight:normal; line-height:30px;}
 #lnb .nav{margin-top:27px;}
-#lnb .nav a{display:block; padding:5px 0 5px 7px; background:url('../images/icon/lnbbg.gif') no-repeat 0 16px; font-size:15px; color:#555; line-height:25px;}
-#lnb .nav a.on{background:url('../images/icon/lnbbg_on.gif') no-repeat 0 16px #42909b; font-weight:bold; color:#fff}
-#lnb .nav a:hover{background:url('../images/icon/lnbbg_on.gif') no-repeat 0 16px #42909b; font-weight:bold; color:#fff}
-#lnb .nav a span{display:inline-block; padding:0 15px 0 13px;}
-#lnb .twoD{padding:17px 20px 15px; margin-bottom:13px; background:url('../images/icon/lnb_twobg.gif') no-repeat 0 0 #f4f4f4}
-#lnb .twoD a{padding:5px 0 0 10px; background:url('../images/icon/dot3x3.gif') no-repeat 0 16px; font-size:13px; color:#555; line-height:25px;}
-#lnb .twoD a.on{background:url('../images/icon/lnbbg2.gif') no-repeat 0 16px; color:#555;}
-#lnb .twoD a:hover{background:url('../images/icon/lnbbg2.gif') no-repeat 0 16px; color:#555;}
 
-.subVisual{position:relative; width:100%; height:200px;}
-.subVisual.tp1{background:url('../images/icon/rcrtlist_subv_img.jpg') no-repeat right 0;}/* 2017-08-11 수정 */
-.subVisual.tp2{background:url('../images/icon/rcrt1prc1_subv_img.jpg') no-repeat right 0;}
-.subVisual.tp3{height:370px; background:url('../images/icon/vision_subv_img.jpg') no-repeat right 0;}
-.subVisual.tp4{height:370px; background:url('../images/icon/culture_img.jpg') no-repeat right 0;}
-.subVisual.tp5{height:370px; background:url('../images/icon/ethics_subvimg.jpg') no-repeat right 0;}
-.subVisual .txt{position:absolute; top:20px; left:0;}
-.subVisual.tp3 .txt{position:absolute; top:0; left:0;}
-.subVisual.tp4 .txt{position:absolute; top:0; left:0;}
-.subVisual.tp5 .txt{position:absolute; top:0; left:0;}
 
 .container{position:relative; width:960px; float:right;}
 .container.wide{width:1200px;}
