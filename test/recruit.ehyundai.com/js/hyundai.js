@@ -514,7 +514,7 @@ jQuery(window).load(function(){
 	});
 
 
-	
+
 
 	jQuery(".welfareDiv .welRbt").each(function(q){ //썸네일
 		jQuery(this).click(function(){
@@ -621,32 +621,7 @@ jQuery(window).load(function(){
 		}
 	});
 
-	//현대백화점그룹 채용 이야기 리스트
-	jQuery(".hgStory li").each(function(q){
-		jQuery(this).hover(function(){
-			jQuery(this).find(".onbg").height(jQuery(this).height()- 6);
-			jQuery(this).find(".onbg").stop().fadeIn(150);
-		}, function(){
-			jQuery(this).find(".onbg").stop().fadeOut(150);
-		})
-	});
-
-	//이력관리 사진등록확인
-	jQuery(".checkTxt.type1").animate({top : 300, opacity : 0}, 0);
-	jQuery(".checkTxt.type2").animate({top : 0, opacity : 0}, 0);
-	jQuery(".checkTxt.type3").animate({top : -4, opacity : 0}, 0);
-	jQuery(".checkTxt.type1").fadeOut(0);
-	jQuery(".checkTxt.type2").fadeOut(0);
-	jQuery(".checkTxt.type3").fadeOut(0);
-	jQuery(".profileDiv .check").hover(function(){
-		jQuery(".profileDiv .checkTxt.type1").stop().fadeIn(0, function(){
-			jQuery(".profileDiv .checkTxt.type1").stop().animate({top : 310, opacity : 1}, 150);
-		});
-	}, function(){
-		jQuery(".profileDiv .checkTxt.type1").stop().fadeOut(0, function(){
-			jQuery(".profileDiv .checkTxt.type1").stop().animate({top : 300, opacity : 0}, 150);
-		});
-	});
+	
 
 	//2017.10.18 김종근 추가 - 웹 접근성 <사진등록> 도움말 툴팁 기능 추가(마우스 이벤트뿐만 아니라 키보드 이벤트에서도 가능하게끔)
 	jQuery(".profileDiv .check").attr('tabindex', '0').focus(function(){
