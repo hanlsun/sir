@@ -36,5 +36,5 @@
 }
 .footer{
   @media (max-width: @screen-xs-max) {
-    <img src="../../images/icon/faq_open.gif"  />
+    <img src="../../images/icon/finger.PNG"  />
 }
