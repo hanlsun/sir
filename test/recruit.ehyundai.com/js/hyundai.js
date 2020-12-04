@@ -621,7 +621,7 @@ jQuery(window).load(function(){
 		}
 	});
 
-	
+
 
 	//2017.10.18 김종근 추가 - 웹 접근성 <사진등록> 도움말 툴팁 기능 추가(마우스 이벤트뿐만 아니라 키보드 이벤트에서도 가능하게끔)
 	jQuery(".profileDiv .check").attr('tabindex', '0').focus(function(){
@@ -714,28 +714,6 @@ jQuery(window).load(function(){
 		});
 	}
 
-	//메인 채용정보 2017-09-11 추가
-	$("#cBody.main .mainCon .unitDiv").each(function(index){
-		$(this).css("top", index * 101);
-	});
-
-	var unitRollMax = $("#cBody.main .mainCon .unitDiv").size()-1;
-	var unitRollMove = false, unitRollInterval, unitRollTime = 3000;
-	var unitDetachFirst;
-	if($("#cBody.main .mainCon .unitDiv").size()-1 <= 4) unitRollMove = true;
-	unitRollInterval = setInterval(function(){
-		if(!unitRollMove) {
-			unitRollMove = true;
-			$("#cBody.main .mainCon .unitDiv").each(function(q){
-				TweenMax.to($("#cBody.main .mainCon .unitDiv").eq(q), 0.7, {top:parseInt($("#cBody.main .mainCon .unitDiv").eq(q).css("top").split("p")[0]) - 101, ease:Power3.easeOut, onComplete:function(){
-					unitRollMove = false;
-					if(q == 0) unitDetachFirst = $("#cBody.main .mainCon .unitDiv").eq(0).detach();
-					$("#cBody.main .mainCon").append(unitDetachFirst);
-					$("#cBody.main .mainCon .unitDiv:last").css("top", 101 * unitRollMax);
-				}});
-			});
-		}
-	}, unitRollTime);
 
 	/* 2017-10-16 수정 */
 	$("#cBody.main .mainConBtn .stopBtn").click(function(){
@@ -812,26 +790,7 @@ function welRoll() {
 
 
 
-/**
- *
- * 계열사 홈페이지 이동
- *
- * @date 2015. 08. 07.
- * @author Park, Ju Seok
- * @example
- * getSelectBoxCodeList(code, select, val);
- */
-function moveFooterAflt()
-{
-	if(jQuery("#selectAflt").val() != "")
-	{
-		window.open(jQuery("#selectAflt").val());
-	}else{
-		alert("계열사를 선택하여 주십시오.");
-		jQuery("#selectAflt").focus();
-		return;
-	}
-}
+
 
 /**
  *
@@ -881,62 +840,7 @@ function trace(str)
 
 
 
-/**
- * 비밀번호를 체크한다.
- *
- * @date 2014. 12. 10.
- * @memberOf valLib
- * @param <String> str 비밀번호
- * @return <Boolean> 정상이면 true 반환, 그외는 false
- * @example valLib.checkPassword("asdfasdsd2df")
- */
-function checkPassword(str)
-{
-	if (typeof str != "undefined" && str != "")
-	{
-    	var lowCharCnt = 0;
-    	var uppCharCnt = 0;
-    	var numCharCnt = 0;
-    	var spcCharCnt = 0;
-    	var kindCnt = 0;
 
-        var lowCharFormat 	= /["a-z"]/;
-		var uppCharFormat 	= /["A-Z"]/;
-		var numFormat 		= /["0-9"]/;
-		var spcCharFormat = /["_+-=|<>?'!@#^&*()"]/; //2017.10.19 김종근 추가 스크립트 단에서 특수문자 체크
-
-		for(var i=0; i<str.length; i++){
-			var strUnt = str.charAt(i);
-
-			if(isKorean(strUnt)){
-	    		return false;
-	    	}
-
-			if(lowCharFormat.test(strUnt)) {
-	            lowCharCnt += 1;
-	        }else if(uppCharFormat.test(strUnt)){
-	            uppCharCnt += 1;
-	        }else if(numFormat.test(strUnt)){
-	            numCharCnt += 1;
-	        }else if (spcCharFormat.test(strUnt)){	//2017.10.19 김종근 추가 스크립트 단에서 특수문자 체크
-	        	spcCharCnt += 1;
-	        }else{
-	            spcCharCnt += 1;
-	        }
-		}
-
-		if(lowCharCnt > 0){
-			kindCnt += 1;
-		}
-		if(uppCharCnt > 0){
-			kindCnt += 1;
-		}
-		if(numCharCnt > 0){
-			kindCnt += 1;
-		}
-		if(spcCharCnt > 0){
-			kindCnt += 1;
-		}
 
 		//2017.10.19 김종근 수정 - 대문자, 소문자, 특수문자, 숫자 종류가 모두 포함되어야 OK
 		if(kindCnt < 4){
@@ -1155,45 +1059,3 @@ function getCookie(name)
     }
     return val;
 };
-
-/**
- *
- * 주민번호 인증
- *
- * @date 2015. 09. 06.
- * @param <String> name 주민번호 *
- * @author Park, Sang Kyu
- * @example
- */
-function check_jumin(jumin) {
-	 //주민등록 번호 13자리를 검사한다.
-	  var fmt = /^\d{6}[1234]\d{6}$/;  //포멧 설정
-	  if (!fmt.test(jumin)) {
-	   return false;
-	  }
-
-	  // 생년월일 검사
-	  var birthYear = (jumin.charAt(6) <= "2") ? "19" : "20";
-	  birthYear += jumin.substr(0, 2);
-	  var birthMonth = jumin.substr(2, 2) - 1;
-	  var birthDate = jumin.substr(4, 2);
-	  var birth = new Date(birthYear, birthMonth, birthDate);
-
-	  if ( birth.getYear() % 100 != jumin.substr(0, 2) ||
-	       birth.getMonth() != birthMonth ||
-	       birth.getDate() != birthDate) {
-	     return false;
-	  }
-
-	  // Check Sum 코드의 유효성 검사
-	  var buf = new Array(13);
-	  for (var i = 0; i < 13; i++) buf[i] = parseInt(jumin.charAt(i));
-
-	  multipliers = [2,3,4,5,6,7,8,9,2,3,4,5];
-	  for (var sum = 0, i = 0; i < 12; i++) sum += (buf[i] *= multipliers[i]);
-
-	  if ((11 - (sum % 11)) % 10 != buf[12]) {
-	     return false;
-	  }
-	  return true;
-}
