@@ -93,18 +93,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #gnb li{position:relative; float:left; margin:0 45px 0 30px; text-align:center}/* 2015-10-26 수정 */
 #gnb .oneD{display:block; position:relative; padding:22px 0 44px}
 #gnb .oneD img{height:16px;}
-#gnb .oneD.on{background:url('../images/icon/gnb_bg.gif') no-repeat center 0;}
-#gnb .twoD{position:absolute; top:; left:; width:115px; display:none}/* 2017-08-16 수정 */
-#gnb .twoD.two{width:113px;}
-#gnb .twoD.thr{width:135px;}
-#gnb .twoD a{display:block; padding-left:10px; margin-bottom:15px; background:url('../images/icon/gnb_twoicon.png') no-repeat 0 6px; background-size:6px 6px; color:#555; text-align:left}
-#gnb .twoD a:first-child{margin-top:16px;}
-#gnb .twoD a:hover{font-weight:bold; color:#1c8292; text-decoration:underline}
-#gnbTwo{position:absolute; top:114px; left:0; width:100%; height:237px; border-bottom:3px solid #42909b; display:none}/* 2017-08-16 수정 */
-#gnbTwo .twoBg{width:100%; height:237px; margin:auto; overflow:hidden; background:url('../images/icon/gnbBg.gif') repeat-x;}
-#gnbTwo .twoBg .twoImg{width:1260px; height:237px; margin:0 auto; position:relative;}
-#gnbTwo .twoBg .twoImg img{position:absolute; height:230px; bottom:0px; right:0px; opacity:0}
-#header .siteMap{position:absolute; bottom:0; right:0;}
 #sitemapBody{display:none; position:absolute; top:114px; left:0; width:100%; background:#42909b; z-index:1500;}
 #sitemapBody .sitemapDiv{position:relative; width:1200px; margin:auto; padding:30px 0;}
 #sitemapBody .sitemapDiv dl{width:125px; height:210px; padding:10px 15px 10px 30px; float:left; border-left:1px solid #337e8c}
