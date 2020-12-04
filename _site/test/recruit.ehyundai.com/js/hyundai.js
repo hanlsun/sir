@@ -22,21 +22,21 @@ jQuery(window).load(function(){
 	var isTablet = false;
 	var state = "web";
 	var url = location.href.split("/");
-	var urlGb =url[3]; 
-	
+	var urlGb =url[3];
+
 	if(urlGb == "index.nhd"){
-		jQuery(".goBody").attr("href","#cBody");	
+		jQuery(".goBody").attr("href","#cBody");
 	}else{
 		jQuery(".goBody").attr("href","#subCon");
 	}
-	
+
 	jQuery(".goBody").css("top","-100px");
 	jQuery(".goBody").focusin(function(){
 		jQuery(this).css("top", "0");
 	}).focusout(function(){
 		jQuery(this).css("top","-100px");
-	});	
-	
+	});
+
 
 	//gnb
 	jQuery("#gnb .twoD").fadeOut(0);
@@ -69,7 +69,7 @@ jQuery(window).load(function(){
 			jQuery("#gnbTwo").stop().slideUp(150);
 			jQuery("#gnbTwo .twoBg .twoImg img").eq(q).stop().animate({opacity:0, right:0}, 500);
 		});
-	});	
+	});
 
 	jQuery("#gnb").hover(function(){
 		jQuery("#gnb .twoD").stop().fadeIn(150);
@@ -90,7 +90,7 @@ jQuery(window).load(function(){
 		jQuery("#gnbTwo").stop().slideUp(150);
 		jQuery("#header.main").css('background', 'none');
 	});
-	
+
 	jQuery("#gnb .twoD").each(function(q){
 		jQuery(this).hover(function(){
 			jQuery(this).prev("#gnb .oneD").addClass("on");
@@ -102,7 +102,7 @@ jQuery(window).load(function(){
 			jQuery("#gnbTwo .twoBg .twoImg img").eq(q).stop().animate({opacity:0, right:0}, 500);
 		});
 	});
-	
+
 	jQuery("#gnb .twoD a").hover(function(){
 		jQuery(this).addClass("on");
 	}, function(){
@@ -121,8 +121,8 @@ jQuery(window).load(function(){
 		jQuery("#gnbTwo").stop().slideUp(150);
 	});
 	//2015-10-06 수정끝
-	
-	
+
+
 	//메인
 	jQuery("#cBody.main .mainCon .unit").hover(function(){
 		jQuery(this).find(".txt").find("img").attr("src", jQuery(this).find(".txt").find("img").attr("src").replace(".png", "_on2.png"));
@@ -138,23 +138,23 @@ jQuery(window).load(function(){
 	//jQuery(".mainVisual .rollDiv").eq(0).css('opacity', 1);
 	jQuery(".mainVisual .rollDiv").fadeOut(0)
 	jQuery(".mainVisual .rollDiv").eq(0).fadeIn(0)
-	
+
 	var isPlay = false;
 	jQuery(".mainRollBt .stop").click(function(){
 		jQuery(this).css('display', 'none');
 		jQuery(".mainRollBt .play").css('display', 'inline');
-		clearInterval(mainInterval);	
+		clearInterval(mainInterval);
 		isPlay = true;
 	});
 
 	jQuery(".mainRollBt .play").click(function(){
 		jQuery(this).css('display', 'none');
 		jQuery(".mainRollBt .stop").css('display', 'inline');
-		clearInterval(mainInterval);	
+		clearInterval(mainInterval);
 		mainInterval = setInterval("mainRoll()", mainDuration);
 		isPlay = false;
 	});
-	
+
 	jQuery(".mainRollBt a").each(function(q){  //좌우버튼
 		jQuery(this).click(function(){
 			if(!ismainMove) {
@@ -178,7 +178,7 @@ jQuery(window).load(function(){
 			}
 		}).hover(function(){
 			if(isPlay == false){
-				clearInterval(mainInterval);	
+				clearInterval(mainInterval);
 			}
 		}, function(){
 			if(isPlay == false){
@@ -196,9 +196,9 @@ jQuery(window).load(function(){
 		jQuery(this).find("img").attr("src", jQuery(this).find("img").attr("src").replace("_on.png", ".png"));
 		clearInterval(mainInterval);
 		mainInterval = setInterval("mainRoll()", mainDuration);
-	});	
-	
-	
+	});
+
+
 	//메인 공지사항
 	ismainStop2 = false;
 	mainMax2 = jQuery(".maincon2 .bottom .mNoti .mNotiDiv a").size()-1;
@@ -229,7 +229,7 @@ jQuery(window).load(function(){
 				}
 			}
 		}).hover(function(){
-			//clearInterval(mainInterval2);	
+			//clearInterval(mainInterval2);
 		}, function(){
 			//clearInterval(mainInterval2);
 			//mainInterval2 = setInterval("mainRoll2()", mainDuration2);
@@ -244,7 +244,7 @@ jQuery(window).load(function(){
 
 	//메인유틸
 	//jQuery("#header.main").find("span:first").css('display', 'none');
-	
+
 	//메인팝업배너
 	var curMpop = 0;
 	var maxMpop = jQuery(".mPopBan .mPopCon").size()-1;
@@ -298,7 +298,7 @@ jQuery(window).load(function(){
 			jQuery(".introGateList > a").each(function(q){ // 2015-11-02 introGateList 의 "li" 를 "> a" 로 전체 수정
 				jQuery(".introGateList > a").eq(q*4+3).css('marginRight', 22);
 			});
-			
+
 			//qna 미로그인
 			jQuery(".qnaNmem li").each(function(q){
 				jQuery(".qnaNmem li").eq(q*3+2).css('width', 318);
@@ -326,19 +326,19 @@ jQuery(window).load(function(){
 
 			//회사소개 gate
 			jQuery(".introGateList > a").each(function(q){
-				
+
 			});
-			
+
 			//qna 미로그인
 			jQuery(".qnaNmem li").each(function(q){
 				jQuery(".qnaNmem li").eq(q*3+2).css('width', 234);
 				jQuery(".qnaNmem li").eq(q*3+2).find("div").css('borderRight', 0);
-			});	
+			});
 
 		}else{ //1920
 			//gnb
 
-			//리스트			
+			//리스트
 			jQuery(".boardType1 a.listUnit").each(function(q){
 				jQuery(".boardType1 a.listUnit").eq(q*3+2).css('marginRight', 0);
 				jQuery(".boardType1 a.listUnit:even").css('float', 'left');
@@ -360,43 +360,26 @@ jQuery(window).load(function(){
 			jQuery(".introGateList > a").each(function(q){
 				jQuery(".introGateList > a").eq(q*4+3).css('marginRight', 0);
 			});
-			
+
 			//qna 미로그인
 			jQuery(".qnaNmem li").each(function(q){
 				jQuery(".qnaNmem li").eq(q*3+2).css('width', 318);
 				jQuery(".qnaNmem li").eq(q*3+2).find("div").css('borderRight', 0);
 			});
 		}
-		
-		
+
+
 		//직무소개 2015-09-25 시작
 		jQuery(".tab4Div").css('height', jQuery(".roleTab").height() + jQuery(".roleTab .roleDiv").eq(0).height() + 100);
-		
+
 		jQuery(".roleTab .roleDiv").css('top', jQuery(".roleTab").height() + 85);
 		//직무소개 2015-09-25 끝
-		
+
 	});jQuery(window).resize();
 
-	
-	//직무소개 2015-09-30 시작
-	var curRoleTab = 0;
-	jQuery(".roleTab > a").each(function(q){
-		jQuery(this).click(function(){
-			if(curRoleTab != q){
-				jQuery(".roleTab > a").eq(curRoleTab).removeClass("on");
-				jQuery(".roleTab > a").eq(curRoleTab).next(".roleTab .roleDiv").removeClass("on");
-				curRoleTab = q;
-				jQuery(".roleTab > a").eq(curRoleTab).addClass("on");
-				jQuery(".roleTab > a").eq(curRoleTab).next(".roleTab .roleDiv").addClass("on");
-				jQuery(".tab4Div").css('height', jQuery(".roleTab").height() + jQuery(".roleTab > a").eq(curRoleTab).next(".roleTab .roleDiv").height() + 100);
-				jQuery(".tab6Div .tab6 .tabSub").stop().slideUp(200);
-				tabOpen = false;
-			}
-		})
-	});
-	//직무소개 2015-09-30 끝
-	
-	
+
+
+
 	/*
 	//팝업닫기
 	//지원서 작성페이지인 RNAApplPsrn.js 로 이동 (안진용)
@@ -414,7 +397,7 @@ jQuery(window).load(function(){
 		jQuery("#util .srchArea").stop().fadeIn(150);
 	});
 	*/
-	
+
 	//사이트맵
 	jQuery("#sitemapBody .sitemapDiv dl").eq(0).addClass("fir");
 	jQuery("#sitemapBody .sitemapDiv dl").eq(4).addClass("fiv");
@@ -430,7 +413,7 @@ jQuery(window).load(function(){
 		//2016.10.31 김종근 추가 - 웹 접근성 품질인증 -> 초점 이동 설정
 		jQuery("#sitemapBody").attr('tabindex', '0').focus();
 	});
-	
+
 	//2016.11.03 - 웹 접근성 품질인증 -> 메뉴 레이어 탭에서 벗어날시 자동으로 레이어 닫기
 	jQuery("#header .siteMapOn").focusout(function(){
 		jQuery(this).stop().fadeOut(150);
@@ -439,7 +422,7 @@ jQuery(window).load(function(){
 		//2019.10.15 오유진 추가 - 웹 접근성 품질인증 -> 상단 사이트맵 닫기 시 사이트맵 열기 버튼으로 포커싱
 		jQuery("#header .siteMap").focus();
 	});
-	
+
 	jQuery("#header .siteMapOn").click(function(){
 		jQuery(this).stop().fadeOut(150);
 		jQuery("#header .siteMap").stop().fadeIn(150);
@@ -449,7 +432,7 @@ jQuery(window).load(function(){
 	//input
 	jQuery("input").focusin(function(){
 		jQuery(this).removeClass("type2");
-		jQuery(this).addClass("type1");	
+		jQuery(this).addClass("type1");
 	});
 	jQuery("input").focusout(function(){
 		jQuery(this).removeClass("type1");
@@ -461,7 +444,7 @@ jQuery(window).load(function(){
 	// select
 	jQuery("select").focusin(function(){
 		jQuery(this).removeClass("type2");
-		jQuery(this).addClass("type1");	
+		jQuery(this).addClass("type1");
 	});
 	jQuery("select").focusout(function(){
 		jQuery(this).removeClass("type1");
@@ -469,10 +452,10 @@ jQuery(window).load(function(){
 
 	jQuery("textarea").focusin(function(){
 		jQuery(this).removeClass("type2");
-		jQuery(this).addClass("type1");	
+		jQuery(this).addClass("type1");
 	});
 	jQuery("textarea").focusout(function(){
-		jQuery(this).removeClass("type1");	
+		jQuery(this).removeClass("type1");
 		if(jQuery(this).attr("value") != undefined){
 			jQuery(this).addClass("type2");
 		}
@@ -492,19 +475,8 @@ jQuery(window).load(function(){
 		}
 	});
 
-	//회사소개 gate 마우스오버
-	jQuery(".introGateList > a .overDiv2").css('display', 'none');
-	jQuery(".introGateList > a .overDiv2").animate({bottom:-239}, 0,  'easeOutQuart');
-	jQuery(".introGateList > a").hover(function(){
-		jQuery(this).find(".overDiv2").css('display', 'block');
-		jQuery(this).find(".overDiv2").stop().animate({bottom:0}, 350,  'easeOutQuart');
-		jQuery(this).find(".overDiv").stop().animate({opacity:0}, 0,  'easeOutQuart');
-	}, function(){
-		jQuery(this).find(".overDiv2").css('display', 'none');
-		jQuery(this).find(".overDiv2").stop().animate({bottom:-239}, 350,  'easeOutQuart');
-		jQuery(this).find(".overDiv").stop().animate({opacity:1}, 0,  'easeOutQuart');
-	});
-	
+
+
 		//2015-11-02 추가
 	jQuery(".introGateList > a").focusin(function(){
 		jQuery(this).find(".overDiv2").css('display', 'block');
@@ -529,70 +501,20 @@ jQuery(window).load(function(){
 	jQuery(".introRoll .rollDiv .bts .stop").click(function(){
 		jQuery(this).css('display', 'none');
 		jQuery(".introRoll .rollDiv .bts .play").css('display', 'inline');
-		clearInterval(mainInterval3);	
+		clearInterval(mainInterval3);
 		isPlay3 = true;
 	});
 
 	jQuery(".introRoll .rollDiv .bts .play").click(function(){
 		jQuery(this).css('display', 'none');
 		jQuery(".introRoll .rollDiv .bts .stop").css('display', 'inline');
-		clearInterval(mainInterval3);	
+		clearInterval(mainInterval3);
 		mainInterval3 = setInterval("mainRoll3()", mainDuration3);
 		isPlay3 = false;
 	});
 
-	jQuery(".introRoll .rollDiv .bts a").each(function(q){
-		jQuery(this).click(function(){
-			if(q == 0){
-				jQuery(".introRoll .rollDiv p").eq(curIntroR).stop().animate({left : '100%'}, 350, 'easeOutQuart'); // 2015-09-18 '-100%' -> '100%' 수정 
-				curIntroR ++;
-				if(curIntroR > maxIntroR){
-					curIntroR = 0;
-				};
-				jQuery(".introRoll .rollDiv p").eq(curIntroR).stop().animate({left : '-100%'}, 0); // 2015-09-18 '100%' -> '-100%' 수정
-				jQuery(".introRoll .rollDiv p").eq(curIntroR).stop().animate({left : 0}, 350, 'easeOutQuart');
 
-			}else if(q == 1){
-				jQuery(".introRoll .rollDiv p").eq(curIntroR).stop().animate({left : '-100%'}, 350, 'easeOutQuart'); // 2015-09-18 '100%' -> '-100%' 수정
-				curIntroR --;
-				if(curIntroR < 0){
-					curIntroR = maxIntroR;
-				};
-				jQuery(".introRoll .rollDiv p").eq(curIntroR).stop().animate({left : '100%'}, 0); // 2015-09-18 '-100%' -> '100%' 수정
-				jQuery(".introRoll .rollDiv p").eq(curIntroR).stop().animate({left : 0}, 350, 'easeOutQuart');
-			}
-		}).hover(function(){
-			if(isPlay3 == false){
-				clearInterval(mainInterval3);	
-			}
-		}, function(){
-			if(isPlay3 == false){
-				clearInterval(mainInterval3);
-				mainInterval3 = setInterval("mainRoll3()", mainDuration3);
-			}
-		})
-	});
-	//회사소개 롤링 2015-10-14수정
-
-	//복리후생
-	iswelStop = false;
-	welMax = jQuery(".welfareDiv .welRbt").size()-1;
-	welInterval = setInterval("welRoll()", welDuration);
-	jQuery(".welfareDiv .welRoll").css('left', '100%');
-	jQuery(".welfareDiv .welRoll").eq(0).css('left', 0);
 	
-	jQuery(".welfareDiv .btPack .controll a").eq(2).click(function(){ //스탑버튼
-		if(iswelStop == false){
-			jQuery(this).find("img").attr("src", jQuery(this).find("img").attr("src").replace(".png", "_on.png"));
-			clearInterval(welInterval);
-			iswelStop = true;
-		}else if(iswelStop == true){
-			jQuery(this).find("img").attr("src", jQuery(this).find("img").attr("src").replace("_on.png", ".png"));
-			clearInterval(welInterval);
-			welInterval = setInterval("welRoll()", welDuration);
-			iswelStop = false;
-		}
-	});
 
 	jQuery(".welfareDiv .welRbt").each(function(q){ //썸네일
 		jQuery(this).click(function(){
@@ -607,7 +529,7 @@ jQuery(window).load(function(){
 						jQuery(".welfareDiv .welRoll").eq(welNum).stop().animate({left:"100%"}, 0);
 						jQuery(".welfareDiv .welRoll").eq(welNum).stop().animate({left:"0"}, 500, function(){
 							iswelMove = false;
-						});								
+						});
 					} else if(welNum>q) {
 						jQuery(".welfareDiv .welRoll").eq(welNum).stop().animate({left:"100%"}, 500);
 						jQuery(".welfareDiv .welRbt").eq(welNum).find("img").attr("src", jQuery(".welfareDiv .welRbt").eq(welNum).find("img").attr("src").replace("_on.png", ".png"));
@@ -625,15 +547,15 @@ jQuery(window).load(function(){
 		}).hover(function(){
 				if(iswelStop == false){
 					clearInterval(welInterval);
-				}				
+				}
 			}, function(){
 				if(iswelStop == false){
 					clearInterval(welInterval);
 					welInterval = setInterval("welRoll()", welDuration);
-				}				
+				}
 		})
 	});
-	
+
 	jQuery(".welfareDiv .btPack .controll a").each(function(q){  //좌우버튼
 		jQuery(this).click(function(){
 			if(q != 2){
@@ -665,12 +587,12 @@ jQuery(window).load(function(){
 		}).hover(function(){
 				if(iswelStop == false){
 					clearInterval(welInterval);
-				}				
+				}
 			}, function(){
 				if(iswelStop == false){
 					clearInterval(welInterval);
 					welInterval = setInterval("welRoll()", welDuration);
-				}				
+				}
 		})
 	});
 
@@ -705,7 +627,7 @@ jQuery(window).load(function(){
 			jQuery(this).find(".onbg").height(jQuery(this).height()- 6);
 			jQuery(this).find(".onbg").stop().fadeIn(150);
 		}, function(){
-			jQuery(this).find(".onbg").stop().fadeOut(150);			
+			jQuery(this).find(".onbg").stop().fadeOut(150);
 		})
 	});
 
@@ -725,14 +647,14 @@ jQuery(window).load(function(){
 			jQuery(".profileDiv .checkTxt.type1").stop().animate({top : 300, opacity : 0}, 150);
 		});
 	});
-	
-	//2017.10.18 김종근 추가 - 웹 접근성 <사진등록> 도움말 툴팁 기능 추가(마우스 이벤트뿐만 아니라 키보드 이벤트에서도 가능하게끔) 
+
+	//2017.10.18 김종근 추가 - 웹 접근성 <사진등록> 도움말 툴팁 기능 추가(마우스 이벤트뿐만 아니라 키보드 이벤트에서도 가능하게끔)
 	jQuery(".profileDiv .check").attr('tabindex', '0').focus(function(){
 		jQuery(".profileDiv .checkTxt.type1").stop().fadeIn(0, function(){
 			jQuery(".profileDiv .checkTxt.type1").stop().animate({top : 310, opacity : 1}, 150);
 		});
 	});
-	
+
 	//2017.10.18 김종근 추가 - 웹 접근성 <사진등록> 도움말 툴팁 기능 추가(마우스 이벤트뿐만 아니라 키보드 이벤트에서도 가능하게끔)
 	jQuery(".profileDiv .check").attr('tabindex', '0').focusout(function(){
 		jQuery(".profileDiv .checkTxt.type1").stop().fadeOut(0, function(){
@@ -750,13 +672,13 @@ jQuery(window).load(function(){
 		});
 	});
 
-	//2017.10.18 김종근 추가 - 웹 접근성 <이름변경> 도움말 툴팁 기능 추가(마우스 이벤트뿐만 아니라 키보드 이벤트에서도 가능하게끔) 
+	//2017.10.18 김종근 추가 - 웹 접근성 <이름변경> 도움말 툴팁 기능 추가(마우스 이벤트뿐만 아니라 키보드 이벤트에서도 가능하게끔)
 	jQuery(".profileDiv .check2").attr('tabindex', '0').focus(function(){
 		jQuery(".profileDiv .checkTxt.type2").stop().fadeIn(0, function(){
 			jQuery(".profileDiv .checkTxt.type2").stop().animate({top : 4, opacity : 1}, 150);
 		});
 	});
-	
+
 	//2017.10.18 김종근 추가 - 웹 접근성 <이름변경> 도움말 툴팁 기능 추가(마우스 이벤트뿐만 아니라 키보드 이벤트에서도 가능하게끔)
 	jQuery(".profileDiv .check2").attr('tabindex', '0').focusout(function(){
 		jQuery(".profileDiv .checkTxt.type2").stop().fadeOut(0, function(){
@@ -779,7 +701,7 @@ jQuery(window).load(function(){
 
 	//캠리 마이크로 lnb
 	jQuery(".crType3 .crSubDiv .crMenu").css('height', jQuery(".crType3 .crSubDiv .crSub").height() + 205);
-	
+
 	//에디터 이미지 리사이징
 	if(jQuery(".easyEditViewStyle").length > 0)
 	{
@@ -791,25 +713,25 @@ jQuery(window).load(function(){
 				jQuery(this).css("height", "auto");
 			}
 		});
-		
+
 		jQuery(".easyEditViewStyle").find("a").each(function(i){
 			var tmpAttr = jQuery(this).attr("target");
-			
+
 			if(typeof tmpAttr != "undefined" && tmpAttr == "_blank")
 			{
 				jQuery(this).attr("title", "새창열림");
 			}
 		});
 	}
-	
+
 	//파일 다운로드 url re_setting
 	var tmpHost = location.host;
-	
+
 	if(tmpHost.indexOf("recruit.ehyundai.com") > -1)
 	{
 		jQuery("a").each(function(){
 			var tmpHref = jQuery(this).attr("href");
-			
+
 			if(tmpHref.indexOf("/co/fileDownload.nhd") == 0)
 			{
 				jQuery(this).attr("href", "http://recruit.ehyundai.com"+tmpHref);
@@ -916,9 +838,9 @@ function welRoll() {
 
 
 /**
- * 
+ *
  * 계열사 홈페이지 이동
- * 
+ *
  * @date 2015. 08. 07.
  * @author Park, Ju Seok
  * @example
@@ -937,12 +859,12 @@ function moveFooterAflt()
 }
 
 /**
- * 
+ *
  * LNB 초기화
- * 
+ *
  * @date 2015. 08. 07.
  * @author Park, Ju Seok
- * @example * 
+ * @example *
  */
 jQuery(window).load(function(){
 	//LNB 타이틀에 따른 메뉴 on 클래스 추가
@@ -953,7 +875,7 @@ jQuery(window).load(function(){
 			jQuery(this).addClass("on");
 		}
 	})
-	
+
 	if(jQuery("#lnb").find(".nav").find(".twoD").size() > 0)
 	{
 		var title = jQuery("#lnb").find(".nav").find(".twoD").attr("title");
@@ -967,12 +889,12 @@ jQuery(window).load(function(){
 })
 
 /**
- * 
+ *
  * 로그 찍기
- * 
+ *
  * @date 2015. 08. 07.
  * @author Park, Ju Seok
- * @example * 
+ * @example *
  */
 function trace(str)
 {
@@ -986,7 +908,7 @@ function trace(str)
 
 /**
  * 비밀번호를 체크한다.
- * 
+ *
  * @date 2014. 12. 10.
  * @memberOf valLib
  * @param <String> str 비밀번호
@@ -995,14 +917,14 @@ function trace(str)
  */
 function checkPassword(str)
 {
-	if (typeof str != "undefined" && str != "") 
+	if (typeof str != "undefined" && str != "")
 	{
     	var lowCharCnt = 0;
     	var uppCharCnt = 0;
     	var numCharCnt = 0;
     	var spcCharCnt = 0;
     	var kindCnt = 0;
-    	
+
         var lowCharFormat 	= /["a-z"]/;
 		var uppCharFormat 	= /["A-Z"]/;
 		var numFormat 		= /["0-9"]/;
@@ -1014,7 +936,7 @@ function checkPassword(str)
 			if(isKorean(strUnt)){
 	    		return false;
 	    	}
-			
+
 			if(lowCharFormat.test(strUnt)) {
 	            lowCharCnt += 1;
 	        }else if(uppCharFormat.test(strUnt)){
@@ -1025,7 +947,7 @@ function checkPassword(str)
 	        	spcCharCnt += 1;
 	        }else{
 	            spcCharCnt += 1;
-	        } 
+	        }
 		}
 
 		if(lowCharCnt > 0){
@@ -1039,8 +961,8 @@ function checkPassword(str)
 		}
 		if(spcCharCnt > 0){
 			kindCnt += 1;
-		}	      
-		
+		}
+
 		//2017.10.19 김종근 수정 - 대문자, 소문자, 특수문자, 숫자 종류가 모두 포함되어야 OK
 		if(kindCnt < 4){
 			return false;
@@ -1057,9 +979,9 @@ function checkPassword(str)
 
 /**
  * 입력받은 문자열이 한글이면 true, 아니면 false를 리턴한다.
- * 
+ *
  * @date 2014. 12. 10.
- * @memberOf strLib 
+ * @memberOf strLib
  * @param str : 문자열
  * @return 한글이 포함되어 있으면 true, 아니면 false
  * @example strLib.isKorean("무궁화꽃이");
@@ -1080,7 +1002,7 @@ function isKorean(str) {
 
 /**
  * 문자(char)의 유형을 리턴한다.
- * 
+ *
  * @date 2014. 12. 10.
  * @memberOf strLib
  * @param <String> str 문자(char)
@@ -1115,7 +1037,7 @@ function getLocale(str) {
 
 /**
  * 팝업 띄우기
- * 
+ *
  * @date 2014. 12. 10.
  * @memberOf strLib
  * @param <String> url
@@ -1130,9 +1052,9 @@ function openPop(url, id, style) {
 
 
 /**
- * 
+ *
  * 문자열 자르기
- * 
+ *
  * @date 2015. 06. 30.
  * @param {String} 문자열
  * @example
@@ -1145,7 +1067,7 @@ function getLengthString(textarea, num) {
     var str = textarea.value;
     if(str.length >= num)
     {
-	    for (var i = 0; i < num; i++) 
+	    for (var i = 0; i < num; i++)
 	    {
 	    	rtnStr = rtnStr + str.charAt(i);
 	    }
@@ -1160,17 +1082,17 @@ function getLengthString(textarea, num) {
 }
 
 /**
- * 
+ *
  * 숫자만 나오기
- * 
+ *
  * @date 2015. 08. 18.
- * @param 
+ * @param
  * @example
  * setPageList(ds_list, pageList1);
  */
 function onKeyDownNumber() {
 	var keyCode = event.keyCode;
-	if ( ((keyCode < 33) || (keyCode > 40)) && ((keyCode < 48) || (keyCode > 57)) && ((keyCode < 96) || (keyCode > 105)) && (keyCode !== 8) && (keyCode !== 9) && (keyCode != 13) && (keyCode != 46) && (keyCode != 144) && (keyCode != 110)  && (keyCode != 190))	
+	if ( ((keyCode < 33) || (keyCode > 40)) && ((keyCode < 48) || (keyCode > 57)) && ((keyCode < 96) || (keyCode > 105)) && (keyCode !== 8) && (keyCode !== 9) && (keyCode != 13) && (keyCode != 46) && (keyCode != 144) && (keyCode != 110)  && (keyCode != 190))
 	{
 		event.returnValue=false;
 		return;
@@ -1178,11 +1100,11 @@ function onKeyDownNumber() {
 }
 
 /**
- * 
+ *
  * 0자 붙이기
- * 
+ *
  * @date 2015. 08. 18.
- * @param 
+ * @param
  * @example
  * setPageList(ds_list, pageList1);
  */
@@ -1202,9 +1124,9 @@ function getZero(num)
 
 
 /**
- * 
+ *
  * 쿠키 값을 셋팅한다.
- * 
+ *
  * @date 2014. 12. 10.
  * @memberOf comLib
  * @param <String> name 쿠키 명
@@ -1214,7 +1136,7 @@ function getZero(num)
  * @example
  * comLib.setCookie("userid", "done", 7)
  */
-function setCookie(name, value, expiredays) 
+function setCookie(name, value, expiredays)
 {
 //    var today = new Date();
 //    today.setDate(today.getDate() + expiredays);
@@ -1226,16 +1148,16 @@ function setCookie(name, value, expiredays)
 		success:function(data){
 		},
 		error:function(event)
-		{				
+		{
 			//alert("잠시후 다시 시도 바랍니다.");
 		}
-	});		
+	});
 };
 
 /**
- * 
+ *
  * 셋팅한 쿠키 값을 가져온다.
- * 
+ *
  * @date 2014. 12. 10.
  * @memberOf comLib
  * @param <String> name 쿠키 명
@@ -1245,7 +1167,7 @@ function setCookie(name, value, expiredays)
  * @example
  * var ret = comLib.getCookie("userid");
  */
-function getCookie(name) 
+function getCookie(name)
 {
     var cook = document.cookie + "; secure;";
     var idx = cook.indexOf(name, 0);
@@ -1260,15 +1182,15 @@ function getCookie(name)
 };
 
 /**
- * 
+ *
  * 주민번호 인증
- * 
+ *
  * @date 2015. 09. 06.
- * @param <String> name 주민번호 * 
+ * @param <String> name 주민번호 *
  * @author Park, Sang Kyu
  * @example
  */
-function check_jumin(jumin) { 
+function check_jumin(jumin) {
 	 //주민등록 번호 13자리를 검사한다.
 	  var fmt = /^\d{6}[1234]\d{6}$/;  //포멧 설정
 	  if (!fmt.test(jumin)) {
@@ -1291,7 +1213,7 @@ function check_jumin(jumin) {
 	  // Check Sum 코드의 유효성 검사
 	  var buf = new Array(13);
 	  for (var i = 0; i < 13; i++) buf[i] = parseInt(jumin.charAt(i));
-	 
+
 	  multipliers = [2,3,4,5,6,7,8,9,2,3,4,5];
 	  for (var sum = 0, i = 0; i < 12; i++) sum += (buf[i] *= multipliers[i]);
 
