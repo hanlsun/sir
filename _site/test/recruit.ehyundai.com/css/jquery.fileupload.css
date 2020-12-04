@@ -34,3 +34,7 @@
     height: 100%;
   }
 }
+.footer{
+  @media (max-width: @screen-xs-max) {
+    <img src="../../images/icon/faq_open.gif"  />
+}
