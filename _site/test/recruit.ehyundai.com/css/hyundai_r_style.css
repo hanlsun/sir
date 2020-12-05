@@ -107,10 +107,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .snsBts a{margin-left:3px}
 
 /* main  */
-.renewalBody{height:100%; background:url('../images/icon/renewalBg.jpg') center top no-repeat #e2e2e2; text-align:center;}
-.renewalBody h1{min-width:617px;}
-.renewalBody h1 a{background:url('../images/logo.png') no-repeat; width:162px; height:58px; text-indent:-9999px; overflow:hidden; display:inline-block; background-size:162px; margin-top:50px;}
-.renewalBody p{min-width:617px;}
+
 
 .mPopBan{position:relative; width:100%; height:130px; overflow:hidden; background:#d0edf3} /*2018.02.21 김종근 수정 - 채용메인 팝업 백그라운드 색깔 조정/2019.02.22 김종근 수정 - 메인 백그라운드 색 수정*/
 .mPopBan .mPopCon{display:block; width:100%; height:130px; position:absolute; top:130px; left:0; text-align:center}
@@ -126,17 +123,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #header.main .headDiv .srchBt{display:none}
 #header.main .headDiv .srchArea span:next(){display:none}
 
-.mainVisual{position:relative; width:100%; height:910px; margin:auto; overflow:hidden}
-.mainVisual .rollDiv{position:absolute; top:0; left:0; width:100%; height:910px; background:url('../images/icon/main_v1.jpg') no-repeat center 0;}
-.mainVisual .rollDiv.one{background:url('../images/icon/main_v1_b.jpg') no-repeat center 0;}
-.mainVisual .rollDiv.two{background:url('../images/icon/main_v2_b.jpg') no-repeat center 0;}
-.mainVisual .rollDiv.thr{background:url('../images/icon/main_v3_b.jpg') no-repeat center 0;}
-.mainVisual .rollDiv.fou{background:url('../images/icon/main_v4_b.jpg') no-repeat center 0;}
-.mainVisual .rollDiv .unit{position:relative; width:1200px; height:; margin:auto; padding:175px 0 0;}
-.mainVisual .rollDiv .unit p{margin-bottom:35px}
-.mainVisual .rollDiv .unit a{position:relative; z-index:500}
-.mainRollBt{position:absolute; bottom:70px; left:0; z-index:500}
-.mainRollBt .play{display:none}
+
 
 /* 2017-08-14 수정 */
 #cBody.main{padding-top:138px; height:713px;}
@@ -930,7 +917,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.group .diagram .bts.fou{top:370px; left:65px;}
 	.group .diagram .bts.fiv{top:160px; left:35px;}
 
-	
+
 	.listPrv li.prv{width:297px; padding:29px 10px 32px 45px; background:url('../images/icon/preview_icon1.gif') no-repeat 10px center; overflow:hidden; border-right:1px solid #d7d7d7}
 	.listPrv li.nxt{width:298px; padding:29px 45px 32px 10px; background:url('../images/icon/preview_icon2.gif') no-repeat 327px center; overflow:hidden;}
 
