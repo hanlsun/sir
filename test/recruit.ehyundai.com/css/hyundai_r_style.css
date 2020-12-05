@@ -312,47 +312,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .selfIntro .addR strong{color:#1c8292;}
 .selfIntro .listDiv .unit .checkbox{background:#f1f1f1}
 
-.introGate{width:100%; height:250px; background:url('../images/icon/intro_gatevisual.jpg') no-repeat center 0; text-indent:-9999px;}
-.introGateList{overflow:hidden}
-/* .introGateList li{position:relative; width:276px; height:336px; float:left; overflow:hidden; margin:0 30px 30px 0;}
-.introGateList li .overDiv{position:absolute; bottom:0; left:0; width:276px; height:79px; padding-top:18px; background:url('/images/icon/gate_titbg.png') no-repeat center 0; text-align:center; font-size:; font-weight:bold; color:#fff}
-.introGateList li .overDiv2{display:block; position:absolute; bottom:-239px; left:0;} */
-
-/* 2015-11-02 수정 */
-.introGateList > a{position:relative; width:276px; height:336px; float:left; overflow:hidden; margin:0 30px 30px 0;}
-.introGateList > a .overDiv{position:absolute; bottom:0; left:0; width:276px; height:79px; padding-top:18px; background:url('../images/icon/gate_titbg.png') no-repeat center 0; text-align:center; font-size:; font-weight:bold; color:#fff}
-.introGateList > a .overDiv2{display:block; position:absolute; bottom:-239px; left:0;}
-
-.tab4Div{height:950px;}
-.roleTab{width:910px; background:url('../images/icon/tab4_bg.gif') repeat-y 0 0; padding:27px 25px 5px; overflow:hidden;}
-.roleTab > a{display:clock; width:135px; float:left; margin-bottom:20px; padding-left:16px; background:url('../images/icon/tab4.gif') no-repeat 0 5px; color:#666;}
-.roleTab > a.on{background:url('../images/icon/tab4_on.gif') no-repeat 0 5px; color:#42909b; font-weight:bold; text-decoration:underline;}
-.roleTab .roleDiv{position:absolute; display:none; left:0px; overflow:hidden; min-height:700px;}
-
-.roleTab .roleDiv.on{display:block;}
-.roleTab .roleDiv .left{width:205px; float:left}
-.roleTab .roleDiv .left .tit{padding:10px 0 23px; background:url('../images/icon/role_tit_bg.gif') no-repeat 0 0; font-size:30px; color:#444; line-height:40px}
-.roleTab .roleDiv .left .tit2{padding:10px 0 23px; background:url('../images/icon/role_tit2_bg.gif') no-repeat 0 0; font-size:30px; color:#444; line-height:40px} /* 2017-08-04 추가 */
-.roleTab .roleDiv .left .mt30{height:111px; margin:30px 9px 0}
-.roleTab .roleDiv .left .bt{margin:5px 0}
-.roleTab .roleDiv .right{width:730px; float:left; padding:13px 0 400px; line-height:24px;}
-.roleTab .roleDiv .right .indent{text-indent:-17px; margin-left:17px;}
-
-
-.introRoll{position:relative; width:960px; height:640px}
-.introRoll .rollDiv{position:relative; width:960px; height:640px; overflow:hidden}
-.introRoll .rollDiv p{position:absolute; top:0; left:0; width:960px; height:640px}
-.introRoll .rollDiv .bts{position:absolute; top:40px; right:40px;}
-.introRoll .btDiv{position:absolute; bottom:0; left:0; width:960px; height:150px; background:url('../images/icon/introroll_txtbg.png') no-repeat center 0; text-align:center; color:#fff}
-.introRoll .btDiv strong{font-size:22px; font-weight:bold}
-.introInfoDiv{overflow:hidden; margin-bottom:30px}
-.introInfoDiv ul{width:480px; float:left;}
-.introInfoDiv li{overflow:hidden; margin-bottom:17px}
-.introInfoDiv li .tit{width:66px; height:13px; float:left; padding:4px 7.5px 12px 7.5px; text-align:center; font-weight:bold; color:#333; background:url('../images/icon/introinfo_txtbg.png') no-repeat center 0}
-.introInfoDiv li .txt{width:359px; padding:0 25px 0 15px; float:left; line-height:25px;}
-.introInfoDiv .right{width:480px; float:left; line-height:24px;}
-
-
 .talentDiv{overflow:hidden}
 .talentDiv .titType2{width:205px; float:left}
 .talentDiv dl{width:755px; float:right; margin-top:22px;}
@@ -372,24 +331,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .ethicsDiv .titType2{width:205px; float:left; line-height:35px;}
 .ethicsDiv .txt{line-height:23px; float:left; width:755px; padding-top:17px;}
 
-23 김종근 추가 - 현대L&C 직급체계 추가 */
-.sysRank dl{position:absolute;top:-9999px;left:-9999px;}
-
-.introBg{position:absolute; bottom:128px; left:0; width:100%; height:; background:url('../images/icon/intro_bg.gif') repeat center 0;}
-
-/* 다수시스템 */
-#logWrap{width:100%; border-top:5px solid #0e0e0e}
-.logBody{width:430px; margin:0 auto}
-.logBody h1{text-align:center; padding-top:49px}
-.logBody h1 a{display:inline-block; width:151px; height:41px; text-indent:-9999px; overflow:hidden; background:url('../images/loginlogo.gif') no-repeat;}
-.logSystem{width:100%; height:438px; background:#eee; margin-top:43px; border-bottom:3px solid #ccc;}
-.logSysWrap{width:320px; margin:0 auto;}
-.logSysWrap .tit{text-align:center; padding-top:51px}
-.logSysWrap ul{margin-top:49px}
-.logSysWrap ul li{width:320px; height:54px; border-top:1px solid #f0f0f0; background:url('../images/icon/loginput_bg2.jpg') no-repeat; margin:0 auto}
-.logSysWrap ul li:first-child{border-top:none; background:url('../images/icon/loginput_bg1.jpg') no-repeat;}
-.logSysWrap input{float:right; width:245px; height:48px; border:none; padding:3px 10px !important;}
-.logSysWrap .txt{margin-top:12px; margin-bottom:15px; font-size:13px; line-height:19px; margin-left:1px;}
 
 #signWrap{width:100%;min-width:980px;position:relative}
 #signHeader{width:100%;position:relative;background:#1c8292}
