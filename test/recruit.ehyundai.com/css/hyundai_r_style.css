@@ -478,24 +478,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 
-	.tab3 a.on{background:url('../images/icon/tab3_t_on.gif') no-repeat center 0;}
-	.roleTab{width:658px; background:url('../images/icon/tab4_bg.gif') repeat-y 0 0; background-size:708px;}
-	.tab4Div > p{height:5px;}
-	.tab4Div > p img{width:708px;}
-	.roleTab .roleDiv .left{width:708px;}
-	.roleTab .roleDiv .left .tit{float:left;}
-	.roleTab .roleDiv .left .mt30{float:right; margin-top:0 !important;;}
-	.roleTab .roleDiv .left .mt5{float:right; margin-top:35px !important; margin-left:5px;}
-	.roleTab .roleDiv .left .bt{float:right; margin-top:35px !important; margin-left:5px;}
-	.roleTab .roleDiv .right{width:708px;}
-	.tab4 a{width:115px;}
-	.welTab a{margin:0}
-	.welTab a img{width:138px;}
-	.tab5 a{padding:14px 15px 18px;}
-	.tab6Div .tab6{background:url('../images/icon/tab6bg.gif') no-repeat -36px 0px; width:170px;}
-	.tab6Div .tab5{width:538px; float:left}
-	.tab6Div .tab6 .tabSub{width:90px; padding:15px 30px 4px;}
-
 	.container{width:708px;}
 	.container.wide{width:708px;}
 	.container.wide2{width:708px; margin-top:0}
