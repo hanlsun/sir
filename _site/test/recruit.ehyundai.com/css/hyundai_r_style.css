@@ -473,23 +473,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 
-2019.08.16 김종근 추가 - L&C 인재DB*/
-.dbList .dbView{display:none; position:relative; height:287px; border:3px solid #1c8292; border-radius:40px; padding:19px 13px 0; overflow:hidden}
-.dbList .dbView .img{width:430px; float:left}
-.dbList .dbView .txt{width:430px; float:right; margin-right:35px; line-height:24px;}
-.dbList .dbView .img2{width:380px; float:left}/* 2017-08-21 추가 */
-.dbList .dbView .txt2{width:430px; float:left; margin-right:35px; line-height:24px;}/* 2017-08-21 추가 */
-.dbList .dbView .xbt{position:absolute; top:32px; right:32px;}
-
-.hgStory{overflow:hidden;}
-.hgStory span{display:block;}
-.hgStory .thumbnail{width:290px; overflow:hidden;}
-.hgStory .thumbnail img{width:290px;}
-.hgStory a.txt{display:block; border:1px solid #d7d7d7; padding:0 20px;}
-.hgStory .txt .part1{height:42px; padding:23px 0 23px; overflow:hidden; font-size:15px; font-weight:bold; color:#333; line-height:24px; border-bottom:1px solid #e5e5e5}
-.hgStory .txt .part2{height:18px; padding:8px 0 27px; overflow:hidden; font-size:12px; color:#757575; letter-spacing:0}
-.hgStory .txt .part2 .numView{float:right; padding-left:20px; background:url('../images/icon/numbering_icon.png') no-repeat 0 4px;}
-.hgStory li a.onbg{display:none; position:absolute; top:0px; right:0px; width:284px; border:3px solid #29a3b6;}
 
 .listPrv{overflow:hidden; border:1px solid #d7d7d7;}
 .listPrv li{float:left;}
@@ -516,32 +499,8 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .paging a.nxt{border:0px solid #d7d7d7; margin-left:18px;}
 .paging a.end{border:0px solid #d7d7d7;}
 
-/* footer */
-#footer{position:relative; width:100%; border-top:1px solid #ddd; background:#fff; z-index:900;}
-#footer .footerDiv{position:relative; width:1200px; margin:auto; padding:25px 0 40px}
-#footer .footUtil{font-size:12px; font-weight:bold;}
-#footer .footUtil a:hover{text-decoration:underline}
-#footer .footUtil span{font-weight:normal; padding:0 6px; color:#7a7a7a}
-#footer .copyright{margin-top:13px; padding-top:11px; background:url('../images/icon/footer_txtbg.gif') no-repeat 0 0; font-size:11px; letter-spacing:0; color:#777}
-#footer .right{position:absolute; top:30px; right:0; width:240px;} /* 2015-11-16 수정 */
-#footer .right .wacm{position:absolute; left:-105px;} /* 2015-11-16 추가 */
-#footer .right select{width:180px; height:35px; line-height:31px; float:left; background:#ededed; color:#555; font-size:12px; border:0; padding:0 0 0 10px;}
-#footer .right a{display:block; width:50px; height:35px; float:left; background:#919191; color:#fff; font-size:12px; font-weight:bold; text-align:center; line-height:33px;}
-#footer .right a:hover{text-decoration:underline}
 
-/*팝업*/
-#popWrap{width:100%; background:url('../images/popup/popbg.gif') repeat-x 0 0; font-size:13px; line-height:25px;}
-#pophead{position:relative; font-size:26px; font-weight:bold; color:#fff; line-height:30px; padding:24px 30px 30px 30px;}
-#pophead a{display:block; position:absolute; top:25px; right:30px;}
-#popBody{padding:0 30px 30px;}
-#popBody .popDiv{position:relative; border:1px solid #d7d7d7; background:#fbfbfb; padding:26px 30px 30px 30px;}
-#popBody .txtH{position:relative; font-weight:bold; color:#9e694a; padding-bottom:20px; border-bottom:1px dashed #d7d7d7;}
-#popBody .txtH2{position:relative; font-weight:bold; color:#9e694a; padding:13px 0 0; line-height:23px;}
-#popBody .txtH .mailAcc li{width:275px; margin:auto;}
-#popBody .mailAcc li{overflow:hidden; margin-bottom:5px;}
-#popBody .mailAcc li .tit{min-width:52px; margin-right:15px; float:left; font-weight:bold; color:#333; margin-top:4px}
-#popBody .mailAcc li input{width:168px;}
-#popBody .mailAcc li select{float:left;}
+
 .popImgDiv{position:relative; border:1px solid #b9b9b9; padding:30px; background:#fff; overflow:hidden}
 .popImgDiv .titType4{float:left}
 .popImgDiv .imgDiv{width:168px; height:225px; border:1px solid #d7d7d7; float:right}
