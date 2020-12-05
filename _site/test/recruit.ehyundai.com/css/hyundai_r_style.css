@@ -418,7 +418,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 
-  @media (min-width: @screen-md-min) and (max-width: @screen-lg-max) {
+  @media (min-width: @screen-lg-min) and (max-width: @screen-md-max) {
 
 
   .vmobile{display: none;}
