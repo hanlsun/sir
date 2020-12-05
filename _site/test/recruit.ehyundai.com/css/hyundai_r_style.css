@@ -145,7 +145,39 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #cBody.main .mainCon .unit .txt strong{color:#42909b;}
 #cBody.main .mainCon .unit .txt a{display:inline-block; width:65px;}
 #cBody.main .mainCon .unit .txt a:hover{text-decoration:underline}
-ound:url('../images/icon/main_con_bg_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.one .txt{background:url('../images/icon/main_con_icon1.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.two .txt{background:url('../images/icon/main_con_icon2.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.thr .txt{background:url('../images/icon/main_con_icon3.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.fou .txt{background:url('../images/icon/main_con_icon4.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.fiv .txt{background:url('../images/icon/main_con_icon5.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.six .txt{background:url('../images/icon/main_con_icon6.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.sev .txt{background:url('../images/icon/main_con_icon7.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.eig .txt{background:url('../images/icon/main_con_icon8.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.nin .txt{background:url('../images/icon/main_con_icon9.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.ten .txt{background:url('../images/icon/main_con_icon10.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.ele .txt{background:url('../images/icon/main_con_icon11.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.twe .txt{background:url('../images/icon/main_con_icon12.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.thi .txt{background:url('../images/icon/main_con_icon13.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.fou2 .txt{background:url('../images/icon/main_con_icon14.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.fift .txt{background:url('../images/icon/main_con_icon15.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
+#cBody.main .mainCon .unit.sixt .txt{background:url('../images/icon/main_con_icon16.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
+#cBody.main .mainCon .unit.one.rec .txt{background:url('../images/icon/main_con_icon1_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.two.rec .txt{background:url('../images/icon/main_con_icon2_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.thr.rec .txt{background:url('../images/icon/main_con_icon3_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.fou.rec .txt{background:url('../images/icon/main_con_icon4_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.fiv.rec .txt{background:url('../images/icon/main_con_icon5_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.six.rec .txt{background:url('../images/icon/main_con_icon6_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.sev.rec .txt{background:url('../images/icon/main_con_icon7_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.eig.rec .txt{background:url('../images/icon/main_con_icon8_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.nin.rec .txt{background:url('../images/icon/main_con_icon9_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.ten.rec .txt{background:url('../images/icon/main_con_icon10_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.ele.rec .txt{background:url('../images/icon/main_con_icon11_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.twe.rec .txt{background:url('../images/icon/main_con_icon12_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.thi.rec .txt{background:url('../images/icon/main_con_icon13_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.fou2.rec .txt{background:url('../images/icon/main_con_icon14_on.png') no-repeat 0 0;}
+#cBody.main .mainCon .unit.fift.rec .txt{background:url('../images/icon/main_con_icon15_on.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
+#cBody.main .mainCon .unit.sixt.rec .txt{background:url('../images/icon/main_con_icon16_on.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
+#cBody.main .mainCon .unit:hover{background:url('../images/icon/main_con_bg_on.png') no-repeat 0 0;}
 #cBody.main .mainCon .unit:hover .txt{color:#fff}
 #cBody.main .mainCon .unit.rec:hover .txt{color:#fff}
 #cBody.main .mainCon .unit:hover .txt a{color:#fff;}
@@ -258,14 +290,7 @@ ound:url('../images/icon/main_con_bg_on.png') no-repeat 0 0;}
 .checkIconBox{padding:27px 20px 30px 52px; border:1px solid #d7d7d7; background:url('../images/icon/check_icon.png') no-repeat 29px 29px #fbfbfb}
 .checkIconTxt{padding:0 0 2px 23px; background:url('../images/icon/check_icon.png') no-repeat 0 2px}
 
-#login{border-top:3px solid #555; border-left:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7; border-right:1px solid #d7d7d7; padding:62px 0 50px; background:#fbfbfb}
-#login .loginDiv{width:440px; margin:auto; padding:22px 0 22px 272px; background:url('../images/icon/login_bg.jpg') no-repeat 0 12px}
-#login .loginDiv .inputDiv{overflow:hidden; border-bottom:1px solid #d7d7d7; padding-bottom:25px}
-#login .loginDiv .inputDiv .left{width:300px; float:left}
-#login .loginDiv .inputDiv .left input{width:278px; height:37px; margin-bottom:5px;}
-#login .loginDiv .inputDiv a{float:right; padding:0 37px;}
-#login .loginDiv .btDiv{margin-top:30px; overflow:hidden}
-#login .loginDiv .btDiv .right{float:right}
+
 
 .completeBox .type2{font-size:16px; padding-top:25px; background:url('../images/icon/txt_icon1.gif') no-repeat center 0; line-height:30px;}
 .modBox{border:1px solid #d7d7d7; background:#fbfbfb; text-align:center; padding:45px 0 55px; font-weight:bold; color:#444; font-size:16px;}
