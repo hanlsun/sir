@@ -188,8 +188,10 @@
 			 if ( this_device ) {
 					 if (pc_device.indexOf(navigator.platform.toLowerCase()) < 0 ) {
 						 $(".vmobile").show();
+						 $("#lnb").hide();
 					 } else {
 						$(".vmobile").hide();
+						$("#lnb").show();
 					 }
 			 }
 			jQuery(document).ready(function() {
