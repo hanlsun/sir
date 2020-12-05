@@ -368,26 +368,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .err500Wrap dd{float:left; text-align:left; margin-left:30px; padding-left:10px; border-left:1px solid #dbdbdb; line-height:22px;}
 
 
-.group{padding:20px 0 30px; line-height:24px}
-.group .diagram{position:relative; text-align:center}
-.group .diagram .bts{position:absolute; text-align:left}
-.group .diagram .bts.one{top:60px; left:570px;}
-.group .diagram .bts.two{top:210px; left:805px;}
-.group .diagram .bts.thr{top:500px; left:715px;}
-.group .diagram .bts.fou{top:510px; left:130px;}
-.group .diagram .bts.fiv{top:230px; left:80px;}
-.group .diagram .bts a{display:block; font-weight:bold; color:#1c8292}
-.group .diagram .bts a:hover{text-decoration:underline}
-.group .diagram .bts a span{padding-right:18px; background:url('../images/icon/group_bticon.png') no-repeat right 4px;}
-.group .diagram .bts strong{display:block; font-weight:bold; color:#1c8292}
-
-.ciDiv{padding:20px 0 30px; line-height:24px}
-.ciBox{border:1px solid #ddd; padding:60px 0 57px; text-align:center}
-
-.dMailDiv{border:1px solid #d7d7d7; background:#fbfbfb; padding:30px;}
-.dMailDiv .txt1{font-weight:bold; color:#444; line-height:24px; border-bottom:1px dashed #d7d7d7; background:url('../images/icon/emaild_icon.gif') no-repeat 20px 20px; padding:10px 35px 21px 145px;}
-.dMailDiv .txt2{color:#444; line-height:24px; padding:19px 20px 25px;}
-
 .depth3Wrap{background:#fafafa; border:1px solid #dadada; margin-bottom:30px; display:none;}
 .depth3Wrap div{width:271px; height:40px; margin:0 auto; padding:15px 0;}
 .depth3Wrap div select{width:198px; height:40px; font-weight:bold; color:#333}
@@ -414,19 +394,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .boardType1 a.listUnit.recruit .tit .date strong.u10{color:#c8461e;}
 .boardType1 a.listUnit.recruit .txt .type1{height:56px; padding:24px 0 16px; overflow:hidden; font-size:18px; color:#000; border-bottom:1px solid #e5e5e5}
 
-.boardType1 dl{border-top:3px solid #29a3b6; border-bottom:3px solid #d7d7d7;}
-.boardType1 dt{position:relative; padding:22px 180px 26px 30px; background:#ecf1f2; font-size:18px; color:#444}
-.boardType1 dt img{vertical-align:middle}
-.boardType1 dt .spec{position:absolute; top:23px; right:30px; font-size:14px; color:#666; letter-spacing:0}
-.boardType1 dt .spec span{padding:0 10px; color:#787979}
-.boardType1 dd{position:relative; overflow:hidden}
-.boardType1 dd .addFile{display:block; margin-top:13px; padding:2px 0; text-align:right; font-size:13px; font-weight:bold; padding-right:25px; background:url('../images/icon/listview_fileicon.gif') no-repeat right 4px;}
-.boardType1 dd .addFile:hover{text-decoration:underline}
-.boardType1 dd .addFileDiv{display:block; position:absolute; top:38px; right:0; min-width:90px; max-width:460px; padding:9px 25px 8px 15px; background:#fff; border:1px solid #515151}
-.boardType1 dd .addFileDiv a{display:block; font-size:12px; padding-left:7px; margin-bottom:7px; background:url('../images/icon/dot3x3.gif') no-repeat 0 8px; letter-spacing:0}
-.boardType1 dd .addFileDiv a:hover{text-decoration:underline}
-.boardType1 dd .addFileDiv p{position:absolute; top:-11px; right:0;}
-.boardType1 dd .addFileDiv a.xbt{display:block; position:absolute; top:7px; right:7px; padding:3px; margin-bottom:0; background:none;}
 
 .boardType2{position:relative; border-top:3px solid #555; border-bottom:2px solid #d7d7d7;}
 .boardType2 .addR{position:absolute; top:-40px; right:0;}
@@ -439,16 +406,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .boardType2 td .dateInput .dayInput input.type1{border:0px solid #29a3b6; padding:4px 10px;}
 .boardType2 td .dateInput .dayInput input.type2{border:0px solid #29a3b6;}
 
-.boardType3{position:relative;}
-.boardType3 .addR{position:absolute; top:-40px; right:0;}
-.boardType3 .addR img{vertical-align:middle}
-.boardType3 th{padding:12px 0 14px; border-bottom:5px solid #fff; border-right:1px solid #fff; background:#29a3b6; color:#fff; vertical-align:top}
-.boardType3 td{padding:15px 8px 10px; border-bottom:5px solid #fff; text-align:center; background:url('../images/icon/boardtype3_br.gif') repeat-y right 0 #ecf1f2; line-height:22px}
-.boardType3 td.taL{text-align:left; padding:8px 8px 8px 30px;}
-.boardType3 td.taL strong{color:#444}
-.boardType3 td.nodata{text-align:center; padding:46px 0; font-size:20px; color:#444}
-.boardType3 td a{margin-bottom:5px}
-.boardType3 td .brwbtH30{margin-bottom:5px}
 
 .boardType4{position:relative; border-top:3px solid #555; border-bottom:2px solid #d7d7d7;}
 .boardType4 .addR{position:absolute; top:-43px; right:0;}
