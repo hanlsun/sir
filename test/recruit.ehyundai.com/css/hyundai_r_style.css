@@ -292,33 +292,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 
-.completeBox .type2{font-size:16px; padding-top:25px; background:url('../images/icon/txt_icon1.gif') no-repeat center 0; line-height:30px;}
-.modBox{border:1px solid #d7d7d7; background:#fbfbfb; text-align:center; padding:45px 0 55px; font-weight:bold; color:#444; font-size:16px;}
-.modpwBox{border:1px solid #d7d7d7; background:#fbfbfb; padding:45px 25px 55px;}
-.modpwBox ul{margin-left:180px;}
-.modpwBox li{position:relative; margin-bottom:2px; padding:3px 0;}
-.modpwBox li .tit{width:113px; float:left; margin-top:7px; font-weight:bold; color:#333;}
-.modpwBox li .addTxt{position:absolute; top:0; left:424px; font-size:13px; color:#9e694a}
-.modpwBox .bts{margin:20px 0 0 294px}
-.profileDiv{border:1px solid #d7d7d7; background:#fbfbfb; padding:30px;}
-.profileDiv .picDiv{position:relative; width:170px; float:left}
-.profileDiv .picDiv .pic{width:168px; height:225px; border:1px solid #d7d7d7; background:url('../images/icon/profile_picnoimg.gif') no-repeat 0 0;}
-.profileDiv .picDiv .pic img{width:168px; height:225px;}
-.profileDiv .picDiv .inputFile{display:block; width:170px; height:35px; background:url('../images/btn/regpic_bt.gif') no-repeat 0 0; text-indent:-9999px}
-.profileDiv .boardType4{width:700px; float:right}
-.container.wide .profileDiv .boardType4{width:940px;}
-.resultView{border-top:3px solid #29a3b6}
-.resultView dt{padding:22px 30px 27px; margin-bottom:10px; border-top:3px solid #29a3b6; background:#ecf1f2; font-size:18px; font-weight:bold; color:#444}
-.resultView dd{border:1px solid #d7d7d7;}
-.resultView dd .img{border-bottom:1px solid #d7d7d7;}
-.resultView dd .viewDiv1{padding:40px 0 46px; /*background:url('/images/icon/result_view_img1.jpg') no-repeat center 0;*/ text-align:center;}
-.resultView dd .viewDiv1.fail{padding:50px 0 56px; background:none}
-.resultView dd .viewDiv1 .type1{font-size:25px; color:#444; line-height:40px;}
-.resultView dd .viewDiv1.fail .type1{font-weight:bold; font-size:30px;}
-.resultView dd .viewDiv1 .type2{padding-top:25px; background:url('../images/icon/txt_icon1.gif') no-repeat center 0; line-height:24px;}
-.resultView dd .viewDiv2{padding:30px 30px 35px; border-top:1px dashed #d7d7d7}
-.resultView dd .viewDiv2 li{margin-bottom:15px; overflow:hidden; line-height:24px;}
-.resultView dd .viewDiv2 li .tit{width:139px; height:26px; padding:2px 0 2px 15px; float:left; margin-right:19px; background:url('../images/icon/tit_bg3.gif') no-repeat 0 0; font-size:16px; font-weight:bold; color:#333}
+
 
 .checkList{border:1px solid #d7d7d7; background:#fbfbfb; padding:28px 30px 19px;}
 .checkList li{padding:0 0 12px 23px; background:url('../images/icon/check_icon.png') no-repeat 0 2px;}
