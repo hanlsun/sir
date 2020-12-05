@@ -415,11 +415,12 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 
-#footer {display: none;}
+
 
 @media screen and (max-width: 768px) {
 
-  #footer {display: block;}
+
+  .vmobile{display: none;}
 
 }
 
