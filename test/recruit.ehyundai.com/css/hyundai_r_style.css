@@ -413,9 +413,9 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .paging a.nxt{border:0px solid #d7d7d7; margin-left:18px;}
 .paging a.end{border:0px solid #d7d7d7;}
 
-
-@media (min-width: 768px)  {
-  .vmobile{display: none;}
+.vmobile{display: none;}
+@media (min-width: 768px) {
+  .vmobile{display: block;}
  }
 
 
