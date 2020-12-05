@@ -182,13 +182,28 @@
 	</div>
 
 		<script type="text/javascript">
+			 var display_size = document.getElementsByClassName('vmobile');
+
+			 var pc_device = "win16|win32|win64|mac|macintel";
+			 // 접속한 디바이스 환경
+			 var this_device = navigator.platform;
+			 if ( this_device ) {
+					 if ( pc_device.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+						 $(".vmobile").show();
+					 } else {
+						$(".vmobile").hide();
+					 }
+
+			 }
 			jQuery(document).ready(function() {
 				var filter = "win16|win32|win64|mac";
 				if (navigator.platform) {
 					if (filter.indexOf(navigator.platform.toLowerCase()) > 0) {
-						jQuery("#mVer").hide();
-					} else {
 						jQuery("#mVer").show();
+
+					} else {
+						jQuery("#mVer").hide();
+
 					}
 				}
 			});
