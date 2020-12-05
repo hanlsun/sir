@@ -123,49 +123,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #header.main .headDiv .srchBt{display:none}
 #header.main .headDiv .srchArea span:next(){display:none}
 
-/* 2017-08-14 수정 */
-#cBody.main{padding-top:138px; height:713px;}
-#cBody.main .mainCon{width:520px; float:right; height:548px; overflow-y:scroll; position:relative}/* 2017-09-15 수정 */
-#cBody.main .mainCon .unitDiv{position:absolute; left:0}
-#cBody.main .mainCon .unit{display:block; width:201px; height:47px; float:left; padding:20px; margin-left:9px; background:url('../images/icon/main_con_bg.png') no-repeat 0 0; font-size:13px;}
-#cBody.main .mainCon .unit .txt{padding:5px 0 5px 55px; font-size:13px; color:#555}
-#cBody.main .mainCon .unit.rec .txt{font-size:14px; color:#333}
-#cBody.main .mainCon .unit .txt strong{color:#42909b;}
-#cBody.main .mainCon .unit .txt a{display:inline-block; width:65px;}
-#cBody.main .mainCon .unit .txt a:hover{text-decoration:underline}
-#cBody.main .mainCon .unit.one .txt{background:url('../images/icon/main_con_icon1.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.two .txt{background:url('../images/icon/main_con_icon2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thr .txt{background:url('../images/icon/main_con_icon3.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou .txt{background:url('../images/icon/main_con_icon4.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fiv .txt{background:url('../images/icon/main_con_icon5.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.six .txt{background:url('../images/icon/main_con_icon6.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.sev .txt{background:url('../images/icon/main_con_icon7.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.eig .txt{background:url('../images/icon/main_con_icon8.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.nin .txt{background:url('../images/icon/main_con_icon9.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ten .txt{background:url('../images/icon/main_con_icon10.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ele .txt{background:url('../images/icon/main_con_icon11.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.twe .txt{background:url('../images/icon/main_con_icon12.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thi .txt{background:url('../images/icon/main_con_icon13.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou2 .txt{background:url('../images/icon/main_con_icon14.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fift .txt{background:url('../images/icon/main_con_icon15.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
-#cBody.main .mainCon .unit.sixt .txt{background:url('../images/icon/main_con_icon16.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
-#cBody.main .mainCon .unit.one.rec .txt{background:url('../images/icon/main_con_icon1_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.two.rec .txt{background:url('../images/icon/main_con_icon2_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thr.rec .txt{background:url('../images/icon/main_con_icon3_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou.rec .txt{background:url('../images/icon/main_con_icon4_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fiv.rec .txt{background:url('../images/icon/main_con_icon5_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.six.rec .txt{background:url('../images/icon/main_con_icon6_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.sev.rec .txt{background:url('../images/icon/main_con_icon7_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.eig.rec .txt{background:url('../images/icon/main_con_icon8_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.nin.rec .txt{background:url('../images/icon/main_con_icon9_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ten.rec .txt{background:url('../images/icon/main_con_icon10_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ele.rec .txt{background:url('../images/icon/main_con_icon11_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.twe.rec .txt{background:url('../images/icon/main_con_icon12_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thi.rec .txt{background:url('../images/icon/main_con_icon13_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou2.rec .txt{background:url('../images/icon/main_con_icon14_on.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fift.rec .txt{background:url('../images/icon/main_con_icon15_on.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
-#cBody.main .mainCon .unit.sixt.rec .txt{background:url('../images/icon/main_con_icon16_on.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
-#cBody.main .mainCon .unit:hover{background:url('../images/icon/main_con_bg_on.png') no-repeat 0 0;}
+
 #cBody.main .mainCon .unit:hover .txt{color:#fff}
 #cBody.main .mainCon .unit.rec:hover .txt{color:#fff}
 #cBody.main .mainCon .unit:hover .txt a{color:#fff;}
