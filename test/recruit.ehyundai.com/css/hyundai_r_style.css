@@ -129,9 +129,46 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #cBody.main .mainCon .unit:hover .txt a{color:#fff;}
 #cBody.main .mainCon .unit:hover .txt strong{color:#fff;}
 
+/* 2017-09-26 추가 */
+#cBody.main .mainConBtn{position:absolute; top:600px; right:23px; width:30px; height:9px; background:url('../images/icon/play_stop_bar.gif') no-repeat center center; overflow:hidden}
+#cBody.main .mainConBtn .playBtn{float:left; display:block; height:9px}
+#cBody.main .mainConBtn .stopBtn{float:right; display:block; height:9px}
+/* //2017-09-26 추가 */
+#cBody.main .mainCon span{display:block}
+.mTotalRec{display:inline-block; width:115px; height:15px; overflow:hidden; background:url('../images/btn/main_con_bt.png') no-repeat 0 0; text-indent:9999px;}
+.mNewRec{display:inline-block; width:36px; height:15px; overflow:hidden; background:url('../images/btn/main_con_bt_n.png') no-repeat 0 0; text-indent:9999px;}
+.mCareerRec{display:inline-block; width:36px; height:15px; overflow:hidden; background:url('../images/btn/main_con_bt_c.png') no-repeat 0 0; text-indent:9999px;}
+.maincon2{position:relative; width:100%; height:59px; background:url('../images/icon/main_con2_bg.png') repeat-x 0 0; z-index:150;}
+.maincon2 .bottom{width:1200px; height:59px; margin:auto; overflow:hidden}
+.maincon2 .bottom .mNoti{position:relative; width:710px; overflow:hidden; border-right:1px solid #a39f9e; float:left;}
+.maincon2 .bottom .mNoti .tit{display:block; width:110px; float:left; padding:15px 0; background:url('../images/btn/main_noti_bt.png') no-repeat 0 15px; text-indent:-9999px}
+.maincon2 .bottom .mNoti .mNotiDiv{position:relative; width:490px; height:59px; overflow:hidden; float:left}
+.maincon2 .bottom .mNoti .mNotiDiv a{display:block; position:absolute; top:0; left:0; height:23px; padding:18px 20px; color:#fff; overflow:hidden}
+.maincon2 .bottom .mNoti .mNotiDiv a span{margin-right:16px;}
+.maincon2 .bottom .mNoti .btDiv{width:70px; float:left; text-align:center; padding:14px 0;}
+.maincon2 .bottom .mNoti .btDiv a{display:block;}
+.maincon2 .bottom .mNoti .morebt{position:absolute; top:21px; left:97px;}
+.maincon2 .bottom .mUtil{width:449px; overflow:hidden; padding:20px 0 0 40px; float:left}
+.maincon2 .bottom .mUtil span{font-size:9px; vertical-align:top; color:#989898; margin:0 26px;}
 
 
 
+
+/* tab */
+.popTab{position:relative; top:1px; width:100%; overflow:hidden; z-index:100}
+.popTab a{position:relative; display:block; float:left; width:170px; height:23px; padding:10px 0 10px; text-align:center; border:1px solid #d7d7d7; background:#ecf1f2; overflow:hidden; font-size:16px; color:#555; z-index:100}
+.popTab a.on{border-bottom:1px solid #fbfbfb; background:#fbfbfb; overflow:hidden; font-weight:bold; color:#1c8292}
+.welTab{text-align:center}
+.welTab a{display:inline-block; margin:0 3px;}
+.welfareDiv{position:relative; width:960px; height:73px; padding:362px 0 0; margin-bottom:30px; overflow:hidden; text-align:center}
+.welfareDiv .welRoll{position:absolute; top:0; left:0; width:960px; height:435px; overflow:hidden}
+.welfareDiv .welRoll .txtDiv{position:absolute; top:50px; right:0; width:384px; height:165px; padding:40px 30px; background:url('../images/icon/welfare_txtbg.png') no-repeat 0 0; overflow:hidden; text-align:left}
+.welfareDiv .welRoll .txtDiv .tit{width:153px; float:left; font-size:34px; color:#222; line-height:40px;}
+.welfareDiv .welRoll .txtDiv .txt{width:219px; float:left; line-height:23px;}
+.welfareDiv .welRbt{position:relative; display:inline-block; margin:0 1px; z-index:100;}
+.welfareDiv .btPack{position:absolute; bottom:0; left:0; width:960px; height:73px; padding:17px 0 0; overflow:hidden; text-align:center; background:url('../images/icon/welfare_btbg.png') no-repeat 0 0;}
+.welfareDiv .btPack .controll{position:absolute; top:36px; right:20px;}
+.welfareDiv .btPack .controll a{display:inline-block; padding:0 10px; width:11px;}
 
 /* sub */
 #cBody{position:relative; width:1200px; margin:auto; overflow:hidden; z-index:10;}
@@ -201,7 +238,13 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .cultureDiv .titType2{width:205px; float:left; line-height:35px; font-size:20px; font-weight:bold}
 .cultureDiv .txt{line-height:23px; float:left; width:755px; padding-top:17px;}
 
-.
+.ethicsDiv{overflow:hidden;}
+.ethicsDiv div{overflow:hidden;}
+.ethicsDiv div > dl{background:url('../images/txt/ethics_img2.gif') no-repeat; width:755px; height:453px; text-indent:-9999px; float:right; padding-bottom:30px;}
+.ethicsDiv div:first-child > dl{background:url('../images/txt/ethics_img1.gif') no-repeat; width:755px; height:170px; text-indent:-9999px; padding-bottom:0;}
+.ethicsDiv .titType2{width:205px; float:left; line-height:35px;}
+.ethicsDiv .txt{line-height:23px; float:left; width:755px; padding-top:17px;}
+
 
 #signWrap{width:100%;min-width:980px;position:relative}
 #signHeader{width:100%;position:relative;background:#1c8292}
@@ -319,7 +362,29 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .boardType6 .unitList.on a.grnbtH30{display:none}
 .boardType6 .unitList.on a.blkbtH30{display:block}
 
-.
+.boardType7{position:relative; overflow:hidden}
+.boardType7 .listUnit{display:block; background:#f6f6f6; margin-bottom:10px; overflow:hidden}
+.boardType7 .listUnit span{display:block; float:left; padding:22px 0 25px;}
+.boardType7 .listUnit .num{width:62px; text-align:center}
+.boardType7 .listUnit .txt{width:650px; font-size:15px; font-weight:bold; color:#333}
+.boardType7 .listUnit:hover .txt{text-decoration:underline}
+.boardType7 .listUnit .date{float:right; padding-right:30px; letter-spacing:2px; color:#757575; overflow:hidden}
+.boardType7 .listUnit .date .dNum{display:inline-block; padding:0 0 0 0;}
+.boardType7 .listUnit .date .bar{display:inline-block; padding:0 16px; color:#bbb;}
+.boardType7 .listUnit .date .viewNum{display:inline-block; padding:0 0 0 23px; background:url('../images/icon/view_icon1.png') no-repeat 0 4px; font-size:13px; color:#777}
+.boardType7 .listUnit.noti{background:#28a2b6;}
+.boardType7 .listUnit.noti .num{height:65px; padding:0; background:url('../images/icon/notice_icon.png') no-repeat center center; text-indent:-9999px}
+.boardType7 .listUnit.noti .txt{color:#fff}
+.boardType7 .listUnit.noti .date .dNum{color:#fff}
+.boardType7 .listUnit.noti .date .bar{color:#fff;}
+.boardType7 .listUnit.noti .date .viewNum{background:url('../images/icon/view_icon1_on.png') no-repeat 0 4px; color:#fff}
+
+.boardType8{border-top:3px solid #555; border-bottom:3px solid #d7d7d7; height:243px; text-align:center;}
+.boardType8 p{font-size:25px; color:#666}
+
+.dbList{position:relative; overflow:hidden; padding-top:597px;}
+.dbList .dbBt{display:block; position:absolute; text-indent:-9999px; overflow:hidden}
+
 
 
 
@@ -477,6 +542,24 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 
+
+	.tab3 a.on{background:url('../images/icon/tab3_t_on.gif') no-repeat center 0;}
+	.roleTab{width:658px; background:url('../images/icon/tab4_bg.gif') repeat-y 0 0; background-size:708px;}
+	.tab4Div > p{height:5px;}
+	.tab4Div > p img{width:708px;}
+	.roleTab .roleDiv .left{width:708px;}
+	.roleTab .roleDiv .left .tit{float:left;}
+	.roleTab .roleDiv .left .mt30{float:right; margin-top:0 !important;;}
+	.roleTab .roleDiv .left .mt5{float:right; margin-top:35px !important; margin-left:5px;}
+	.roleTab .roleDiv .left .bt{float:right; margin-top:35px !important; margin-left:5px;}
+	.roleTab .roleDiv .right{width:708px;}
+	.tab4 a{width:115px;}
+	.welTab a{margin:0}
+	.welTab a img{width:138px;}
+	.tab5 a{padding:14px 15px 18px;}
+	.tab6Div .tab6{background:url('../images/icon/tab6bg.gif') no-repeat -36px 0px; width:170px;}
+	.tab6Div .tab5{width:538px; float:left}
+	.tab6Div .tab6 .tabSub{width:90px; padding:15px 30px 4px;}
 
 	.container{width:708px;}
 	.container.wide{width:708px;}
