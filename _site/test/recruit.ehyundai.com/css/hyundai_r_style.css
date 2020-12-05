@@ -623,30 +623,10 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.mainRollBt a.right{position:absolute; top:0; right:0;}
 	.mainRollBt a.stop{display:none}
 	.mainRollBt a.play{display:none}
-	.mTotalRec{width:146px; height:26px; margin:0 4px; background:url('../images/btn/main_con_bt_t.png') no-repeat 0 0; color:#444; font-size:1px; text-align:center}
-	.mNewRec{width:69px; height:26px; margin:0 4px; overflow:hidden; background:url('../images/btn/main_con_bt_n_t.png') no-repeat 0 0; color:#444; font-size:1px;}
-	.mCareerRec{width:69px; height:26px; margin:0 4px; overflow:hidden; background:url('../images/btn/main_con_bt_c_t.png') no-repeat 0 0; color:#444; font-size:1px;}
 
 	.mPopBan .mPopCon{display:block;}
 
-	#cBody.main{padding-top:275px; width:708px; /* height:556px */ height:653px;}
-	#cBody.main .container{width:520px; margin:auto} /* 2017-09-18 수정 */
-	#cBody.main .mainCon{width:520px; float:none; margin:auto} /* 2017-09-18 수정 */
-	#cBody.main .mainConBtn{top:610px} /* 2017-09-26 추가 */
-	.maincon2 .bottom{width:708px; margin:auto; overflow:hidden}
-	.maincon2 .bottom .mNoti{width:370px; overflow:hidden; border-right:1px solid #a39f9e; float:left}
-	.maincon2 .bottom .mNoti .tit{display:block; width:75px; float:left; padding:15px 0; background:url('../images/btn/main_noti_bt_t.png') no-repeat 0 15px;}
-	.maincon2 .bottom .mNoti .mNotiDiv{position:relative; width:260px; height:59px; overflow:hidden; float:left}
-	.maincon2 .bottom .mNoti .mNotiDiv a{display:block; position:absolute; top:0; left:0; width:250px; height:23px; padding:18px 0 18px 10px; color:#fff; overflow:hidden}
-	.maincon2 .bottom .mNoti .mNotiDiv a span{margin-right:0px;}
-	.maincon2 .bottom .mNoti .mNotiDiv a span.date{display:none}
-	.maincon2 .bottom .mNoti .btDiv{width:30px; float:left; text-align:center; padding:14px 0;}
-	.maincon2 .bottom .mNoti .btDiv a{display:block;}
-	.maincon2 .bottom .mNoti .morebt{left:57px;}
 
-	.maincon2 .bottom .mUtil{width:307px; overflow:hidden; padding:20px 0 0 10px; float:left}
-	.maincon2 .bottom .mUtil span{font-size:9px; vertical-align:top; color:#989898; margin:0 3px;}
-	.main .container .taR{text-align:center !important}
 
 
 	.tab3 a.on{background:url('../images/icon/tab3_t_on.gif') no-repeat center 0;}
