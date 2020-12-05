@@ -128,39 +128,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #cBody.main .mainCon .unit.rec:hover .txt{color:#fff}
 #cBody.main .mainCon .unit:hover .txt a{color:#fff;}
 #cBody.main .mainCon .unit:hover .txt strong{color:#fff;}
-#cBody.main .mainCon .unit.one:hover .txt{background:url('../images/icon/main_con_icon1_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.two:hover .txt{background:url('../images/icon/main_con_icon2_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thr:hover .txt{background:url('../images/icon/main_con_icon3_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou:hover .txt{background:url('../images/icon/main_con_icon4_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fiv:hover .txt{background:url('../images/icon/main_con_icon5_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.six:hover .txt{background:url('../images/icon/main_con_icon6_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.sev:hover .txt{background:url('../images/icon/main_con_icon7_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.eig:hover .txt{background:url('../images/icon/main_con_icon8_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.nin:hover .txt{background:url('../images/icon/main_con_icon9_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ten:hover .txt{background:url('../images/icon/main_con_icon10_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ele:hover .txt{background:url('../images/icon/main_con_icon11_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.twe:hover .txt{background:url('../images/icon/main_con_icon12_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thi:hover .txt{background:url('../images/icon/main_con_icon13_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou2:hover .txt{background:url('../images/icon/main_con_icon14_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fift:hover .txt{background:url('../images/icon/main_con_icon15_on2.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
-#cBody.main .mainCon .unit.sixt:hover .txt{background:url('../images/icon/main_con_icon16_on2.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
-#cBody.main .mainCon .unit.one.rec:hover .txt{background:url('../images/icon/main_con_icon1_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.two.rec:hover .txt{background:url('../images/icon/main_con_icon2_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thr.rec:hover .txt{background:url('../images/icon/main_con_icon3_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou.rec:hover .txt{background:url('../images/icon/main_con_icon4_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fiv.rec:hover .txt{background:url('../images/icon/main_con_icon5_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.six.rec:hover .txt{background:url('../images/icon/main_con_icon6_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.sev.rec:hover .txt{background:url('../images/icon/main_con_icon7_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.eig.rec:hover .txt{background:url('../images/icon/main_con_icon8_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.nin.rec:hover .txt{background:url('../images/icon/main_con_icon9_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ten.rec:hover .txt{background:url('../images/icon/main_con_icon10_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.ele.rec:hover .txt{background:url('../images/icon/main_con_icon11_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.twe.rec:hover .txt{background:url('../images/icon/main_con_icon12_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.thi.rec:hover .txt{background:url('../images/icon/main_con_icon13_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fou2.rec:hover .txt{background:url('../images/icon/main_con_icon14_on2.png') no-repeat 0 0;}
-#cBody.main .mainCon .unit.fift.rec:hover .txt{background:url('../images/icon/main_con_icon15_on2.png') no-repeat 0 0;} /*2018.07.27 김종근 추가 - 현대IT&E 메인화면 */
-#cBody.main .mainCon .unit.sixt.rec:hover .txt{background:url('../images/icon/main_con_icon16_on2.png') no-repeat 0 0;} /*2019.08.01 김종근 추가 - 현대L&C 메인화면 */
-/* //2017-08-14 수정 */
+
 /* 2017-09-26 추가 */
 #cBody.main .mainConBtn{position:absolute; top:600px; right:23px; width:30px; height:9px; background:url('../images/icon/play_stop_bar.gif') no-repeat center center; overflow:hidden}
 #cBody.main .mainConBtn .playBtn{float:left; display:block; height:9px}
