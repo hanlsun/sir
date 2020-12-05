@@ -430,7 +430,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.dayInput input{width:82px;}
 	#wrapper{min-width:1024px;}
 
-	#header{position:fixed; background:#fff}
+	#header{ background:#fff}
 	#header .headDiv{width:960px;}
 	#gnbTwo ul{width:762px;}
 	#gnbTwo .twoBg .twoImg{display:none}
