@@ -123,18 +123,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 #header.main .headDiv .srchBt{display:none}
 #header.main .headDiv .srchArea span:next(){display:none}
 
-.mainVisual{position:relative; width:100%; height:910px; margin:auto; overflow:hidden}
-.mainVisual .rollDiv{position:absolute; top:0; left:0; width:100%; height:910px; background:url('../images/icon/main_v1.jpg') no-repeat center 0;}
-.mainVisual .rollDiv.one{background:url('../images/icon/main_v1_b.jpg') no-repeat center 0;}
-.mainVisual .rollDiv.two{background:url('../images/icon/main_v2_b.jpg') no-repeat center 0;}
-.mainVisual .rollDiv.thr{background:url('../images/icon/main_v3_b.jpg') no-repeat center 0;}
-.mainVisual .rollDiv.fou{background:url('../images/icon/main_v4_b.jpg') no-repeat center 0;}
-.mainVisual .rollDiv .unit{position:relative; width:1200px; height:; margin:auto; padding:175px 0 0;}
-.mainVisual .rollDiv .unit p{margin-bottom:35px}
-.mainVisual .rollDiv .unit a{position:relative; z-index:500}
-.mainRollBt{position:absolute; bottom:70px; left:0; z-index:500}
-.mainRollBt .play{display:none}
-
 /* 2017-08-14 수정 */
 #cBody.main{padding-top:138px; height:713px;}
 #cBody.main .mainCon{width:520px; float:right; height:548px; overflow-y:scroll; position:relative}/* 2017-09-15 수정 */
