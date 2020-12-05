@@ -501,49 +501,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 
-.popImgDiv{position:relative; border:1px solid #b9b9b9; padding:30px; background:#fff; overflow:hidden}
-.popImgDiv .titType4{float:left}
-.popImgDiv .imgDiv{width:168px; height:225px; border:1px solid #d7d7d7; float:right}
-.popImgDiv .imgDiv img{width:168px; height:225px;}
-.popImgDiv a{position:absolute; top:80px; left:30px;}
-.popDotlist{border:1px solid #b9b9b9; background:#fff; padding:20px; height:290px; overflow:hidden; /* overflow-y:auto */ overflow:scroll;} /* 2015-11-02 수정 */
-.popDotlist.type2{height:240px;}
-.popDotlist a{display:block; width:48%; float:left; padding-left:7px; margin-bottom:13px; background:url('../images/icon/dot3x3.gif') no-repeat 0 10px;}
-.popDotlist a:hover{font-weight:bold; color:#1c8292}
-.popNolist{border:1px solid #b9b9b9; background:#fff; padding:20px; text-align:center; line-height:24px;}
-.popSlctBox{border:1px solid #b9b9b9; background:#f6f6f6; padding:10px 0; text-align:center;}
-.popSlctBox strong{color:#333; margin-right:6px;}
-.popTxt1{font-size:18px; line-height:30px;}
-.popTxt2{padding:17px 0 0; line-height:24px; background:url("../images/icon/txt_icon1.gif") no-repeat center 0;}
-.popAppView{overflow:hidden}
-.popAppView .appImg{width:171px; height:228px; float:left; border:1px solid #d7d7d7; overflow:hidden}
-.popAppView .boardType4{width:665px; float:right; overflow:hidden}
-.popDotBox{padding:17px 19px 11px; border:1px solid #d7d7d7; background:#fbfbfb}
-.popDotBox p{padding-left:7px; margin-bottom:7px; background:url('../images/icon/dot3x3.gif') no-repeat 0 10px;}
-.popRule .tit1{font-size:16px; color:#1c8292; margin-top:15px;}
-.popRule .tit2{color:#333; font-weight:bold; margin-top:5px}
-.popRule .txt{overflow:hidden; margin-top:5px}
-.popRule .txt .num{display:block; width:3%; float:left;}
-.popRule .txt .text{display:block; width:97%; float:left;}
-
-.dbinfoDiv .dbinfoWrap{position:relative; background:url('../images/icon/dbinfo_img.jpg') no-repeat; text-indent:9999px; width:960px; height:650px; overflow:hidden}
-.dbinfoDiv .dbinfoWrap table{position:absolute; top:-9999px; left:-9999px;}
-
-.addressBoard{border:1px solid #b9b9b9; height:243px; overflow:auto}
-.addressBoard th{border-bottom:1px solid #e5e5e5; border-right:1px solid #e5e5e5; background:#f6f6f6; padding:9px 0 13px; color:#333}
-.addressBoard th.end{border-right:0px solid #e5e5e5;}
-.addressBoard td{border-right:1px solid #e5e5e5; padding:8px 20px; background:#fff}
-.addressBoard td.end{border-right:0px solid #e5e5e5;}
-.addressBoard td a:hover{text-decoration:underline; color:#1c8292; font-weight:bold}
-
-
-.lyPop{position:absolute; top:230px; left:230px; width:940px; z-index:2000}
-.lyPop .lyHead{position:relative; padding:39px 40px 44px; background:#363636; font-size:23px; font-weight:bold; color:#fff}
-.lyPop .lyHead a{position:absolute; top:38px; right:40px;}
-.lyPop .lyBody{padding:50px 40px; background:#fff}
-
-.dimBg{position:absolute; top:0; left:0; width:100%; background:url('../images/icon/lypop_bg.png') repeat 0 0; z-index:1500;}
-
 #footer {display: none;}
 
 @media screen and (max-width: 768px) {
