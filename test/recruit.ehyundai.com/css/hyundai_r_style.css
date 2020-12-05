@@ -692,23 +692,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.listPrv li.prv{width:297px; padding:29px 10px 32px 45px; background:url('../images/icon/preview_icon1.gif') no-repeat 10px center; overflow:hidden; border-right:1px solid #d7d7d7}
 	.listPrv li.nxt{width:298px; padding:29px 45px 32px 10px; background:url('../images/icon/preview_icon2.gif') no-repeat 327px center; overflow:hidden;}
 
-	2019.08.16 김종근 추가 - 현대L&c 인재DB*/
-	.dbList .dbView{height:204px; border-radius:30px; padding:19px 13px 0; overflow:hidden}
-	.dbList .dbView .img{width:310px; float:left}
-	.dbList .dbView .img img{width:310px;}
-	.dbList .dbView .img2{width:310px; float:left}
-	.dbList .dbView .img2 img{width:310px;}
-	.dbList .dbView .txt2{width:310px; float:right; margin-right:20px;}
-	.dbList .dbView .txt2 .tit img{height:32px;}
-	.dbList .dbView .txt{width:310px; margin-right:20px;}
-	.dbList .dbView .txt .tit img{height:30px;}
-	.dbList .dbView .txt.mt40{margin-top:20px !important}
-	.dbList .dbView .txt2.mt40{margin-top:20px !important}
-	.dbList .dbView .txt .mt20{margin-top:15px !important}
-	.dbList .dbView .txt .mt15 img{width:110px;}
-	.dbList .dbView .txt2 .mt15 img{width:110px;}
-	.dbList .dbView .xbt img{width:15px;}
-	/* //2017-09-14 전체 수정 및 추가 */
 
 	.dbinfoDiv .dbinfoWrap{background:url('../images/icon/dbinfo_img.jpg') no-repeat; text-indent:-9999px; width:708px; height:500px; background-size:100%;}
 
