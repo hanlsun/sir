@@ -414,12 +414,15 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .paging a.end{border:0px solid #d7d7d7;}
 
 
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+  .vmobile{display: none;}
+ }
 
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+  .vmobile{display: none;}
+}
 
-
-
-  @media (min-width: @screen-lg-min) and (max-width: @screen-md-max) {
-
+@media (min-width: @screen-lg-min) {
 
   .vmobile{display: none;}
 
