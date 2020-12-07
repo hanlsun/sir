@@ -184,14 +184,8 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .subCon .path strong{color:#333;}
 .subCon .path img{vertical-align:middle}
 
-
-
-
 .checkIconBox{padding:27px 20px 30px 52px; border:1px solid #d7d7d7; background:url('../images/icon/check_icon.png') no-repeat 29px 29px #fbfbfb}
 .checkIconTxt{padding:0 0 2px 23px; background:url('../images/icon/check_icon.png') no-repeat 0 2px}
-
-
-
 
 
 .checkList{border:1px solid #d7d7d7; background:#fbfbfb; padding:28px 30px 19px;}
@@ -213,10 +207,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .ethicsDiv div:first-child > dl{background:url('../images/txt/ethics_img1.gif') no-repeat; width:755px; height:170px; text-indent:-9999px; padding-bottom:0;}
 .ethicsDiv .titType2{width:205px; float:left; line-height:35px;}
 .ethicsDiv .txt{line-height:23px; float:left; width:755px; padding-top:17px;}
-
-
-
-
 
 
 .errorBody {width:640px; margin:0 auto; margin-top:125px;}
