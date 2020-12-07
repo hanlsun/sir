@@ -369,7 +369,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .faqType li.on a{background:url('../images/icon/faq_q.png') no-repeat 20px 13px #28a2b6; color:#fff}
 .faqType li a span{display:block; position:absolute; top:28px; right:20px;}
 .faqType li .answer{padding:27px 20px 26px 70px; background:url('../images/icon/faq_a.png') no-repeat 20px 30px #d1e8ec; line-height:24px;}
-.faqType li .last_answer{padding:27px 20px 26px 70px; background:url('../images/icon/label1.jpg') no-repeat  #d1e8ec; line-height:24px; width:868px; height:839px;}
+.faqType li .last_answer{padding:27px 20px 26px 70px; background:url('../images/icon/label1.jpg') no-repeat ; line-height:24px; width:868px; height:839px;}
 
 /* paging */
 .paging{text-align:center;}
