@@ -211,24 +211,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .withdrawDiv li{padding:0 0 16px 15px;}
 .withdrawDiv li label{margin-right:10px;}
 
-.viewTitTxt{border:1px solid #b9b9b9; background:#fbfbfb; padding:26px 29px 16px;}
-.viewTitTxt li{margin-bottom:11px}
-.viewTitTxt li strong{display:inline-block; min-width:52px; color:#333}
-
-.selfIntro{position:relative; border:1px solid #d7d7d7}
-.selfIntro .listDiv{position:relative; padding:15px 19px 7px; border-bottom:1px solid #d7d7d7; background:#f1f1f1}
-.selfIntro .listDiv .unit{margin-bottom:11px}
-.selfIntro textarea{width:98%; height:190px; border:none}
-.selfIntro .addR{position:absolute; top:-27px; right:0;}
-.selfIntro .addR strong{color:#1c8292;}
-.selfIntro .listDiv .unit .checkbox{background:#f1f1f1}
-
-.talentDiv{overflow:hidden}
-.talentDiv .titType2{width:205px; float:left}
-.talentDiv dl{width:755px; float:right; margin-top:22px;}
-.talentDiv dd{padding:6px 10px 30px;}
-.talentDiv dd strong{color:#1c8292}
-
+.
 .grpTxt{line-height:24px;}
 .cultureDiv{overflow:hidden;}
 .cultureDiv div{overflow:hidden;}
