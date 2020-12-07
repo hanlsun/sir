@@ -26,13 +26,13 @@ select.type1{border:3px solid #29a3b6; padding:2px; height:30px;}
 select.type2{border:1px solid #29a3b6;}
 textarea.type1{padding:10px; border:3px solid #29a3b6;}
 textarea.type2{border:1px solid #29a3b6;}
-.dayInput{width:128px; height:28px; float:left; border:1px solid #d7d7d7}
+/*.dayInput{width:128px; height:28px; float:left; border:1px solid #d7d7d7}*/
 .dayInput.taC{float:none; margin:auto;}
 p.bar{display:block; float:left; margin:0 6px;}
 .dayInput input{width:72px; height:20px; border:none}
 .dayInput input.type1{border:0px solid #d7d7d7; padding:3px 10px;}
 .dayInput input.type2{border:0px solid #d7d7d7; padding:3px 10px;}
-.dayInput a{display:inline-block; padding:5px 7px;}
+/*.dayInput a{display:inline-block; padding:5px 7px;}*/
 input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opacity=0); opacity: 0; cursor:pointer}
 ::selection{background: #1C8292; color: #fff;}
 ::-moz-selection{background: #1C8292; color: #fff;}
