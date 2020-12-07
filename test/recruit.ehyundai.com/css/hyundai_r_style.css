@@ -245,17 +245,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 
-#signBody{width:980px;margin:0 auto;}
-#signBody .titDiv{width:100%;text-align:center;color:#444}
-#signBody .titDiv h1{display:inline-block;font-size:30px}
-#signBody .titDiv p{letter-spacing:0px}
-#signBody .titDiv strong{color:#1c8292}
-#signBody .noticeDiv{width:100%;height:72px;line-height:72px;background:#0465a2;text-align:center}
-#signBody .titCheck{padding-left:23px;padding-bottom:2px;margin-bottom:-2px;background:url("../images/icon/checkimg.gif") no-repeat 0 2px;color:#666;letter-spacing:-0.8px}
-#signBody .titCheck.tp2{background:url("../images/icon/checkimg.gif") no-repeat 542px 8px;color:#666}
-#signBody .boardType2 > strong{position:absolute;right:0;top:-35px;font-size:16px}
-#signBody .boardType2 > strong span{text-decoration:underline;color:#1c8292}
-#signBody  .recomID{position:absolute;right:45px;top:5px;font-weight:bold;color:#333}
+
 
 .errorBody {width:640px; margin:0 auto; margin-top:125px;}
 .errorBody h1 a{background:url('../images/logo.png') no-repeat; width:162px; height:58px; text-indent:-9999px; overflow:hidden; display:inline-block; background-size:162px;}
