@@ -54,4 +54,8 @@
   .files canvas {
     max-width: 100%;
   }
+  .faqType li .last_answer{
+    width:80%;
+  }
+
 }
