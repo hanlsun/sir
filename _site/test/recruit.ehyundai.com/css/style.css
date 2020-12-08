@@ -72,11 +72,11 @@ div.desc {
 
 .responsive {
 	display:block;
-	margin: 0px auto;
+	margin: 0px 0px 0px 30px;
 	text-align: center;
 	padding:10px 10px;
   float: left;
-  width: 45%;
+  width: 44%;
 }
 
 
