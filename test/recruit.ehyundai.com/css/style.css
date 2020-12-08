@@ -71,10 +71,10 @@ div.desc {
 }
 
 .responsive {
-	margin: 6px 0;
-	padding:10px 10px;
+	margin: 0 auto;
+	padding:5px 5px;
   float: left;
-  width: 40%;
+  width: 43%;
 }
 
 
