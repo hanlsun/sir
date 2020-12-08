@@ -590,7 +590,10 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 	.depth3Wrap{display:block;}
 	.vmobile{margin: 50px 0px 0px 150px;}
-	.deatall_zum{margin-right:350px;	}
+	.deatall_zum{
+		width:100%;
+		margin:0px auto;
+		}
 
 
 	/* footer */
