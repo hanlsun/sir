@@ -532,8 +532,8 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.listSrchBox2 select{margin-right:1px;}
 	.listSrchBox2 strong{color:#333; margin:0 6px 0 10px;}
 	.listSrchBox2 a{float:right;}
-	.listSrchBox3{width:708px; padding:59px 0 63px; background:url('../images/icon/new_srch_listbg.jpg') no-repeat center -25px;}
-	.listSrchBox3.faq{background:url('../images/icon/new_gg.jpg') no-repeat center -20px;}
+	.listSrchBox3{width:708px; padding:59px 0 63px; background:url('../images/star-Ai.jpg') no-repeat center -25px;}
+	.listSrchBox3.faq{background:url('../images/icon/star-Ai.jpg') no-repeat center -20px;}
 
 	.warnBox1 .addBts{position:relative; top:0px; right:0px; text-align:right; margin:15px 15px 0 0;}
 
