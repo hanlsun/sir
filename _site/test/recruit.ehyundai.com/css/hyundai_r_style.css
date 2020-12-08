@@ -195,7 +195,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .listSrchBox2 strong{color:#333; margin:0 6px 0 45px;}
 .listSrchBox2 a{float:right;}
 .listSrchBox3{width:960px; height:60px; padding:84px 0 88px; background:url('../images/icon/new_srch_listbg.jpg') no-repeat center 0;}
-.listSrchBox3.faq{background:url('../images/icon/new_srch_listbg2.jpg') no-repeat center 0;}
+.listSrchBox3.faq{background:url('../images/icon/greenAi.jpg') no-repeat center 0;}
 .listSrchBox3 .inputDiv{width:480px; height:45px; padding:4px; margin:22px auto 0; background:url('../images/icon/newsrch_listinput.png') no-repeat 0 0;}
 .listSrchBox3 .inputDiv input{width:378px; height:39px; padding:3px 10px; border:0}
 .checkIconBox{padding:27px 20px 30px 52px; border:1px solid #d7d7d7; background:url('../images/icon/check_icon.png') no-repeat 29px 29px #fbfbfb}
