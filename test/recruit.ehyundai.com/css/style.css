@@ -74,6 +74,7 @@ div.desc {
 	display:block;
 	margin: 0px auto;
 	padding:10px 10px;
+	float:right;
   width: 44%;
 }
 
