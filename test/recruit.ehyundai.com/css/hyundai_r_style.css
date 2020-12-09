@@ -218,26 +218,13 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .cultureDiv .titType2{width:205px; float:left; line-height:35px; font-size:20px; font-weight:bold}
 .cultureDiv .txt{line-height:23px; float:left; width:755px; padding-top:17px;}
 
-.ethicsDiv{overflow:hidden;}
-.ethicsDiv div{overflow:hidden;}
-.ethicsDiv div > dl{background:url('../images/txt/ethics_img2.gif') no-repeat; width:755px; height:453px; text-indent:-9999px; float:right; padding-bottom:30px;}
-.ethicsDiv div:first-child > dl{background:url('../images/txt/ethics_img1.gif') no-repeat; width:755px; height:170px; text-indent:-9999px; padding-bottom:0;}
-.ethicsDiv .titType2{width:205px; float:left; line-height:35px;}
-.ethicsDiv .txt{line-height:23px; float:left; width:755px; padding-top:17px;}
+.
 
 
 
 
 
 
-.errorBody {width:640px; margin:0 auto; margin-top:125px;}
-.errorBody h1 a{background:url('../images/logo.png') no-repeat; width:162px; height:58px; text-indent:-9999px; overflow:hidden; display:inline-block; background-size:162px;}
-.errorDiv{border-top:2px solid #000}
-.err404Wrap{height:389px; border-bottom:1px solid #dbdbdb;text-align:center; }
-.err404Wrap .tit{padding-top:60px;}
-.err404Wrap .txt{padding-top:20px; font-size:28px; color:#333;}
-.err404Wrap .txt2{padding-top:40px; font-size:16px; line-height:24px;}
-.err404Wrap a{margin-top:40px;}
 
 .err500Wrap{height:431px; border-bottom:1px solid #dbdbdb;text-align:center; }
 .err500Wrap .tit{padding-top:60px;}
