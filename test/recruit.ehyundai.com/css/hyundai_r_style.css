@@ -263,18 +263,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .boardType1 a.listUnit.recruit .txt .type1{height:56px; padding:24px 0 16px; overflow:hidden; font-size:18px; color:#000; border-bottom:1px solid #e5e5e5}
 
 
-.boardType2{position:relative; border-top:3px solid #555; border-bottom:2px solid #d7d7d7;}
-.boardType2 .addR{position:absolute; top:-40px; right:0;}
-.boardType2 .addR img{vertical-align:middle}
-.boardType2 th{padding:12px 0 14px; border-bottom:1px solid #d7d7d7; border-right:1px solid #d7d7d7; background:#f6f6f6; color:#333; vertical-align:top}
-.boardType2 td{padding:6px 0; border-bottom:1px solid #d7d7d7; border-right:1px solid #d7d7d7; text-align:center; line-height:26px;}
-.boardType2 td label{margin-right:10px;}
-.boardType2 td .dateInput{text-align:left; padding-left:15px;}
-.boardType2 td .dateInput .dayInput input{vertical-align:top}
-.boardType2 td .dateInput .dayInput input.type1{border:0px solid #29a3b6; padding:4px 10px;}
-.boardType2 td .dateInput .dayInput input.type2{border:0px solid #29a3b6;}
-
-
+.
 .boardType4{position:relative; border-top:3px solid #555; border-bottom:2px solid #d7d7d7;}
 .boardType4 .addR{position:absolute; top:-43px; right:0;}
 .boardType4 .addR img{vertical-align:middle}
