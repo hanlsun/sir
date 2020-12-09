@@ -73,11 +73,11 @@ div.desc {
 .responsive {
 	display:block;
 	margin: 0px auto;
+	text-align: center;
+	float:left;
   width: 43%;
 }
-.gallery1{
-	float: left;
-}
+
 
 @media only screen and (max-width: 500px) {
   .responsive {
