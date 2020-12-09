@@ -152,20 +152,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 
 
 /* tab */
-.popTab{position:relative; top:1px; width:100%; overflow:hidden; z-index:100}
-.popTab a{position:relative; display:block; float:left; width:170px; height:23px; padding:10px 0 10px; text-align:center; border:1px solid #d7d7d7; background:#ecf1f2; overflow:hidden; font-size:16px; color:#555; z-index:100}
-.popTab a.on{border-bottom:1px solid #fbfbfb; background:#fbfbfb; overflow:hidden; font-weight:bold; color:#1c8292}
-.welTab{text-align:center}
-.welTab a{display:inline-block; margin:0 3px;}
-.welfareDiv{position:relative; width:960px; height:73px; padding:362px 0 0; margin-bottom:30px; overflow:hidden; text-align:center}
-.welfareDiv .welRoll{position:absolute; top:0; left:0; width:960px; height:435px; overflow:hidden}
-.welfareDiv .welRoll .txtDiv{position:absolute; top:50px; right:0; width:384px; height:165px; padding:40px 30px; background:url('../images/icon/welfare_txtbg.png') no-repeat 0 0; overflow:hidden; text-align:left}
-.welfareDiv .welRoll .txtDiv .tit{width:153px; float:left; font-size:34px; color:#222; line-height:40px;}
-.welfareDiv .welRoll .txtDiv .txt{width:219px; float:left; line-height:23px;}
-.welfareDiv .welRbt{position:relative; display:inline-block; margin:0 1px; z-index:100;}
-.welfareDiv .btPack{position:absolute; bottom:0; left:0; width:960px; height:73px; padding:17px 0 0; overflow:hidden; text-align:center; background:url('../images/icon/welfare_btbg.png') no-repeat 0 0;}
-.welfareDiv .btPack .controll{position:absolute; top:36px; right:20px;}
-.welfareDiv .btPack .controll a{display:inline-block; padding:0 10px; width:11px;}
 
 /* sub */
 #cBody{position:relative; width:1200px; margin:auto; overflow:hidden; z-index:10;}
