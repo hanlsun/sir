@@ -46,8 +46,12 @@
 
 }
 @media ( max-width: 768px ) {
+	.wrapper{
+		margin:0px;
+		padding:0px;
   width:100% !important;
 	height:100% !important;
+}
 }
 
 /*@media (max-width:480px) {
