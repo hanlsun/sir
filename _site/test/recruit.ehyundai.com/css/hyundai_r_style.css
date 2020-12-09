@@ -132,17 +132,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 /* //2017-09-26 추가 */
 #cBody.main .mainCon span{display:block}
 
-.maincon2 .bottom{width:1200px; height:59px; margin:auto; overflow:hidden}
-.maincon2 .bottom .mNoti{position:relative; width:710px; overflow:hidden; border-right:1px solid #a39f9e; float:left;}
-.maincon2 .bottom .mNoti .tit{display:block; width:110px; float:left; padding:15px 0; background:url('../images/btn/main_noti_bt.png') no-repeat 0 15px; text-indent:-9999px}
-.maincon2 .bottom .mNoti .mNotiDiv{position:relative; width:490px; height:59px; overflow:hidden; float:left}
-.maincon2 .bottom .mNoti .mNotiDiv a{display:block; position:absolute; top:0; left:0; height:23px; padding:18px 20px; color:#fff; overflow:hidden}
-.maincon2 .bottom .mNoti .mNotiDiv a span{margin-right:16px;}
-.maincon2 .bottom .mNoti .btDiv{width:70px; float:left; text-align:center; padding:14px 0;}
-.maincon2 .bottom .mNoti .btDiv a{display:block;}
-.maincon2 .bottom .mNoti .morebt{position:absolute; top:21px; left:97px;}
-.maincon2 .bottom .mUtil{width:449px; overflow:hidden; padding:20px 0 0 40px; float:left}
-.maincon2 .bottom .mUtil span{font-size:9px; vertical-align:top; color:#989898; margin:0 26px;}
 
 
 
