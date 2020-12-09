@@ -507,9 +507,11 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .deatall_img{
 	float: left;
 	margin:0 auto;
+
 	}
 	.deatall_zum{
 	float:right;
 	margin:0 auto;
+	padding:0px 0px 0px 20px;
 	}
 }
