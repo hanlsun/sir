@@ -46,7 +46,7 @@
 
 }
 @media ( max-width: 768px ) {
-	.wrapper{
+	.container{
 		margin:0px;
 		padding:0px;
   width:100% !important;
