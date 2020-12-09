@@ -290,44 +290,6 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .boardType5 .last td{border-bottom:1px solid #b9b9b9;}
 .boardType5 td p strong{color:#333}
 
-.boardType6{position:relative; overflow:hidden}
-.boardType6 .unitList{position:relative; width:588px; height:73px; float:left; margin-bottom:10px; border:1px solid #dbdbdb}
-.boardType6 .unitList:hover .onbg{display:block;}
-.boardType6 .unitList .time{width:188px; height:45px; float:left; background:#f8f8f8; border-right:1px solid #dbdbdb; padding:14px 0; text-align:center; font-size:16px; color:#1c8292; line-height:22px;}
-.boardType6 .unitList .time strong{font-size:14px;}
-.boardType6 .unitList .member{width:357px; height:21px; float:left; padding:26px 20px; font-weight:bold}
-.boardType6 .unitList .member strong{color:#1c8292}
-.boardType6 .unitList a, .boardType6 .unitList span{display:block; position:absolute; top:22px; right:20px; z-index:100;}
-.boardType6 .unitList .onbg{display:none; position:absolute; top:-1px; right:-1px; width:584px; height:69px; float:left; margin-bottom:10px; border:3px solid #29a3b6; clear:both}
-.boardType6 .unitList.on .onbg{display:block;}
-.boardType6 .unitList a.blkbtH30{display:none}
-.boardType6 .unitList a.grnbtH30{display:block}
-.boardType6 .unitList.on a.grnbtH30{display:none}
-.boardType6 .unitList.on a.blkbtH30{display:block}
-
-.boardType7{position:relative; overflow:hidden}
-.boardType7 .listUnit{display:block; background:#f6f6f6; margin-bottom:10px; overflow:hidden}
-.boardType7 .listUnit span{display:block; float:left; padding:22px 0 25px;}
-.boardType7 .listUnit .num{width:62px; text-align:center}
-.boardType7 .listUnit .txt{width:650px; font-size:15px; font-weight:bold; color:#333}
-.boardType7 .listUnit:hover .txt{text-decoration:underline}
-.boardType7 .listUnit .date{float:right; padding-right:30px; letter-spacing:2px; color:#757575; overflow:hidden}
-.boardType7 .listUnit .date .dNum{display:inline-block; padding:0 0 0 0;}
-.boardType7 .listUnit .date .bar{display:inline-block; padding:0 16px; color:#bbb;}
-.boardType7 .listUnit .date .viewNum{display:inline-block; padding:0 0 0 23px; background:url('../images/icon/view_icon1.png') no-repeat 0 4px; font-size:13px; color:#777}
-.boardType7 .listUnit.noti{background:#28a2b6;}
-.boardType7 .listUnit.noti .num{height:65px; padding:0; background:url('../images/icon/notice_icon.png') no-repeat center center; text-indent:-9999px}
-.boardType7 .listUnit.noti .txt{color:#fff}
-.boardType7 .listUnit.noti .date .dNum{color:#fff}
-.boardType7 .listUnit.noti .date .bar{color:#fff;}
-.boardType7 .listUnit.noti .date .viewNum{background:url('../images/icon/view_icon1_on.png') no-repeat 0 4px; color:#fff}
-
-.boardType8{border-top:3px solid #555; border-bottom:3px solid #d7d7d7; height:243px; text-align:center;}
-.boardType8 p{font-size:25px; color:#666}
-
-.dbList{position:relative; overflow:hidden; padding-top:597px;}
-.dbList .dbBt{display:block; position:absolute; text-indent:-9999px; overflow:hidden}
-
 
 .listPrv{overflow:hidden; border:1px solid #d7d7d7;}
 .listPrv li{float:left;}
