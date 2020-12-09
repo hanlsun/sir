@@ -75,7 +75,7 @@ div.desc {
 	margin: 0px auto;
 	text-align: center;
 	padding:10px 10px;
-  float: left;
+  /*float: left;**/
   width: 44%;
 }
 
