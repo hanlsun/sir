@@ -501,16 +501,16 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 	.vmobile{margin: 30px 0px 0px 50px;}
 
 	}
-
-
-
-	/* footer */
-	#footer .footerDiv{width:708px;}
-	#footer .right .wacm{position:absolute; left:150px; top:40px;} /* 2015-11-16 추가 */
-
-	.lyPop{width:680px;}
-	.lyPop .lyHead{position:relative; padding:29px 30px 34px; background:#363636; font-size:23px; font-weight:bold; color:#fff}
-	.lyPop .lyHead a{position:absolute; top:28px; right:30px;}
-	.lyPop .lyBody{padding:40px 30px; background:#fff}
-	.lyPop .lyBody img{width:600px;}
+.deatall_img{
+	width:10%;
+	float: left;
+	padding-right:30%;
+	margin:0 auto;
+	}
+	.deatall_zum{
+		width:50%;	       	
+	float:right;
+	padding:30px 0px 0px 0px;
+	margin:0 auto;
+	}
 }
