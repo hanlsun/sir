@@ -87,9 +87,9 @@ div.desc {
   width: 40%;
 }
 /*--1215수정 추가*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .responsive {
-    width: 49.99999%;
+    width: 100%;
     margin: 6px 0;
   }
 }
