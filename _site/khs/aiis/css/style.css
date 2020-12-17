@@ -173,7 +173,7 @@ div.desc {
           transition-duration: 0s;
 }
 .fa fa-sort-desc{
-position:absolute;top:50%; right:5px;margin-top:-50px;
+position:absolute;padding-top:50%; padding-right:5px;margin-top:-50px;
 }
 .answer{
 	text-indent:-30px;
