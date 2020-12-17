@@ -270,7 +270,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 .listPrv li p{float:right; font-size:13px; letter-spacing:0}
 .listPrv li.nxt{width:384px; padding:29px 65px 32px 30px; background:url('../images/icon/preview_icon2.gif') no-repeat 442px center; overflow:hidden;}
 
-.faqType li{background:#DCDCDC; margin-bottom:10px;}
+.faqType li{background:#F5FFFA; margin-bottom:10px;}
 .faqType li a{display:block; position:relative; padding:21px 50px 25px 70px; background:url('../images/icon/faq_q_on.gif') no-repeat 20px 13px; font-size:15px; font-weight:bold; color:#333}
 .faqType li a:hover{background:url('../images/icon/faq_q.png') no-repeat 20px 13px; color:#1c8292}
 .faqType li.on a{background:url('../images/icon/faq_q.png') no-repeat 20px 13px #28a2b6; color:#fff}
