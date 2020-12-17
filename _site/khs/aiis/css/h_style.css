@@ -40,12 +40,7 @@ input.addFileInput{position:absolute; top:0; left:0; zoom: 1; filter: alpha(opac
 /* 간격, 폰트 */
 
 .mt30{margin-top:30px !important}
-.mt35{margin-top:35px !important}
-.mt40{margin-top:40px !important}
 .mt45{margin-top:40px !important}
-.mt50{margin-top:50px !important}
-.mt55{margin-top:55px !important}
-.mt60{margin-top:60px !important}
 .mt65{margin-top:65px !important}
 
 /* 정렬 */
