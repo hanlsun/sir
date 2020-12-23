@@ -29,8 +29,9 @@
 	<script type="text/javascript" src="../../js/jquery.ez.validation-0.1.8.js"></script>
 	<script type="text/javascript" src="../../js/jquery.form.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"><!--수정-->
+</head>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"><!--수정-->
 <body style="">
 
 	<div id="wrapper">
@@ -44,33 +45,34 @@
 				<div class="container">
 					<div class="subCon" id="subCon">
 						<h3>FAQ</h3>
-						<!--<form name="frm" method="get" onsubmit="return false;">-->
-						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"><!--수정-->
-						  <div class="carousel-inner" margin-left=20%;>
-						    <div class="carousel-item active">
-						      <img src="../../images/icon/christmas.jpg" class="d-block w-100" alt="..." width=800px;>
-						    </div>
-						    <div class="carousel-item">
-						      <img src="../../images/icon/xmas.jpg" class="d-block w-100" alt="..." width=800px;>
-						    </div>
-						    <div class="carousel-item">
-						      <img src="../../images/icon/beach.jpg" class="d-block w-100" alt="..." width=800px;>
-						    </div>
-						  </div>
-						  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Previous</span>
-						  </a>
-						  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Next</span>
-						  </a>
-						</div><!--수정-->
-					<input type="hidden" name="pageNo" value="1" />
+						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
 
+						<!--<form name="frm" method="get" onsubmit="return false;">-->
+						<input type="hidden" name="pageNo" value="1" />
 						<div class="listSrchBox3 faq">
 
 						</div>
+
 						<ul class="faqType mt30 accordion">
 
 							<li>
@@ -128,6 +130,7 @@
 									<h4 class="fontalign">- &nbsp;얼굴방향과 눈동자 방향이 다른 경우 얼굴 방향을 기준으로 표기</h4>
 								</div>
 							</li>
+
 							<li>
 								<a href="javascript:">
 									인물의 말에서 느껴지는 감정이 모호해서 선택하기 어려울 때는 어떻게 하나요?
@@ -228,52 +231,52 @@
 							</li>
 							<li>
 								<a href="javascript:">
-									카메라가 인물의 어떤 부분을 찍고 있는지 어떻게 판단하나요?
+									얼굴의 방향을 어떻게 판단하나요?
 									<span><img src="../../images/icon/faq_h.png" alt="" /></span>
 									<span><i class="fa fa-sort-desc" aria-hidden="true"></i></span>
 								</a>
 								<div class="answer">
-									<h2>예시</h2><br>
+									<h2>보는 방향에 따른 예시</h2><br>
 									<div class="responsive">
 									  <div class="gallery">
 											<video src="../../video/middle.mp4" controls="controls" style="width: 100%";></video>
 
-									    <div class="desc">인물의 앞모습</div>
+									    <div class="desc">정면에서 보는 방향</div>
 									  </div>
 									</div>
 									<div class="responsive">
 									  <div class="gallery">
 									      <video src="../../video/up.mp4" controls="controls" style="width: 100%";></video>
 
-									    <div class="desc">인물의 앞모습을 위에서 아래로 찍음</div>
+									    <div class="desc">위에서 보는방향</div>
 									  </div>
 									</div>
 									<div class="responsive">
 									  <div class="gallery">
 									      <video src="../../video/bottom.mp4" controls="controls" style="width: 100%";></video>
 
-									    <div class="desc">인물의 앞모습을 아래에서 위로 찍음</div>
+									    <div class="desc">아래에서 보는 방향</div>
 									  </div>
 									</div>
 									<div class="responsive">
 									  <div class="gallery">
 									      <video src="../../video/right.mp4" controls="controls" style="width: 100%";></video>
 
-									    <div class="desc">인물의 왼쪽얼굴</div>
+									    <div class="desc">오른쪽에서 보는 방향</div>
 									  </div>
 									</div>
 									<div class="responsive">
 									  <div class="gallery">
 									      <video src="../../video/left.mp4" controls="controls" style="width: 100%";></video>
 
-									    <div class="desc">인물의 오른쪽 얼굴</div>
+									    <div class="desc">왼쪽에서 보는 방향</div>
 									  </div>
 									</div>
 									<div class="responsive">
 									  <div class="gallery">
 									      <video src="../../video/back.mp4" controls="controls" style="width: 100%";></video>
 
-									    <div class="desc">인물의 뒷모습</div>
+									    <div class="desc">뒷쪽에서 보는 방향</div>
 									  </div>
 									</div>
 									<div class="clearfix"></div>
@@ -330,11 +333,6 @@
 			});
 		</script>
 
-
-		    <!-- Option 1: Bootstrap Bundle with Popper -->
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script><!--수정-->
 </body>
 
 <!-- Mirrored from recruit.ehyundai.com/inquiry/faq/list.nhd by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Nov 2020 03:58:51 GMT -->
