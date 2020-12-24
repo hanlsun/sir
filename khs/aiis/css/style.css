@@ -53,7 +53,7 @@
 	height:100% !important;
 }
 }
-@media ( max-width: 900px ) {
+@media ( max-width: 1000px ) {
 	.listSrchBox3{
 		margin:0px 0px 0px 20px;
 		padding:30px 20px 0px 10px;
