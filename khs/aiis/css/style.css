@@ -53,12 +53,15 @@
 	height:100% !important;
 }
 }
-@media ( min-width: 768px ) {
+@media ( max-width: 600px ) {
 	.listSrchBox3{
 		margin:20px -10px 0px 0px;
 		padding:30px 30px 0px 10px;
   width:100% !important;
 	height:100% !important;
+	.box{
+		margin-top:-50px;
+	}
 }
 }
 
